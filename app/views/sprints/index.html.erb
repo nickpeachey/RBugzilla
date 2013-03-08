@@ -1,0 +1,48 @@
+<%- model_class = Sprint -%>
+<div class="page-header">
+  <h1><%=t '.title', :default => model_class.model_name.human.pluralize %></h1>
+</div>
+
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th><%= model_class.human_attribute_name(:id) %></th>
+      <th><%= model_class.human_attribute_name(:title) %></th>
+      <th><%= model_class.human_attribute_name(:description) %></th>
+      <th><%= model_class.human_attribute_name(:team_id) %></th>
+	  <th>Stories</th>
+	  <th><%= model_class.human_attribute_name(:completed) %></th>
+      <th><%=t '.actions', :default => t("helpers.actions") %></th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @sprints.each do |sprint| %>
+      <tr>
+        <td><%= link_to sprint.id, sprint_path(sprint) %></td>
+        <td><%= sprint.title %></td>
+        <td><%= sprint.description %></td>
+        <td><%= sprint.team.name %></td>
+		<td><a href="" data-placement="right" rel="popover" data-content="<%= sprint.stories_for_sprint_total_effort%>  total effort for this sprint" data-original-title="<%= sprint.title %> story highlight"><span class="badge badge-info"><%= sprint.stories.count%></span></a></td>
+		<td><div class="progress">
+		  <div class="bar bar-success" style="width: <%= sprint.stories_completed_percentage %>%"></div>
+		</div></td>
+        <td>
+          <%= link_to t('.edit', :default => t("helpers.links.edit")),
+                      edit_sprint_path(sprint), :class => 'btn btn-mini' %>
+			          <%= link_to t('.edit', :default => t("helpers.links.stories")),
+			                      forsprint_story_path(sprint), :class => 'btn btn-mini' %>
+          <%= link_to t('.destroy', :default => t("helpers.links.destroy")),
+                      sprint_path(sprint),
+                      :method => :delete,
+                      :data => { :confirm => t('.confirm', :default => t("helpers.links.confirm", :default => 'Are you sure?')) },
+                      :class => 'btn btn-mini btn-danger' %>
+        </td>
+      </tr>
+
+    <% end %>
+  </tbody>
+</table>
+
+<%= link_to t('.new', :default => t("helpers.links.new")),
+            new_sprint_path,
+            :class => 'btn btn-primary' %>

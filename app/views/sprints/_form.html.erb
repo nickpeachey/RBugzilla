@@ -1,0 +1,41 @@
+<%= form_for @sprint, :html => { :class => 'form-horizontal' } do |f| %>
+  <div class="control-group">
+    <%= f.label :title, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :title, :class => 'text_field' %>
+    </div>
+  </div>
+  <div class="control-group">
+    <%= f.label :description, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :description, :class => 'text_field' %>
+    </div>
+  </div>
+
+  <div class="control-group">
+    <%= f.label :start_date, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :start_date %>
+    </div>
+  </div>
+
+  <div class="control-group">
+    <%= f.label :team_id, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.collection_select :team_id, Team.all,:id, :name, {:prompt => 'Select Team'}%>
+    </div>
+  </div>
+
+  <div class="control-group">
+    <%= f.label :completed, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.check_box :completed, :class => 'check_box' %>
+    </div>
+  </div>
+
+  <div class="form-actions">
+    <%= f.submit nil, :class => 'btn btn-primary' %>
+    <%= link_to t('.cancel', :default => t("helpers.links.cancel")),
+                sprints_path, :class => 'btn' %>
+  </div>
+<% end %>

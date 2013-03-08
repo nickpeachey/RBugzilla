@@ -1,0 +1,2420 @@
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/bugareas" for 127.0.0.1 at 2013-03-07 14:43:54 +0000
+Processing by BugareasController#index as HTML
+Completed 500 Internal Server Error in 2ms
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by BugareasController#new as HTML
+Completed 500 Internal Server Error in 0ms
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by BugareasController#create as HTML
+  Parameters: {"bugarea"=>{"name"=>"MyString"}}
+Completed 500 Internal Server Error in 0ms
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by BugareasController#create as HTML
+  Parameters: {"bugarea"=>{"name"=>"MyString"}}
+Completed 500 Internal Server Error in 0ms
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by BugareasController#create as HTML
+  Parameters: {"bugarea"=>{"name"=>"invalid value"}}
+Completed 500 Internal Server Error in 0ms
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by BugareasController#create as HTML
+  Parameters: {"bugarea"=>{"name"=>"invalid value"}}
+Completed 500 Internal Server Error in 0ms
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by BugsController#new as HTML
+Completed 500 Internal Server Error in 0ms
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by BugsController#create as HTML
+  Parameters: {"bug"=>{"title"=>"MyString"}}
+Completed 500 Internal Server Error in 0ms
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by BugsController#create as HTML
+  Parameters: {"bug"=>{"title"=>"MyString"}}
+Completed 500 Internal Server Error in 0ms
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by BugsController#create as HTML
+  Parameters: {"bug"=>{"title"=>"invalid value"}}
+Completed 500 Internal Server Error in 0ms
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by BugsController#create as HTML
+  Parameters: {"bug"=>{"title"=>"invalid value"}}
+Completed 500 Internal Server Error in 0ms
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/bugs" for 127.0.0.1 at 2013-03-07 14:43:54 +0000
+Processing by BugsController#index as HTML
+Completed 500 Internal Server Error in 1ms
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by BugareasController#create as HTML
+  Parameters: {"bugarea"=>{"name"=>"MyString"}}
+Completed 500 Internal Server Error in 0ms
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by BugareasController#create as HTML
+  Parameters: {"bugarea"=>{"name"=>"MyString"}}
+Completed 500 Internal Server Error in 0ms
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by BugareasController#create as HTML
+  Parameters: {"bugarea"=>{"name"=>"invalid value"}}
+Completed 500 Internal Server Error in 0ms
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by BugareasController#create as HTML
+  Parameters: {"bugarea"=>{"name"=>"invalid value"}}
+Completed 500 Internal Server Error in 0ms
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by BugareasController#new as HTML
+Completed 500 Internal Server Error in 0ms
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/bugs" for 127.0.0.1 at 2013-03-07 14:44:09 +0000
+Processing by BugsController#index as HTML
+Completed 500 Internal Server Error in 1ms
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/bugareas" for 127.0.0.1 at 2013-03-07 14:44:09 +0000
+Processing by BugareasController#index as HTML
+Completed 500 Internal Server Error in 1ms
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by BugsController#create as HTML
+  Parameters: {"bug"=>{"title"=>"MyString"}}
+Completed 500 Internal Server Error in 0ms
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by BugsController#create as HTML
+  Parameters: {"bug"=>{"title"=>"MyString"}}
+Completed 500 Internal Server Error in 0ms
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by BugsController#create as HTML
+  Parameters: {"bug"=>{"title"=>"invalid value"}}
+Completed 500 Internal Server Error in 0ms
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by BugsController#create as HTML
+  Parameters: {"bug"=>{"title"=>"invalid value"}}
+Completed 500 Internal Server Error in 0ms
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by BugsController#new as HTML
+Completed 500 Internal Server Error in 0ms
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+Started GET "/bugs" for 127.0.0.1 at 2013-03-07 14:44:12 +0000
+Processing by BugsController#index as HTML
+Completed 500 Internal Server Error in 2ms
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by BugsController#new as HTML
+Completed 500 Internal Server Error in 0ms
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by BugsController#create as HTML
+  Parameters: {"bug"=>{"title"=>"MyString"}}
+Completed 500 Internal Server Error in 0ms
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by BugsController#create as HTML
+  Parameters: {"bug"=>{"title"=>"MyString"}}
+Completed 500 Internal Server Error in 0ms
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by BugsController#create as HTML
+  Parameters: {"bug"=>{"title"=>"invalid value"}}
+Completed 500 Internal Server Error in 0ms
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by BugsController#create as HTML
+  Parameters: {"bug"=>{"title"=>"invalid value"}}
+Completed 500 Internal Server Error in 0ms
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by BugareasController#new as HTML
+Completed 500 Internal Server Error in 0ms
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by BugareasController#create as HTML
+  Parameters: {"bugarea"=>{"name"=>"MyString"}}
+Completed 500 Internal Server Error in 0ms
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by BugareasController#create as HTML
+  Parameters: {"bugarea"=>{"name"=>"MyString"}}
+Completed 500 Internal Server Error in 0ms
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by BugareasController#create as HTML
+  Parameters: {"bugarea"=>{"name"=>"invalid value"}}
+Completed 500 Internal Server Error in 0ms
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by BugareasController#create as HTML
+  Parameters: {"bugarea"=>{"name"=>"invalid value"}}
+Completed 500 Internal Server Error in 0ms
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/bugareas" for 127.0.0.1 at 2013-03-07 14:44:12 +0000
+Processing by BugareasController#index as HTML
+Completed 500 Internal Server Error in 1ms
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/bugs" for 127.0.0.1 at 2013-03-07 14:44:39 +0000
+Processing by BugsController#index as HTML
+Completed 500 Internal Server Error in 1ms
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by BugareasController#create as HTML
+  Parameters: {"bugarea"=>{"name"=>"invalid value"}}
+Completed 500 Internal Server Error in 0ms
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Processing by BugareasController#create as HTML
+  Parameters: {"bugarea"=>{"name"=>"invalid value"}}
+Completed 500 Internal Server Error in 0ms
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by BugareasController#create as HTML
+  Parameters: {"bugarea"=>{"name"=>"MyString"}}
+Completed 500 Internal Server Error in 0ms
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by BugareasController#create as HTML
+  Parameters: {"bugarea"=>{"name"=>"MyString"}}
+Completed 500 Internal Server Error in 0ms
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by BugareasController#new as HTML
+Completed 500 Internal Server Error in 0ms
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/bugareas" for 127.0.0.1 at 2013-03-07 14:44:39 +0000
+Processing by BugareasController#index as HTML
+Completed 500 Internal Server Error in 1ms
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by BugsController#create as HTML
+  Parameters: {"bug"=>{"title"=>"invalid value"}}
+Completed 500 Internal Server Error in 0ms
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by BugsController#create as HTML
+  Parameters: {"bug"=>{"title"=>"invalid value"}}
+Completed 500 Internal Server Error in 0ms
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by BugsController#create as HTML
+  Parameters: {"bug"=>{"title"=>"MyString"}}
+Completed 500 Internal Server Error in 0ms
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by BugsController#create as HTML
+  Parameters: {"bug"=>{"title"=>"MyString"}}
+Completed 500 Internal Server Error in 0ms
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by BugsController#new as HTML
+Completed 500 Internal Server Error in 0ms
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/bugareas" for 127.0.0.1 at 2013-03-07 14:47:10 +0000
+Processing by BugareasController#index as HTML
+Completed 500 Internal Server Error in 1ms
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/bugs" for 127.0.0.1 at 2013-03-07 14:47:10 +0000
+Processing by BugsController#index as HTML
+Completed 500 Internal Server Error in 1ms
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/bugs" for 127.0.0.1 at 2013-03-07 14:47:15 +0000
+Processing by BugsController#index as HTML
+Completed 500 Internal Server Error in 1ms
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/bugareas" for 127.0.0.1 at 2013-03-07 14:47:15 +0000
+Processing by BugareasController#index as HTML
+Completed 500 Internal Server Error in 1ms
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/bugs" for 127.0.0.1 at 2013-03-07 14:47:19 +0000
+Processing by BugsController#index as HTML
+Completed 500 Internal Server Error in 1ms
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/bugareas" for 127.0.0.1 at 2013-03-07 14:47:19 +0000
+Processing by BugareasController#index as HTML
+Completed 500 Internal Server Error in 1ms
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (5.2ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (5.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (8.8ms)[0m  [1mINSERT INTO "sprints" ("created_at", "description", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Thu, 07 Mar 2013 16:02:10 UTC +00:00], ["description", "some description"], ["team_id", nil], ["title", "some title"], ["updated_at", Thu, 07 Mar 2013 16:02:10 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.3ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.5ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (5.6ms)[0m  [1mINSERT INTO "sprints" ("created_at", "description", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Thu, 07 Mar 2013 16:02:25 UTC +00:00], ["description", "some description"], ["team_id", nil], ["title", "some title"], ["updated_at", Thu, 07 Mar 2013 16:02:25 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (2.2ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.5ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (5.5ms)[0m  [1mINSERT INTO "sprints" ("created_at", "description", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Thu, 07 Mar 2013 16:02:48 UTC +00:00], ["description", "some description"], ["team_id", nil], ["title", "some title"], ["updated_at", Thu, 07 Mar 2013 16:02:48 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.4ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (5.4ms)[0m  [1mINSERT INTO "sprints" ("created_at", "description", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Thu, 07 Mar 2013 16:03:10 UTC +00:00], ["description", "some description"], ["team_id", nil], ["title", "some title"], ["updated_at", Thu, 07 Mar 2013 16:03:10 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (1.8ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (5.0ms)[0m  [1mINSERT INTO "sprints" ("created_at", "description", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Thu, 07 Mar 2013 16:08:25 UTC +00:00], ["description", "some description"], ["team_id", nil], ["title", "some title"], ["updated_at", Thu, 07 Mar 2013 16:08:25 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (1.7ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (5.6ms)[0m  [1mINSERT INTO "sprints" ("created_at", "description", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Thu, 07 Mar 2013 16:08:28 UTC +00:00], ["description", "some description"], ["team_id", nil], ["title", "some title"], ["updated_at", Thu, 07 Mar 2013 16:08:28 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (2.0ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.5ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (5.2ms)[0m  [1mINSERT INTO "sprints" ("created_at", "description", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Thu, 07 Mar 2013 16:10:48 UTC +00:00], ["description", "some description"], ["team_id", nil], ["title", "some title"], ["updated_at", Thu, 07 Mar 2013 16:10:48 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (1.7ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (5.0ms)[0m  [1mINSERT INTO "sprints" ("created_at", "description", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Thu, 07 Mar 2013 16:11:27 UTC +00:00], ["description", "some description"], ["team_id", nil], ["title", "some title"], ["updated_at", Thu, 07 Mar 2013 16:11:27 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (2.2ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (5.1ms)[0m  [1mINSERT INTO "sprints" ("created_at", "description", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Thu, 07 Mar 2013 16:18:51 UTC +00:00], ["description", "some description"], ["team_id", nil], ["title", "some title"], ["updated_at", Thu, 07 Mar 2013 16:18:51 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (2.3ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.5ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (5.3ms)[0m  [1mINSERT INTO "sprints" ("created_at", "description", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Thu, 07 Mar 2013 16:19:03 UTC +00:00], ["description", "some description"], ["team_id", nil], ["title", "some title"], ["updated_at", Thu, 07 Mar 2013 16:19:03 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.4ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (4.9ms)[0m  [1mINSERT INTO "sprints" ("created_at", "description", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Thu, 07 Mar 2013 16:19:15 UTC +00:00], ["description", "some description"], ["team_id", nil], ["title", "some title"], ["updated_at", Thu, 07 Mar 2013 16:19:15 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (2.2ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.5ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (5.3ms)[0m  [1mINSERT INTO "sprints" ("created_at", "description", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Thu, 07 Mar 2013 16:19:18 UTC +00:00], ["description", "some description"], ["team_id", nil], ["title", "some title"], ["updated_at", Thu, 07 Mar 2013 16:19:18 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (1.8ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.5ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (5.2ms)[0m  [1mINSERT INTO "sprints" ("created_at", "description", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Thu, 07 Mar 2013 17:13:18 UTC +00:00], ["description", "some description"], ["team_id", nil], ["title", "some title"], ["updated_at", Thu, 07 Mar 2013 17:13:18 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.4ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.5ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (5.2ms)[0m  [1mINSERT INTO "sprints" ("created_at", "description", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Thu, 07 Mar 2013 17:13:26 UTC +00:00], ["description", "some description"], ["team_id", nil], ["title", "some title"], ["updated_at", Thu, 07 Mar 2013 17:13:26 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (1.8ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.5ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (5.2ms)[0m  [1mINSERT INTO "sprints" ("created_at", "description", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Thu, 07 Mar 2013 17:13:34 UTC +00:00], ["description", "some description"], ["team_id", nil], ["title", "some title"], ["updated_at", Thu, 07 Mar 2013 17:13:34 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (1.6ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (1.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (5.8ms)[0m  [1mINSERT INTO "sprints" ("created_at", "description", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Thu, 07 Mar 2013 17:13:36 UTC +00:00], ["description", "some description"], ["team_id", nil], ["title", "some title"], ["updated_at", Thu, 07 Mar 2013 17:13:36 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (2.1ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.5ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.5ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.5ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (5.1ms)[0m  [1mINSERT INTO "sprints" ("created_at", "description", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Thu, 07 Mar 2013 17:31:20 UTC +00:00], ["description", "some description"], ["team_id", 1], ["title", "some title"], ["updated_at", Thu, 07 Mar 2013 17:31:20 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (1.8ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.5ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (5.2ms)[0m  [1mINSERT INTO "sprints" ("created_at", "description", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Thu, 07 Mar 2013 17:31:23 UTC +00:00], ["description", "some description"], ["team_id", 1], ["title", "some title"], ["updated_at", Thu, 07 Mar 2013 17:31:23 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (1.7ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (5.2ms)[0m  [1mINSERT INTO "sprints" ("created_at", "description", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Thu, 07 Mar 2013 17:31:38 UTC +00:00], ["description", "some description"], ["team_id", 1], ["title", "some title"], ["updated_at", Thu, 07 Mar 2013 17:31:38 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.3ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.5ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.5ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (5.0ms)[0m  [1mINSERT INTO "sprints" ("completed", "created_at", "description", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["completed", true], ["created_at", Thu, 07 Mar 2013 17:39:07 UTC +00:00], ["description", "some description"], ["team_id", 1], ["title", "some title"], ["updated_at", Thu, 07 Mar 2013 17:39:07 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (2.2ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.5ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (5.4ms)[0m  [1mINSERT INTO "sprints" ("completed", "created_at", "description", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["completed", true], ["created_at", Thu, 07 Mar 2013 17:39:10 UTC +00:00], ["description", "some description"], ["team_id", 1], ["title", "some title"], ["updated_at", Thu, 07 Mar 2013 17:39:10 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (1.7ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.5ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (5.0ms)[0m  [1mINSERT INTO "sprints" ("completed", "created_at", "description", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["completed", true], ["created_at", Thu, 07 Mar 2013 17:39:29 UTC +00:00], ["description", "some description"], ["team_id", 1], ["title", "some title"], ["updated_at", Thu, 07 Mar 2013 17:39:29 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (1.8ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (5.2ms)[0m  [1mINSERT INTO "sprints" ("completed", "created_at", "description", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["completed", true], ["created_at", Thu, 07 Mar 2013 17:39:37 UTC +00:00], ["description", "some description"], ["team_id", 1], ["title", "some title"], ["updated_at", Thu, 07 Mar 2013 17:39:37 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (2.1ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.5ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (5.5ms)[0m  [1mINSERT INTO "sprints" ("completed", "created_at", "description", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["completed", true], ["created_at", Thu, 07 Mar 2013 17:39:46 UTC +00:00], ["description", "some description"], ["team_id", 1], ["title", "some title"], ["updated_at", Thu, 07 Mar 2013 17:39:46 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (2.3ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.5ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (5.2ms)[0m  [1mINSERT INTO "sprints" ("completed", "created_at", "description", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["completed", true], ["created_at", Thu, 07 Mar 2013 17:39:49 UTC +00:00], ["description", "some description"], ["team_id", 1], ["title", "some title"], ["updated_at", Thu, 07 Mar 2013 17:39:49 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (1.8ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (5.0ms)[0m  [1mINSERT INTO "sprints" ("completed", "created_at", "description", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["completed", true], ["created_at", Thu, 07 Mar 2013 17:43:30 UTC +00:00], ["description", "some description"], ["team_id", 1], ["title", "some title"], ["updated_at", Thu, 07 Mar 2013 17:43:30 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (2.4ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.5ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (5.4ms)[0m  [1mINSERT INTO "sprints" ("completed", "created_at", "description", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["completed", true], ["created_at", Thu, 07 Mar 2013 17:45:31 UTC +00:00], ["description", "some description"], ["team_id", 1], ["title", "some title"], ["updated_at", Thu, 07 Mar 2013 17:45:31 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mStory Load (0.1ms)[0m  [1mSELECT "stories".* FROM "stories" WHERE "stories"."sprint_id" = 1[0m
+  [1m[35m (0.4ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.5ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (5.0ms)[0m  [1mINSERT INTO "sprints" ("completed", "created_at", "description", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["completed", true], ["created_at", Thu, 07 Mar 2013 17:45:58 UTC +00:00], ["description", "some description"], ["team_id", 1], ["title", "some title"], ["updated_at", Thu, 07 Mar 2013 17:45:58 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mStory Load (0.1ms)[0m  [1mSELECT "stories".* FROM "stories" WHERE "stories"."sprint_id" = 1[0m
+  [1m[35m (2.3ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.5ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (5.2ms)[0m  [1mINSERT INTO "sprints" ("completed", "created_at", "description", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["completed", true], ["created_at", Thu, 07 Mar 2013 17:46:17 UTC +00:00], ["description", "some description"], ["team_id", 1], ["title", "some title"], ["updated_at", Thu, 07 Mar 2013 17:46:17 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 1[0m
+  [1m[35m (2.2ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (5.0ms)[0m  [1mINSERT INTO "sprints" ("completed", "created_at", "description", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["completed", true], ["created_at", Thu, 07 Mar 2013 17:46:39 UTC +00:00], ["description", "some description"], ["team_id", 1], ["title", "some title"], ["updated_at", Thu, 07 Mar 2013 17:46:39 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 1[0m
+  [1m[35m (2.3ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.5ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (5.3ms)[0m  [1mINSERT INTO "sprints" ("completed", "created_at", "description", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["completed", true], ["created_at", Thu, 07 Mar 2013 17:48:13 UTC +00:00], ["description", "some description"], ["team_id", 1], ["title", "some title"], ["updated_at", Thu, 07 Mar 2013 17:48:13 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 1[0m
+  [1m[35m (2.3ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.5ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (5.1ms)[0m  [1mINSERT INTO "sprints" ("completed", "created_at", "description", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["completed", true], ["created_at", Thu, 07 Mar 2013 17:48:21 UTC +00:00], ["description", "some description"], ["team_id", 1], ["title", "some title"], ["updated_at", Thu, 07 Mar 2013 17:48:21 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 1[0m
+  [1m[35m (2.3ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.5ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (5.1ms)[0m  [1mINSERT INTO "sprints" ("completed", "created_at", "description", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["completed", true], ["created_at", Thu, 07 Mar 2013 17:48:24 UTC +00:00], ["description", "some description"], ["team_id", 1], ["title", "some title"], ["updated_at", Thu, 07 Mar 2013 17:48:24 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 1[0m
+  [1m[35m (2.3ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (6.9ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (9.1ms)[0m  [1mINSERT INTO "sprints" ("completed", "created_at", "description", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["completed", true], ["created_at", Thu, 07 Mar 2013 18:35:40 UTC +00:00], ["description", "some description"], ["team_id", 1], ["title", "some title"], ["updated_at", Thu, 07 Mar 2013 18:35:40 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 1[0m
+  [1m[35m (0.3ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.5ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (5.4ms)[0m  [1mINSERT INTO "sprints" ("completed", "created_at", "description", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["completed", true], ["created_at", Thu, 07 Mar 2013 18:36:22 UTC +00:00], ["description", "some description"], ["team_id", 1], ["title", "some title"], ["updated_at", Thu, 07 Mar 2013 18:36:22 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 1[0m
+  [1m[35m (2.2ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (5.4ms)[0m  [1mINSERT INTO "sprints" ("completed", "created_at", "description", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["completed", true], ["created_at", Thu, 07 Mar 2013 18:39:10 UTC +00:00], ["description", "some description"], ["team_id", 1], ["title", "some title"], ["updated_at", Thu, 07 Mar 2013 18:39:10 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 1[0m
+  [1m[35m (2.3ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (5.1ms)[0m  [1mINSERT INTO "sprints" ("completed", "created_at", "description", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["completed", true], ["created_at", Thu, 07 Mar 2013 18:40:22 UTC +00:00], ["description", "some description"], ["team_id", 1], ["title", "some title"], ["updated_at", Thu, 07 Mar 2013 18:40:22 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 1[0m
+  [1m[35m (1.6ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.5ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (5.3ms)[0m  [1mINSERT INTO "sprints" ("completed", "created_at", "description", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["completed", true], ["created_at", Thu, 07 Mar 2013 18:41:29 UTC +00:00], ["description", "some description"], ["team_id", 1], ["title", "some title"], ["updated_at", Thu, 07 Mar 2013 18:41:29 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 1[0m
+  [1m[35m (1.7ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (5.8ms)[0m  [1mINSERT INTO "sprints" ("completed", "created_at", "description", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["completed", true], ["created_at", Thu, 07 Mar 2013 18:42:09 UTC +00:00], ["description", "some description"], ["team_id", 1], ["title", "some title"], ["updated_at", Thu, 07 Mar 2013 18:42:09 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 1[0m
+  [1m[35m (0.7ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (5.5ms)[0m  [1mINSERT INTO "sprints" ("completed", "created_at", "description", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["completed", true], ["created_at", Thu, 07 Mar 2013 18:42:21 UTC +00:00], ["description", "some description"], ["team_id", 1], ["title", "some title"], ["updated_at", Thu, 07 Mar 2013 18:42:21 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 1[0m
+  [1m[35m (1.7ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (5.6ms)[0m  [1mINSERT INTO "sprints" ("completed", "created_at", "description", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["completed", true], ["created_at", Thu, 07 Mar 2013 18:42:24 UTC +00:00], ["description", "some description"], ["team_id", 1], ["title", "some title"], ["updated_at", Thu, 07 Mar 2013 18:42:24 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 1[0m
+  [1m[35m (2.3ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+Started GET "/sprints" for 127.0.0.1 at 2013-03-07 18:57:12 +0000
+Processing by SprintsController#index as HTML
+  [1m[35mSprint Load (0.1ms)[0m  SELECT "sprints".* FROM "sprints" 
+  Rendered sprints/index.html.erb within layouts/application (11.2ms)
+Completed 200 OK in 45ms (Views: 41.1ms | ActiveRecord: 1.7ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (5.6ms)[0m  [1mINSERT INTO "sprints" ("completed", "created_at", "description", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["completed", true], ["created_at", Thu, 07 Mar 2013 18:57:15 UTC +00:00], ["description", "some description"], ["team_id", 1], ["title", "some title"], ["updated_at", Thu, 07 Mar 2013 18:57:15 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 1[0m
+  [1m[35m (1.6ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/sprints" for 127.0.0.1 at 2013-03-07 18:57:15 +0000
+Processing by SprintsController#index as HTML
+  [1m[35mSprint Load (0.1ms)[0m  SELECT "sprints".* FROM "sprints" 
+Completed 200 OK in 18ms (Views: 17.3ms | ActiveRecord: 0.1ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+Started GET "/sprints" for 127.0.0.1 at 2013-03-07 19:02:34 +0000
+Processing by SprintsController#index as HTML
+  [1m[35mSprint Load (0.1ms)[0m  SELECT "sprints".* FROM "sprints" 
+  Rendered sprints/index.html.erb within layouts/application (7.1ms)
+Completed 200 OK in 21ms (Views: 17.3ms | ActiveRecord: 1.7ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (26.1ms)[0m  INSERT INTO "sprints" ("completed", "created_at", "description", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["completed", true], ["created_at", Thu, 07 Mar 2013 19:02:34 UTC +00:00], ["description", "some description"], ["team_id", 1], ["title", "some title"], ["updated_at", Thu, 07 Mar 2013 19:02:34 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 1
+  [1m[36m (0.7ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+Started GET "/sprints" for 127.0.0.1 at 2013-03-07 19:02:37 +0000
+Processing by SprintsController#index as HTML
+  [1m[35mSprint Load (0.1ms)[0m  SELECT "sprints".* FROM "sprints" 
+  Rendered sprints/index.html.erb within layouts/application (7.2ms)
+Completed 200 OK in 21ms (Views: 17.4ms | ActiveRecord: 1.7ms)
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+Started GET "/sprints" for 127.0.0.1 at 2013-03-07 19:03:25 +0000
+Processing by SprintsController#index as HTML
+  [1m[35mSprint Load (0.1ms)[0m  SELECT "sprints".* FROM "sprints" 
+  Rendered sprints/index.html.erb within layouts/application (7.2ms)
+Completed 200 OK in 21ms (Views: 17.5ms | ActiveRecord: 1.6ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+Started GET "/sprints" for 127.0.0.1 at 2013-03-07 19:03:28 +0000
+Processing by SprintsController#index as HTML
+  [1m[35mSprint Load (0.0ms)[0m  SELECT "sprints".* FROM "sprints" 
+  Rendered sprints/index.html.erb within layouts/application (7.6ms)
+Completed 200 OK in 21ms (Views: 17.6ms | ActiveRecord: 1.6ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (26.2ms)[0m  INSERT INTO "sprints" ("completed", "created_at", "description", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["completed", true], ["created_at", Thu, 07 Mar 2013 19:03:28 UTC +00:00], ["description", "some description"], ["team_id", 1], ["title", "some title"], ["updated_at", Thu, 07 Mar 2013 19:03:28 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 1
+  [1m[36m (1.7ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+Started GET "/sprints" for 127.0.0.1 at 2013-03-07 19:04:10 +0000
+Processing by SprintsController#index as HTML
+  [1m[35mSprint Load (0.0ms)[0m  SELECT "sprints".* FROM "sprints" 
+  Rendered sprints/index.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 20ms (Views: 17.2ms | ActiveRecord: 1.6ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+Started GET "/sprints" for 127.0.0.1 at 2013-03-07 19:04:34 +0000
+Processing by SprintsController#index as HTML
+  [1m[35mSprint Load (0.1ms)[0m  SELECT "sprints".* FROM "sprints" 
+  Rendered sprints/index.html.erb within layouts/application (7.1ms)
+Completed 200 OK in 21ms (Views: 17.2ms | ActiveRecord: 1.7ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+Started GET "/sprints" for 127.0.0.1 at 2013-03-07 19:04:37 +0000
+Processing by SprintsController#index as HTML
+  [1m[35mSprint Load (0.1ms)[0m  SELECT "sprints".* FROM "sprints" 
+  Rendered sprints/index.html.erb within layouts/application (7.6ms)
+Completed 200 OK in 21ms (Views: 18.0ms | ActiveRecord: 1.7ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (5.7ms)[0m  INSERT INTO "sprints" ("completed", "created_at", "description", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["completed", true], ["created_at", Thu, 07 Mar 2013 19:04:37 UTC +00:00], ["description", "some description"], ["team_id", 1], ["title", "some title"], ["updated_at", Thu, 07 Mar 2013 19:04:37 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 1
+  [1m[36m (1.7ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+Started GET "/sprints" for 127.0.0.1 at 2013-03-07 19:04:41 +0000
+Processing by SprintsController#index as HTML
+  [1m[35mSprint Load (0.0ms)[0m  SELECT "sprints".* FROM "sprints" 
+  Rendered sprints/index.html.erb within layouts/application (7.2ms)
+Completed 200 OK in 21ms (Views: 17.6ms | ActiveRecord: 1.7ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+Started GET "/sprints" for 127.0.0.1 at 2013-03-07 19:04:48 +0000
+Processing by SprintsController#index as HTML
+  [1m[35mSprint Load (0.0ms)[0m  SELECT "sprints".* FROM "sprints" 
+  Rendered sprints/index.html.erb within layouts/application (7.3ms)
+Completed 200 OK in 21ms (Views: 17.3ms | ActiveRecord: 1.5ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+Started GET "/sprints" for 127.0.0.1 at 2013-03-07 19:05:26 +0000
+Processing by SprintsController#index as HTML
+  [1m[35mSprint Load (0.0ms)[0m  SELECT "sprints".* FROM "sprints" 
+  Rendered sprints/index.html.erb within layouts/application (7.8ms)
+Completed 200 OK in 23ms (Views: 19.9ms | ActiveRecord: 1.7ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+Started GET "/sprints" for 127.0.0.1 at 2013-03-07 19:05:29 +0000
+Processing by SprintsController#index as HTML
+  [1m[35mSprint Load (0.1ms)[0m  SELECT "sprints".* FROM "sprints" 
+  Rendered sprints/index.html.erb within layouts/application (7.3ms)
+Completed 200 OK in 21ms (Views: 17.5ms | ActiveRecord: 1.6ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (5.5ms)[0m  INSERT INTO "sprints" ("completed", "created_at", "description", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["completed", true], ["created_at", Thu, 07 Mar 2013 19:05:30 UTC +00:00], ["description", "some description"], ["team_id", 1], ["title", "some title"], ["updated_at", Thu, 07 Mar 2013 19:05:30 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 1
+  [1m[36m (2.2ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+Started GET "/sprints" for 127.0.0.1 at 2013-03-07 19:06:11 +0000
+Processing by SprintsController#index as HTML
+  [1m[35mSprint Load (0.1ms)[0m  SELECT "sprints".* FROM "sprints" 
+  Rendered sprints/index.html.erb within layouts/application (7.1ms)
+Completed 200 OK in 21ms (Views: 17.3ms | ActiveRecord: 1.6ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+Started GET "/sprints" for 127.0.0.1 at 2013-03-07 19:06:24 +0000
+Processing by SprintsController#index as HTML
+  [1m[35mSprint Load (0.0ms)[0m  SELECT "sprints".* FROM "sprints" 
+  Rendered sprints/index.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 20ms (Views: 17.0ms | ActiveRecord: 1.5ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+Started GET "/sprints" for 127.0.0.1 at 2013-03-07 19:07:14 +0000
+Processing by SprintsController#index as HTML
+  [1m[35mSprint Load (0.0ms)[0m  SELECT "sprints".* FROM "sprints" 
+  Rendered sprints/index.html.erb within layouts/application (7.5ms)
+Completed 200 OK in 21ms (Views: 17.5ms | ActiveRecord: 1.5ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+Started GET "/sprints" for 127.0.0.1 at 2013-03-07 19:08:02 +0000
+Processing by SprintsController#index as HTML
+  [1m[35mSprint Load (0.0ms)[0m  SELECT "sprints".* FROM "sprints" 
+  Rendered sprints/index.html.erb within layouts/application (7.7ms)
+Completed 200 OK in 21ms (Views: 18.0ms | ActiveRecord: 1.7ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+Started GET "/sprints" for 127.0.0.1 at 2013-03-07 19:13:16 +0000
+Processing by SprintsController#index as HTML
+  [1m[35mSprint Load (0.0ms)[0m  SELECT "sprints".* FROM "sprints" 
+  Rendered sprints/index.html.erb within layouts/application (7.1ms)
+Completed 200 OK in 20ms (Views: 17.0ms | ActiveRecord: 1.5ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.5ms)[0m  [1mbegin transaction[0m
+Started GET "/sprints" for 127.0.0.1 at 2013-03-07 19:13:30 +0000
+Processing by SprintsController#index as HTML
+  [1m[35mSprint Load (0.0ms)[0m  SELECT "sprints".* FROM "sprints" 
+  Rendered sprints/index.html.erb within layouts/application (7.6ms)
+Completed 200 OK in 22ms (Views: 19.1ms | ActiveRecord: 1.7ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+Started GET "/sprints" for 127.0.0.1 at 2013-03-07 19:13:34 +0000
+Processing by SprintsController#index as HTML
+  [1m[35mSprint Load (0.1ms)[0m  SELECT "sprints".* FROM "sprints" 
+  Rendered sprints/index.html.erb within layouts/application (10.9ms)
+Completed 200 OK in 30ms (Views: 24.0ms | ActiveRecord: 3.2ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (7.2ms)[0m  INSERT INTO "sprints" ("completed", "created_at", "description", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["completed", true], ["created_at", Thu, 07 Mar 2013 19:13:35 UTC +00:00], ["description", "some description"], ["team_id", 1], ["title", "some title"], ["updated_at", Thu, 07 Mar 2013 19:13:35 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 1
+  [1m[36m (1.6ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+Started GET "/sprints" for 127.0.0.1 at 2013-03-07 19:30:25 +0000
+Processing by SprintsController#index as HTML
+  [1m[35mSprint Load (0.0ms)[0m  SELECT "sprints".* FROM "sprints" 
+  Rendered sprints/index.html.erb within layouts/application (7.3ms)
+Completed 200 OK in 21ms (Views: 17.8ms | ActiveRecord: 1.7ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+Started GET "/sprints" for 127.0.0.1 at 2013-03-07 20:05:45 +0000
+Processing by SprintsController#index as HTML
+  [1m[35mSprint Load (0.0ms)[0m  SELECT "sprints".* FROM "sprints" 
+  Rendered sprints/index.html.erb within layouts/application (7.7ms)
+Completed 200 OK in 23ms (Views: 19.3ms | ActiveRecord: 1.9ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (5.7ms)[0m  INSERT INTO "sprints" ("completed", "created_at", "description", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["completed", true], ["created_at", Thu, 07 Mar 2013 20:05:45 UTC +00:00], ["description", "some description"], ["team_id", 1], ["title", "some title"], ["updated_at", Thu, 07 Mar 2013 20:05:45 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 1
+  [1m[36m (1.8ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (5.4ms)[0m  [1mINSERT INTO "sprints" ("completed", "created_at", "description", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["completed", true], ["created_at", Thu, 07 Mar 2013 20:06:18 UTC +00:00], ["description", "some description"], ["team_id", 1], ["title", "some title"], ["updated_at", Thu, 07 Mar 2013 20:06:18 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 1[0m
+  [1m[35m (1.8ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (5.1ms)[0m  [1mINSERT INTO "sprints" ("completed", "created_at", "description", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["completed", true], ["created_at", Thu, 07 Mar 2013 20:07:28 UTC +00:00], ["description", "some description"], ["team_id", 1], ["title", "some title"], ["updated_at", Thu, 07 Mar 2013 20:07:28 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 1[0m
+  [1m[35m (2.3ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "sprints" ("completed", "created_at", "description", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["completed", true], ["created_at", Thu, 07 Mar 2013 20:07:28 UTC +00:00], ["description", "some description"], ["team_id", 1], ["title", "some title"], ["updated_at", Thu, 07 Mar 2013 20:07:28 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (5.1ms)[0m  [1mINSERT INTO "sprints" ("completed", "created_at", "description", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["completed", true], ["created_at", Thu, 07 Mar 2013 20:11:00 UTC +00:00], ["description", "some description"], ["team_id", 1], ["title", "some title"], ["updated_at", Thu, 07 Mar 2013 20:11:00 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 1[0m
+  [1m[35m (1.8ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "stories" ("completed", "created_at", "description", "name", "sprint_id", "total_effort", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["completed", nil], ["created_at", Thu, 07 Mar 2013 20:11:00 UTC +00:00], ["description", "story description"], ["name", "stort name"], ["sprint_id", nil], ["total_effort", nil], ["updated_at", Thu, 07 Mar 2013 20:11:00 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.4ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (5.4ms)[0m  [1mINSERT INTO "sprints" ("completed", "created_at", "description", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["completed", true], ["created_at", Thu, 07 Mar 2013 20:11:26 UTC +00:00], ["description", "some description"], ["team_id", 1], ["title", "some title"], ["updated_at", Thu, 07 Mar 2013 20:11:26 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 1[0m
+  [1m[35m (2.3ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "stories" ("completed", "created_at", "description", "name", "sprint_id", "total_effort", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["completed", nil], ["created_at", Thu, 07 Mar 2013 20:11:26 UTC +00:00], ["description", "story description"], ["name", "stort name"], ["sprint_id", nil], ["total_effort", nil], ["updated_at", Thu, 07 Mar 2013 20:11:26 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (5.0ms)[0m  [1mINSERT INTO "stories" ("completed", "created_at", "description", "name", "sprint_id", "total_effort", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["completed", nil], ["created_at", Thu, 07 Mar 2013 20:11:29 UTC +00:00], ["description", "story description"], ["name", "stort name"], ["sprint_id", nil], ["total_effort", nil], ["updated_at", Thu, 07 Mar 2013 20:11:29 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (2.3ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "sprints" ("completed", "created_at", "description", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["completed", true], ["created_at", Thu, 07 Mar 2013 20:11:29 UTC +00:00], ["description", "some description"], ["team_id", 1], ["title", "some title"], ["updated_at", Thu, 07 Mar 2013 20:11:29 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 1
+  [1m[36m (0.4ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Started GET "/sprints" for 127.0.0.1 at 2013-03-07 20:11:29 +0000
+Processing by SprintsController#index as HTML
+  [1m[36mSprint Load (0.1ms)[0m  [1mSELECT "sprints".* FROM "sprints" [0m
+Completed 200 OK in 39ms (Views: 37.9ms | ActiveRecord: 0.1ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (5.0ms)[0m  [1mINSERT INTO "sprints" ("completed", "created_at", "description", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["completed", true], ["created_at", Thu, 07 Mar 2013 20:11:47 UTC +00:00], ["description", "some description"], ["team_id", 1], ["title", "some title"], ["updated_at", Thu, 07 Mar 2013 20:11:47 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 1[0m
+  [1m[35m (1.7ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "stories" ("completed", "created_at", "description", "name", "sprint_id", "total_effort", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["completed", nil], ["created_at", Thu, 07 Mar 2013 20:11:47 UTC +00:00], ["description", "story description"], ["name", "stort name"], ["sprint_id", nil], ["total_effort", nil], ["updated_at", Thu, 07 Mar 2013 20:11:47 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.4ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (5.2ms)[0m  [1mINSERT INTO "sprints" ("completed", "created_at", "description", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["completed", true], ["created_at", Thu, 07 Mar 2013 20:13:01 UTC +00:00], ["description", "some description"], ["team_id", 1], ["title", "some title"], ["updated_at", Thu, 07 Mar 2013 20:13:01 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 1[0m
+  [1m[35m (2.3ms)[0m  rollback transaction
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "sprints" ("completed", "created_at", "description", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["completed", true], ["created_at", Thu, 07 Mar 2013 20:13:02 UTC +00:00], ["description", "some description"], ["team_id", 1], ["title", "some title"], ["updated_at", Thu, 07 Mar 2013 20:13:02 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.3ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (5.0ms)[0m  [1mINSERT INTO "sprints" ("completed", "created_at", "description", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["completed", true], ["created_at", Thu, 07 Mar 2013 20:13:47 UTC +00:00], ["description", "some description"], ["team_id", 1], ["title", "some title"], ["updated_at", Thu, 07 Mar 2013 20:13:47 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (2.3ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "sprints" ("completed", "created_at", "description", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["completed", true], ["created_at", Thu, 07 Mar 2013 20:13:47 UTC +00:00], ["description", "some description"], ["team_id", 1], ["title", "some title"], ["updated_at", Thu, 07 Mar 2013 20:13:47 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 1
+  [1m[36m (0.3ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (5.0ms)[0m  [1mINSERT INTO "sprints" ("completed", "created_at", "description", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["completed", true], ["created_at", Thu, 07 Mar 2013 20:14:16 UTC +00:00], ["description", "some description"], ["team_id", 1], ["title", "some title"], ["updated_at", Thu, 07 Mar 2013 20:14:16 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 1[0m
+  [1m[35m (1.7ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (5.5ms)[0m  [1mINSERT INTO "sprints" ("completed", "created_at", "description", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["completed", true], ["created_at", Thu, 07 Mar 2013 20:14:49 UTC +00:00], ["description", "some description"], ["team_id", 1], ["title", "some title"], ["updated_at", Thu, 07 Mar 2013 20:14:49 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (1.8ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "sprints" ("completed", "created_at", "description", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["completed", true], ["created_at", Thu, 07 Mar 2013 20:14:49 UTC +00:00], ["description", "some description"], ["team_id", 1], ["title", "some title"], ["updated_at", Thu, 07 Mar 2013 20:14:49 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 1
+  [1m[36m (0.3ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (5.2ms)[0m  [1mINSERT INTO "sprints" ("completed", "created_at", "description", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["completed", true], ["created_at", Thu, 07 Mar 2013 20:15:09 UTC +00:00], ["description", "some description"], ["team_id", 1], ["title", "some title"], ["updated_at", Thu, 07 Mar 2013 20:15:09 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 1[0m
+  [1m[35m (2.3ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "sprints" ("completed", "created_at", "description", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["completed", true], ["created_at", Thu, 07 Mar 2013 20:15:09 UTC +00:00], ["description", "some description"], ["team_id", 1], ["title", "some title"], ["updated_at", Thu, 07 Mar 2013 20:15:09 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (5.2ms)[0m  [1mINSERT INTO "sprints" ("completed", "created_at", "description", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["completed", true], ["created_at", Thu, 07 Mar 2013 20:16:05 UTC +00:00], ["description", "some description"], ["team_id", 1], ["title", "some title"], ["updated_at", Thu, 07 Mar 2013 20:16:05 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 1[0m
+  [1m[35m (1.8ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "sprints" ("completed", "created_at", "description", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["completed", true], ["created_at", Thu, 07 Mar 2013 20:16:05 UTC +00:00], ["description", "some description"], ["team_id", 1], ["title", "some title"], ["updated_at", Thu, 07 Mar 2013 20:16:05 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (6.1ms)[0m  [1mINSERT INTO "sprints" ("completed", "created_at", "description", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["completed", true], ["created_at", Thu, 07 Mar 2013 20:16:18 UTC +00:00], ["description", "some description"], ["team_id", 1], ["title", "some title"], ["updated_at", Thu, 07 Mar 2013 20:16:18 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.3ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "sprints" ("completed", "created_at", "description", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["completed", true], ["created_at", Thu, 07 Mar 2013 20:16:18 UTC +00:00], ["description", "some description"], ["team_id", 1], ["title", "some title"], ["updated_at", Thu, 07 Mar 2013 20:16:18 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 1
+  [1m[36m (0.2ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (5.7ms)[0m  [1mINSERT INTO "sprints" ("completed", "created_at", "description", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["completed", true], ["created_at", Thu, 07 Mar 2013 20:16:29 UTC +00:00], ["description", "some description"], ["team_id", 1], ["title", "some title"], ["updated_at", Thu, 07 Mar 2013 20:16:29 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 1[0m
+  [1m[35m (1.6ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "sprints" ("completed", "created_at", "description", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["completed", true], ["created_at", Thu, 07 Mar 2013 20:16:30 UTC +00:00], ["description", "some description"], ["team_id", 1], ["title", "some title"], ["updated_at", Thu, 07 Mar 2013 20:16:30 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.3ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (5.1ms)[0m  [1mINSERT INTO "sprints" ("completed", "created_at", "description", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["completed", true], ["created_at", Thu, 07 Mar 2013 20:16:52 UTC +00:00], ["description", "some description"], ["team_id", 1], ["title", "some title"], ["updated_at", Thu, 07 Mar 2013 20:16:52 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 1[0m
+  [1m[35m (2.3ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (5.1ms)[0m  [1mINSERT INTO "stories" ("completed", "created_at", "description", "name", "sprint_id", "total_effort", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["completed", nil], ["created_at", Thu, 07 Mar 2013 20:17:08 UTC +00:00], ["description", "story description"], ["name", "story name"], ["sprint_id", nil], ["total_effort", nil], ["updated_at", Thu, 07 Mar 2013 20:17:08 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (1.8ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "sprints" ("completed", "created_at", "description", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["completed", true], ["created_at", Thu, 07 Mar 2013 20:17:08 UTC +00:00], ["description", "some description"], ["team_id", 1], ["title", "some title"], ["updated_at", Thu, 07 Mar 2013 20:17:08 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 1
+  [1m[36m (0.3ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (5.2ms)[0m  [1mINSERT INTO "sprints" ("completed", "created_at", "description", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["completed", true], ["created_at", Thu, 07 Mar 2013 20:17:10 UTC +00:00], ["description", "some description"], ["team_id", 1], ["title", "some title"], ["updated_at", Thu, 07 Mar 2013 20:17:10 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 1[0m
+  [1m[35m (2.2ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "stories" ("completed", "created_at", "description", "name", "sprint_id", "total_effort", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["completed", nil], ["created_at", Thu, 07 Mar 2013 20:17:10 UTC +00:00], ["description", "story description"], ["name", "story name"], ["sprint_id", nil], ["total_effort", nil], ["updated_at", Thu, 07 Mar 2013 20:17:10 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.3ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.5ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (5.3ms)[0m  [1mINSERT INTO "sprints" ("completed", "created_at", "description", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["completed", true], ["created_at", Thu, 07 Mar 2013 20:18:12 UTC +00:00], ["description", "some description"], ["team_id", 1], ["title", "some title"], ["updated_at", Thu, 07 Mar 2013 20:18:12 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 1[0m
+  [1m[35m (2.2ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "sprints" ("completed", "created_at", "description", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["completed", true], ["created_at", Thu, 07 Mar 2013 20:18:13 UTC +00:00], ["description", "some description"], ["team_id", 1], ["title", "some title"], ["updated_at", Thu, 07 Mar 2013 20:18:13 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.3ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.5ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (5.3ms)[0m  [1mINSERT INTO "sprints" ("completed", "created_at", "description", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["completed", true], ["created_at", Thu, 07 Mar 2013 20:18:38 UTC +00:00], ["description", "some description"], ["team_id", 1], ["title", "some title"], ["updated_at", Thu, 07 Mar 2013 20:18:38 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (2.2ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "sprints" ("completed", "created_at", "description", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["completed", true], ["created_at", Thu, 07 Mar 2013 20:18:39 UTC +00:00], ["description", "some description"], ["team_id", 1], ["title", "some title"], ["updated_at", Thu, 07 Mar 2013 20:18:39 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 1
+  [1m[36m (0.3ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (5.3ms)[0m  [1mINSERT INTO "sprints" ("completed", "created_at", "description", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["completed", true], ["created_at", Thu, 07 Mar 2013 20:19:04 UTC +00:00], ["description", "some description"], ["team_id", 1], ["title", "some title"], ["updated_at", Thu, 07 Mar 2013 20:19:04 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 1[0m
+  [1m[35m (2.4ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "sprints" ("completed", "created_at", "description", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["completed", true], ["created_at", Thu, 07 Mar 2013 20:19:04 UTC +00:00], ["description", "some description"], ["team_id", 1], ["title", "some title"], ["updated_at", Thu, 07 Mar 2013 20:19:04 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.3ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.5ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (5.2ms)[0m  [1mINSERT INTO "sprints" ("completed", "created_at", "description", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["completed", true], ["created_at", Thu, 07 Mar 2013 20:19:23 UTC +00:00], ["description", "some description"], ["team_id", 1], ["title", "some title"], ["updated_at", Thu, 07 Mar 2013 20:19:23 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 1[0m
+  [1m[35m (2.3ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "sprints" ("completed", "created_at", "description", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["completed", true], ["created_at", Thu, 07 Mar 2013 20:19:23 UTC +00:00], ["description", "some description"], ["team_id", 1], ["title", "some title"], ["updated_at", Thu, 07 Mar 2013 20:19:23 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.3ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.5ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.5ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (5.0ms)[0m  [1mINSERT INTO "sprints" ("completed", "created_at", "description", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["completed", true], ["created_at", Thu, 07 Mar 2013 20:24:24 UTC +00:00], ["description", "some description"], ["team_id", 1], ["title", "some title"], ["updated_at", Thu, 07 Mar 2013 20:24:24 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (1.7ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (5.1ms)[0m  [1mINSERT INTO "sprints" ("completed", "created_at", "description", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["completed", true], ["created_at", Thu, 07 Mar 2013 20:24:38 UTC +00:00], ["description", "some description"], ["team_id", 1], ["title", "some title"], ["updated_at", Thu, 07 Mar 2013 20:24:38 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 1[0m
+  [1m[35m (1.7ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (5.1ms)[0m  [1mINSERT INTO "sprints" ("completed", "created_at", "description", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["completed", true], ["created_at", Thu, 07 Mar 2013 20:24:49 UTC +00:00], ["description", "some description"], ["team_id", 1], ["title", "some title"], ["updated_at", Thu, 07 Mar 2013 20:24:49 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 1[0m
+  [1m[35m (2.2ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "stories" ("completed", "created_at", "description", "name", "sprint_id", "total_effort", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["completed", nil], ["created_at", Thu, 07 Mar 2013 20:24:49 UTC +00:00], ["description", "story description"], ["name", "story name"], ["sprint_id", nil], ["total_effort", nil], ["updated_at", Thu, 07 Mar 2013 20:24:49 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.3ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (5.5ms)[0m  [1mINSERT INTO "sprints" ("completed", "created_at", "description", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["completed", true], ["created_at", Thu, 07 Mar 2013 20:24:52 UTC +00:00], ["description", "some description"], ["team_id", 1], ["title", "some title"], ["updated_at", Thu, 07 Mar 2013 20:24:52 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 1[0m
+  [1m[35m (2.3ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "stories" ("completed", "created_at", "description", "name", "sprint_id", "total_effort", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["completed", nil], ["created_at", Thu, 07 Mar 2013 20:24:52 UTC +00:00], ["description", "story description"], ["name", "story name"], ["sprint_id", nil], ["total_effort", nil], ["updated_at", Thu, 07 Mar 2013 20:24:52 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.4ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (5.1ms)[0m  [1mINSERT INTO "stories" ("completed", "created_at", "description", "name", "sprint_id", "total_effort", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["completed", nil], ["created_at", Thu, 07 Mar 2013 20:25:25 UTC +00:00], ["description", "story description"], ["name", "story name"], ["sprint_id", nil], ["total_effort", nil], ["updated_at", Thu, 07 Mar 2013 20:25:25 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (1.8ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "sprints" ("completed", "created_at", "description", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["completed", true], ["created_at", Thu, 07 Mar 2013 20:25:25 UTC +00:00], ["description", "some description"], ["team_id", 1], ["title", "some title"], ["updated_at", Thu, 07 Mar 2013 20:25:25 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 1
+  [1m[36m (0.3ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (5.2ms)[0m  [1mINSERT INTO "stories" ("completed", "created_at", "description", "name", "sprint_id", "total_effort", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["completed", nil], ["created_at", Thu, 07 Mar 2013 20:25:50 UTC +00:00], ["description", "story description"], ["name", "story name"], ["sprint_id", nil], ["total_effort", nil], ["updated_at", Thu, 07 Mar 2013 20:25:50 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (1.7ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "sprints" ("completed", "created_at", "description", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["completed", true], ["created_at", Thu, 07 Mar 2013 20:25:50 UTC +00:00], ["description", "some description"], ["team_id", 1], ["title", "some title"], ["updated_at", Thu, 07 Mar 2013 20:25:50 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 1
+  [1m[36m (0.4ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (5.3ms)[0m  [1mINSERT INTO "stories" ("completed", "created_at", "description", "name", "sprint_id", "total_effort", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["completed", nil], ["created_at", Thu, 07 Mar 2013 20:26:22 UTC +00:00], ["description", "story description"], ["name", "story name"], ["sprint_id", nil], ["total_effort", nil], ["updated_at", Thu, 07 Mar 2013 20:26:22 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (2.2ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.5ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (5.7ms)[0m  [1mINSERT INTO "stories" ("completed", "created_at", "description", "name", "sprint_id", "total_effort", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["completed", nil], ["created_at", Thu, 07 Mar 2013 20:27:33 UTC +00:00], ["description", "story description"], ["name", "story name"], ["sprint_id", nil], ["total_effort", nil], ["updated_at", Thu, 07 Mar 2013 20:27:33 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (2.2ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (5.3ms)[0m  [1mINSERT INTO "sprints" ("completed", "created_at", "description", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["completed", true], ["created_at", Thu, 07 Mar 2013 20:28:49 UTC +00:00], ["description", "some description"], ["team_id", 1], ["title", "some title"], ["updated_at", Thu, 07 Mar 2013 20:28:49 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 1[0m
+  [1m[35m (2.2ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (5.3ms)[0m  [1mINSERT INTO "stories" ("completed", "created_at", "description", "name", "sprint_id", "total_effort", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["completed", nil], ["created_at", Thu, 07 Mar 2013 20:28:56 UTC +00:00], ["description", "story description"], ["name", "story name"], ["sprint_id", nil], ["total_effort", nil], ["updated_at", Thu, 07 Mar 2013 20:28:56 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (2.2ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "sprints" ("completed", "created_at", "description", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["completed", true], ["created_at", Thu, 07 Mar 2013 20:28:56 UTC +00:00], ["description", "some description"], ["team_id", 1], ["title", "some title"], ["updated_at", Thu, 07 Mar 2013 20:28:56 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 1
+  [1m[36m (0.3ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (5.3ms)[0m  [1mINSERT INTO "stories" ("completed", "created_at", "description", "name", "sprint_id", "total_effort", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["completed", nil], ["created_at", Thu, 07 Mar 2013 20:28:59 UTC +00:00], ["description", "story description"], ["name", "story name"], ["sprint_id", nil], ["total_effort", nil], ["updated_at", Thu, 07 Mar 2013 20:28:59 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (2.2ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "sprints" ("completed", "created_at", "description", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["completed", true], ["created_at", Thu, 07 Mar 2013 20:28:59 UTC +00:00], ["description", "some description"], ["team_id", 1], ["title", "some title"], ["updated_at", Thu, 07 Mar 2013 20:28:59 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 1
+  [1m[36m (0.4ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.5ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (5.2ms)[0m  [1mINSERT INTO "sprints" ("completed", "created_at", "description", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["completed", true], ["created_at", Thu, 07 Mar 2013 20:29:11 UTC +00:00], ["description", "some description"], ["team_id", 1], ["title", "some title"], ["updated_at", Thu, 07 Mar 2013 20:29:11 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 1[0m
+  [1m[35m (1.6ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "stories" ("completed", "created_at", "description", "name", "sprint_id", "total_effort", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["completed", nil], ["created_at", Thu, 07 Mar 2013 20:29:11 UTC +00:00], ["description", "story description"], ["name", "story name"], ["sprint_id", nil], ["total_effort", nil], ["updated_at", Thu, 07 Mar 2013 20:29:11 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.3ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.5ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (5.4ms)[0m  [1mINSERT INTO "stories" ("completed", "created_at", "description", "name", "sprint_id", "total_effort", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["completed", nil], ["created_at", Thu, 07 Mar 2013 20:29:25 UTC +00:00], ["description", "story description"], ["name", "story name"], ["sprint_id", nil], ["total_effort", nil], ["updated_at", Thu, 07 Mar 2013 20:29:25 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (1.7ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (5.2ms)[0m  [1mINSERT INTO "stories" ("completed", "created_at", "description", "name", "sprint_id", "total_effort", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["completed", nil], ["created_at", Thu, 07 Mar 2013 20:29:52 UTC +00:00], ["description", "story description"], ["name", "story name"], ["sprint_id", nil], ["total_effort", nil], ["updated_at", Thu, 07 Mar 2013 20:29:52 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (2.2ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.5ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (5.2ms)[0m  [1mINSERT INTO "stories" ("completed", "created_at", "description", "name", "sprint_id", "total_effort", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["completed", nil], ["created_at", Thu, 07 Mar 2013 20:50:31 UTC +00:00], ["description", nil], ["name", "Great article!"], ["sprint_id", nil], ["total_effort", nil], ["updated_at", Thu, 07 Mar 2013 20:50:31 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (1.7ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.5ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (5.3ms)[0m  [1mINSERT INTO "stories" ("completed", "created_at", "description", "name", "sprint_id", "total_effort", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["completed", nil], ["created_at", Thu, 07 Mar 2013 20:54:03 UTC +00:00], ["description", nil], ["name", "Great article!"], ["sprint_id", nil], ["total_effort", nil], ["updated_at", Thu, 07 Mar 2013 20:54:03 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (1.7ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.5ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (5.3ms)[0m  [1mINSERT INTO "stories" ("completed", "created_at", "description", "name", "sprint_id", "total_effort", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["completed", nil], ["created_at", Thu, 07 Mar 2013 20:54:23 UTC +00:00], ["description", nil], ["name", "Great article!"], ["sprint_id", nil], ["total_effort", nil], ["updated_at", Thu, 07 Mar 2013 20:54:23 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (1.7ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.5ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (6.4ms)[0m  [1mINSERT INTO "stories" ("completed", "created_at", "description", "name", "sprint_id", "total_effort", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["completed", nil], ["created_at", Thu, 07 Mar 2013 20:54:35 UTC +00:00], ["description", nil], ["name", "Great article!"], ["sprint_id", nil], ["total_effort", nil], ["updated_at", Thu, 07 Mar 2013 20:54:35 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (1.8ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (6.7ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (10.1ms)[0m  [1mINSERT INTO "sprints" ("completed", "created_at", "description", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["completed", true], ["created_at", Fri, 08 Mar 2013 12:15:53 UTC +00:00], ["description", "description"], ["team_id", nil], ["title", "title"], ["updated_at", Fri, 08 Mar 2013 12:15:53 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "stories" ("completed", "created_at", "description", "name", "sprint_id", "total_effort", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)  [["completed", nil], ["created_at", Fri, 08 Mar 2013 12:15:53 UTC +00:00], ["description", "description"], ["name", "name"], ["sprint_id", 1], ["total_effort", nil], ["updated_at", Fri, 08 Mar 2013 12:15:53 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (5.0ms)[0m  [1mINSERT INTO "sprints" ("completed", "created_at", "description", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["completed", true], ["created_at", Fri, 08 Mar 2013 12:16:06 UTC +00:00], ["description", "description"], ["team_id", nil], ["title", "title"], ["updated_at", Fri, 08 Mar 2013 12:16:06 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.4ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "sprints" ("completed", "created_at", "description", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["completed", true], ["created_at", Fri, 08 Mar 2013 12:16:06 UTC +00:00], ["description", "description"], ["team_id", nil], ["title", "title"], ["updated_at", Fri, 08 Mar 2013 12:16:06 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "stories" ("completed", "created_at", "description", "name", "sprint_id", "total_effort", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["completed", nil], ["created_at", Fri, 08 Mar 2013 12:16:06 UTC +00:00], ["description", "description"], ["name", "name"], ["sprint_id", 1], ["total_effort", nil], ["updated_at", Fri, 08 Mar 2013 12:16:06 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.4ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (5.4ms)[0m  [1mINSERT INTO "sprints" ("completed", "created_at", "description", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["completed", true], ["created_at", Fri, 08 Mar 2013 12:16:09 UTC +00:00], ["description", "description"], ["team_id", nil], ["title", "title"], ["updated_at", Fri, 08 Mar 2013 12:16:09 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (1.7ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "sprints" ("completed", "created_at", "description", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["completed", true], ["created_at", Fri, 08 Mar 2013 12:16:09 UTC +00:00], ["description", "description"], ["team_id", nil], ["title", "title"], ["updated_at", Fri, 08 Mar 2013 12:16:09 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "stories" ("completed", "created_at", "description", "name", "sprint_id", "total_effort", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["completed", nil], ["created_at", Fri, 08 Mar 2013 12:16:09 UTC +00:00], ["description", "description"], ["name", "name"], ["sprint_id", 1], ["total_effort", nil], ["updated_at", Fri, 08 Mar 2013 12:16:09 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.4ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.5ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (5.0ms)[0m  [1mINSERT INTO "sprints" ("completed", "created_at", "description", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["completed", true], ["created_at", Fri, 08 Mar 2013 12:16:25 UTC +00:00], ["description", "description"], ["team_id", nil], ["title", "title"], ["updated_at", Fri, 08 Mar 2013 12:16:25 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (1.7ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "sprints" ("completed", "created_at", "description", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["completed", true], ["created_at", Fri, 08 Mar 2013 12:16:25 UTC +00:00], ["description", "description"], ["team_id", nil], ["title", "title"], ["updated_at", Fri, 08 Mar 2013 12:16:25 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "stories" ("completed", "created_at", "description", "name", "sprint_id", "total_effort", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["completed", nil], ["created_at", Fri, 08 Mar 2013 12:16:25 UTC +00:00], ["description", "description"], ["name", "name"], ["sprint_id", 1], ["total_effort", nil], ["updated_at", Fri, 08 Mar 2013 12:16:25 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.4ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.5ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (5.3ms)[0m  [1mINSERT INTO "sprints" ("completed", "created_at", "description", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["completed", true], ["created_at", Fri, 08 Mar 2013 12:16:35 UTC +00:00], ["description", "description"], ["team_id", nil], ["title", "title"], ["updated_at", Fri, 08 Mar 2013 12:16:35 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (1.7ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "sprints" ("completed", "created_at", "description", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["completed", true], ["created_at", Fri, 08 Mar 2013 12:16:35 UTC +00:00], ["description", "description"], ["team_id", nil], ["title", "title"], ["updated_at", Fri, 08 Mar 2013 12:16:35 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "stories" ("completed", "created_at", "description", "name", "sprint_id", "total_effort", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["completed", nil], ["created_at", Fri, 08 Mar 2013 12:16:35 UTC +00:00], ["description", "description"], ["name", "name"], ["sprint_id", 1], ["total_effort", nil], ["updated_at", Fri, 08 Mar 2013 12:16:35 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.4ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (5.1ms)[0m  [1mINSERT INTO "sprints" ("completed", "created_at", "description", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["completed", true], ["created_at", Fri, 08 Mar 2013 12:17:02 UTC +00:00], ["description", "description"], ["team_id", nil], ["title", "title"], ["updated_at", Fri, 08 Mar 2013 12:17:02 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (2.2ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "sprints" ("completed", "created_at", "description", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["completed", true], ["created_at", Fri, 08 Mar 2013 12:17:02 UTC +00:00], ["description", "description"], ["team_id", nil], ["title", "title"], ["updated_at", Fri, 08 Mar 2013 12:17:02 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "stories" ("completed", "created_at", "description", "name", "sprint_id", "total_effort", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["completed", nil], ["created_at", Fri, 08 Mar 2013 12:17:02 UTC +00:00], ["description", "description"], ["name", "name"], ["sprint_id", 1], ["total_effort", nil], ["updated_at", Fri, 08 Mar 2013 12:17:02 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.4ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (5.0ms)[0m  [1mINSERT INTO "sprints" ("completed", "created_at", "description", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["completed", true], ["created_at", Fri, 08 Mar 2013 12:19:28 UTC +00:00], ["description", "description"], ["team_id", nil], ["title", "title"], ["updated_at", Fri, 08 Mar 2013 12:19:28 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 1[0m
+  [1m[35m (0.4ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "sprints" ("completed", "created_at", "description", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["completed", true], ["created_at", Fri, 08 Mar 2013 12:19:28 UTC +00:00], ["description", "description"], ["team_id", nil], ["title", "title"], ["updated_at", Fri, 08 Mar 2013 12:19:28 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "stories" ("completed", "created_at", "description", "name", "sprint_id", "total_effort", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)  [["completed", nil], ["created_at", Fri, 08 Mar 2013 12:19:28 UTC +00:00], ["description", "description"], ["name", "name"], ["sprint_id", 1], ["total_effort", nil], ["updated_at", Fri, 08 Mar 2013 12:19:28 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.4ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (4.9ms)[0m  [1mINSERT INTO "sprints" ("completed", "created_at", "description", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["completed", true], ["created_at", Fri, 08 Mar 2013 12:19:39 UTC +00:00], ["description", "description"], ["team_id", nil], ["title", "title"], ["updated_at", Fri, 08 Mar 2013 12:19:39 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (1.8ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "sprints" ("completed", "created_at", "description", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["completed", true], ["created_at", Fri, 08 Mar 2013 12:19:39 UTC +00:00], ["description", "description"], ["team_id", nil], ["title", "title"], ["updated_at", Fri, 08 Mar 2013 12:19:39 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "stories" ("completed", "created_at", "description", "name", "sprint_id", "total_effort", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["completed", nil], ["created_at", Fri, 08 Mar 2013 12:19:39 UTC +00:00], ["description", "description"], ["name", "name"], ["sprint_id", 1], ["total_effort", nil], ["updated_at", Fri, 08 Mar 2013 12:19:39 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.3ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (5.0ms)[0m  [1mINSERT INTO "sprints" ("completed", "created_at", "description", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["completed", true], ["created_at", Fri, 08 Mar 2013 12:19:41 UTC +00:00], ["description", "description"], ["team_id", nil], ["title", "title"], ["updated_at", Fri, 08 Mar 2013 12:19:41 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "stories" ("completed", "created_at", "description", "name", "sprint_id", "total_effort", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)  [["completed", nil], ["created_at", Fri, 08 Mar 2013 12:19:41 UTC +00:00], ["description", "description"], ["name", "name"], ["sprint_id", 1], ["total_effort", nil], ["updated_at", Fri, 08 Mar 2013 12:19:41 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (2.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "sprints" ("completed", "created_at", "description", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["completed", true], ["created_at", Fri, 08 Mar 2013 12:19:41 UTC +00:00], ["description", "description"], ["team_id", nil], ["title", "title"], ["updated_at", Fri, 08 Mar 2013 12:19:41 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.3ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (5.0ms)[0m  [1mINSERT INTO "sprints" ("completed", "created_at", "description", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["completed", true], ["created_at", Fri, 08 Mar 2013 12:19:53 UTC +00:00], ["description", "description"], ["team_id", nil], ["title", "title"], ["updated_at", Fri, 08 Mar 2013 12:19:53 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (1.8ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "sprints" ("completed", "created_at", "description", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["completed", true], ["created_at", Fri, 08 Mar 2013 12:19:53 UTC +00:00], ["description", "description"], ["team_id", nil], ["title", "title"], ["updated_at", Fri, 08 Mar 2013 12:19:53 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "stories" ("completed", "created_at", "description", "name", "sprint_id", "total_effort", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["completed", nil], ["created_at", Fri, 08 Mar 2013 12:19:53 UTC +00:00], ["description", "description"], ["name", "name"], ["sprint_id", 1], ["total_effort", nil], ["updated_at", Fri, 08 Mar 2013 12:19:53 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.4ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (5.4ms)[0m  [1mINSERT INTO "sprints" ("completed", "created_at", "description", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["completed", true], ["created_at", Fri, 08 Mar 2013 12:20:20 UTC +00:00], ["description", "description"], ["team_id", nil], ["title", "title"], ["updated_at", Fri, 08 Mar 2013 12:20:20 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (1.8ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "sprints" ("completed", "created_at", "description", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["completed", true], ["created_at", Fri, 08 Mar 2013 12:20:20 UTC +00:00], ["description", "description"], ["team_id", nil], ["title", "title"], ["updated_at", Fri, 08 Mar 2013 12:20:20 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "stories" ("completed", "created_at", "description", "name", "sprint_id", "total_effort", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["completed", true], ["created_at", Fri, 08 Mar 2013 12:20:20 UTC +00:00], ["description", "description"], ["name", "name"], ["sprint_id", 1], ["total_effort", nil], ["updated_at", Fri, 08 Mar 2013 12:20:20 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.4ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (4.9ms)[0m  [1mINSERT INTO "sprints" ("completed", "created_at", "description", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["completed", true], ["created_at", Fri, 08 Mar 2013 12:21:09 UTC +00:00], ["description", "description"], ["team_id", nil], ["title", "title"], ["updated_at", Fri, 08 Mar 2013 12:21:09 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (1.7ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "sprints" ("completed", "created_at", "description", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["completed", true], ["created_at", Fri, 08 Mar 2013 12:21:09 UTC +00:00], ["description", "description"], ["team_id", nil], ["title", "title"], ["updated_at", Fri, 08 Mar 2013 12:21:09 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "stories" ("completed", "created_at", "description", "name", "sprint_id", "total_effort", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["completed", true], ["created_at", Fri, 08 Mar 2013 12:21:09 UTC +00:00], ["description", "description"], ["name", "name"], ["sprint_id", 1], ["total_effort", nil], ["updated_at", Fri, 08 Mar 2013 12:21:09 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.4ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (5.1ms)[0m  [1mINSERT INTO "sprints" ("completed", "created_at", "description", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["completed", true], ["created_at", Fri, 08 Mar 2013 12:21:37 UTC +00:00], ["description", "description"], ["team_id", nil], ["title", "title"], ["updated_at", Fri, 08 Mar 2013 12:21:37 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "stories" ("completed", "created_at", "description", "name", "sprint_id", "total_effort", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)  [["completed", true], ["created_at", Fri, 08 Mar 2013 12:21:37 UTC +00:00], ["description", "description"], ["name", "name"], ["sprint_id", 1], ["total_effort", nil], ["updated_at", Fri, 08 Mar 2013 12:21:37 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 1
+  [1m[36m (2.3ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "sprints" ("completed", "created_at", "description", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["completed", true], ["created_at", Fri, 08 Mar 2013 12:21:37 UTC +00:00], ["description", "description"], ["team_id", nil], ["title", "title"], ["updated_at", Fri, 08 Mar 2013 12:21:37 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (5.2ms)[0m  [1mINSERT INTO "sprints" ("completed", "created_at", "description", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["completed", true], ["created_at", Fri, 08 Mar 2013 12:24:58 UTC +00:00], ["description", "description"], ["team_id", nil], ["title", "title"], ["updated_at", Fri, 08 Mar 2013 12:24:58 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (1.7ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "sprints" ("completed", "created_at", "description", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["completed", true], ["created_at", Fri, 08 Mar 2013 12:24:58 UTC +00:00], ["description", "description"], ["team_id", nil], ["title", "title"], ["updated_at", Fri, 08 Mar 2013 12:24:58 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "stories" ("completed", "created_at", "description", "name", "sprint_id", "total_effort", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["completed", true], ["created_at", Fri, 08 Mar 2013 12:24:58 UTC +00:00], ["description", "description"], ["name", "name"], ["sprint_id", 1], ["total_effort", nil], ["updated_at", Fri, 08 Mar 2013 12:24:58 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 1 AND "stories"."completed" = 't'
+  [1m[36m (0.4ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (5.1ms)[0m  [1mINSERT INTO "sprints" ("completed", "created_at", "description", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["completed", true], ["created_at", Fri, 08 Mar 2013 12:25:01 UTC +00:00], ["description", "description"], ["team_id", nil], ["title", "title"], ["updated_at", Fri, 08 Mar 2013 12:25:01 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (2.2ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "sprints" ("completed", "created_at", "description", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["completed", true], ["created_at", Fri, 08 Mar 2013 12:25:01 UTC +00:00], ["description", "description"], ["team_id", nil], ["title", "title"], ["updated_at", Fri, 08 Mar 2013 12:25:01 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "stories" ("completed", "created_at", "description", "name", "sprint_id", "total_effort", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["completed", true], ["created_at", Fri, 08 Mar 2013 12:25:01 UTC +00:00], ["description", "description"], ["name", "name"], ["sprint_id", 1], ["total_effort", nil], ["updated_at", Fri, 08 Mar 2013 12:25:01 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 1 AND "stories"."completed" = 't'
+  [1m[36m (0.4ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (5.1ms)[0m  [1mINSERT INTO "sprints" ("completed", "created_at", "description", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["completed", true], ["created_at", Fri, 08 Mar 2013 12:25:04 UTC +00:00], ["description", "description"], ["team_id", nil], ["title", "title"], ["updated_at", Fri, 08 Mar 2013 12:25:04 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "stories" ("completed", "created_at", "description", "name", "sprint_id", "total_effort", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)  [["completed", true], ["created_at", Fri, 08 Mar 2013 12:25:04 UTC +00:00], ["description", "description"], ["name", "name"], ["sprint_id", 1], ["total_effort", nil], ["updated_at", Fri, 08 Mar 2013 12:25:04 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 1
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 1 AND "stories"."completed" = 't'[0m
+  [1m[35m (1.8ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "sprints" ("completed", "created_at", "description", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["completed", true], ["created_at", Fri, 08 Mar 2013 12:25:04 UTC +00:00], ["description", "description"], ["team_id", nil], ["title", "title"], ["updated_at", Fri, 08 Mar 2013 12:25:04 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.3ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (5.0ms)[0m  [1mINSERT INTO "sprints" ("completed", "created_at", "description", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["completed", true], ["created_at", Fri, 08 Mar 2013 12:26:12 UTC +00:00], ["description", "description"], ["team_id", nil], ["title", "title"], ["updated_at", Fri, 08 Mar 2013 12:26:12 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (1.7ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "sprints" ("completed", "created_at", "description", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["completed", true], ["created_at", Fri, 08 Mar 2013 12:26:12 UTC +00:00], ["description", "description"], ["team_id", nil], ["title", "title"], ["updated_at", Fri, 08 Mar 2013 12:26:12 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "stories" ("completed", "created_at", "description", "name", "sprint_id", "total_effort", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["completed", true], ["created_at", Fri, 08 Mar 2013 12:26:12 UTC +00:00], ["description", "description"], ["name", "name"], ["sprint_id", 1], ["total_effort", nil], ["updated_at", Fri, 08 Mar 2013 12:26:12 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 1 AND "stories"."completed" = 't'
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 1[0m
+  [1m[35m (0.4ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (5.1ms)[0m  [1mINSERT INTO "sprints" ("completed", "created_at", "description", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["completed", true], ["created_at", Fri, 08 Mar 2013 12:26:24 UTC +00:00], ["description", "description"], ["team_id", nil], ["title", "title"], ["updated_at", Fri, 08 Mar 2013 12:26:24 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (2.2ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "sprints" ("completed", "created_at", "description", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["completed", true], ["created_at", Fri, 08 Mar 2013 12:26:24 UTC +00:00], ["description", "description"], ["team_id", nil], ["title", "title"], ["updated_at", Fri, 08 Mar 2013 12:26:24 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "stories" ("completed", "created_at", "description", "name", "sprint_id", "total_effort", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["completed", true], ["created_at", Fri, 08 Mar 2013 12:26:24 UTC +00:00], ["description", "description"], ["name", "name"], ["sprint_id", 1], ["total_effort", nil], ["updated_at", Fri, 08 Mar 2013 12:26:24 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 1 AND "stories"."completed" = 't'
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 1[0m
+  [1m[35m (0.4ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (5.4ms)[0m  [1mINSERT INTO "sprints" ("completed", "created_at", "description", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["completed", true], ["created_at", Fri, 08 Mar 2013 12:26:27 UTC +00:00], ["description", "description"], ["team_id", nil], ["title", "title"], ["updated_at", Fri, 08 Mar 2013 12:26:27 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (2.2ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "sprints" ("completed", "created_at", "description", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["completed", true], ["created_at", Fri, 08 Mar 2013 12:26:27 UTC +00:00], ["description", "description"], ["team_id", nil], ["title", "title"], ["updated_at", Fri, 08 Mar 2013 12:26:27 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "stories" ("completed", "created_at", "description", "name", "sprint_id", "total_effort", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["completed", true], ["created_at", Fri, 08 Mar 2013 12:26:27 UTC +00:00], ["description", "description"], ["name", "name"], ["sprint_id", 1], ["total_effort", nil], ["updated_at", Fri, 08 Mar 2013 12:26:27 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 1 AND "stories"."completed" = 't'
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 1[0m
+  [1m[35m (0.4ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (5.0ms)[0m  [1mINSERT INTO "sprints" ("completed", "created_at", "description", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["completed", true], ["created_at", Fri, 08 Mar 2013 12:28:13 UTC +00:00], ["description", "description"], ["team_id", nil], ["title", "title"], ["updated_at", Fri, 08 Mar 2013 12:28:13 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (2.2ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "sprints" ("completed", "created_at", "description", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["completed", true], ["created_at", Fri, 08 Mar 2013 12:28:13 UTC +00:00], ["description", "description"], ["team_id", nil], ["title", "title"], ["updated_at", Fri, 08 Mar 2013 12:28:13 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "stories" ("completed", "created_at", "description", "name", "sprint_id", "total_effort", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["completed", false], ["created_at", Fri, 08 Mar 2013 12:28:13 UTC +00:00], ["description", "description"], ["name", "name"], ["sprint_id", 1], ["total_effort", nil], ["updated_at", Fri, 08 Mar 2013 12:28:13 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 1 AND "stories"."completed" = 't'
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 1[0m
+  [1m[35m (0.4ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (5.4ms)[0m  [1mINSERT INTO "sprints" ("completed", "created_at", "description", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["completed", true], ["created_at", Fri, 08 Mar 2013 12:28:21 UTC +00:00], ["description", "description"], ["team_id", nil], ["title", "title"], ["updated_at", Fri, 08 Mar 2013 12:28:21 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (1.8ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "sprints" ("completed", "created_at", "description", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["completed", true], ["created_at", Fri, 08 Mar 2013 12:28:21 UTC +00:00], ["description", "description"], ["team_id", nil], ["title", "title"], ["updated_at", Fri, 08 Mar 2013 12:28:21 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "stories" ("completed", "created_at", "description", "name", "sprint_id", "total_effort", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["completed", false], ["created_at", Fri, 08 Mar 2013 12:28:21 UTC +00:00], ["description", "description"], ["name", "name"], ["sprint_id", 1], ["total_effort", nil], ["updated_at", Fri, 08 Mar 2013 12:28:21 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 1 AND "stories"."completed" = 't'
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 1[0m
+  [1m[35m (0.4ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (5.0ms)[0m  [1mINSERT INTO "sprints" ("completed", "created_at", "description", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["completed", true], ["created_at", Fri, 08 Mar 2013 12:28:24 UTC +00:00], ["description", "description"], ["team_id", nil], ["title", "title"], ["updated_at", Fri, 08 Mar 2013 12:28:24 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (2.3ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "sprints" ("completed", "created_at", "description", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["completed", true], ["created_at", Fri, 08 Mar 2013 12:28:24 UTC +00:00], ["description", "description"], ["team_id", nil], ["title", "title"], ["updated_at", Fri, 08 Mar 2013 12:28:24 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "stories" ("completed", "created_at", "description", "name", "sprint_id", "total_effort", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["completed", false], ["created_at", Fri, 08 Mar 2013 12:28:24 UTC +00:00], ["description", "description"], ["name", "name"], ["sprint_id", 1], ["total_effort", nil], ["updated_at", Fri, 08 Mar 2013 12:28:24 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 1 AND "stories"."completed" = 't'
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 1[0m
+  [1m[35m (0.4ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (1.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (5.5ms)[0m  [1mINSERT INTO "sprints" ("completed", "created_at", "description", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["completed", true], ["created_at", Fri, 08 Mar 2013 14:31:37 UTC +00:00], ["description", "description"], ["team_id", nil], ["title", "title"], ["updated_at", Fri, 08 Mar 2013 14:31:37 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.4ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "sprints" ("completed", "created_at", "description", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["completed", true], ["created_at", Fri, 08 Mar 2013 14:31:37 UTC +00:00], ["description", "description"], ["team_id", nil], ["title", "title"], ["updated_at", Fri, 08 Mar 2013 14:31:37 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "stories" ("completed", "created_at", "description", "name", "sprint_id", "total_effort", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["completed", false], ["created_at", Fri, 08 Mar 2013 14:31:37 UTC +00:00], ["description", "description"], ["name", "name"], ["sprint_id", 1], ["total_effort", nil], ["updated_at", Fri, 08 Mar 2013 14:31:37 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 1 AND "stories"."completed" = 't'
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 1[0m
+  [1m[35m (0.4ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (5.3ms)[0m  [1mINSERT INTO "sprints" ("completed", "created_at", "description", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["completed", true], ["created_at", Fri, 08 Mar 2013 14:31:52 UTC +00:00], ["description", "description"], ["team_id", nil], ["title", "title"], ["updated_at", Fri, 08 Mar 2013 14:31:52 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "stories" ("completed", "created_at", "description", "name", "sprint_id", "total_effort", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)  [["completed", false], ["created_at", Fri, 08 Mar 2013 14:31:52 UTC +00:00], ["description", "description"], ["name", "name"], ["sprint_id", 1], ["total_effort", nil], ["updated_at", Fri, 08 Mar 2013 14:31:52 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 1
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 1 AND "stories"."completed" = 't'[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 1
+  [1m[36m (1.8ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "sprints" ("completed", "created_at", "description", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["completed", true], ["created_at", Fri, 08 Mar 2013 14:31:52 UTC +00:00], ["description", "description"], ["team_id", nil], ["title", "title"], ["updated_at", Fri, 08 Mar 2013 14:31:52 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (5.3ms)[0m  [1mINSERT INTO "sprints" ("completed", "created_at", "description", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["completed", true], ["created_at", Fri, 08 Mar 2013 14:32:31 UTC +00:00], ["description", "description"], ["team_id", nil], ["title", "title"], ["updated_at", Fri, 08 Mar 2013 14:32:31 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (1.6ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "sprints" ("completed", "created_at", "description", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["completed", true], ["created_at", Fri, 08 Mar 2013 14:32:31 UTC +00:00], ["description", "description"], ["team_id", nil], ["title", "title"], ["updated_at", Fri, 08 Mar 2013 14:32:31 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "stories" ("completed", "created_at", "description", "name", "sprint_id", "total_effort", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["completed", false], ["created_at", Fri, 08 Mar 2013 14:32:31 UTC +00:00], ["description", "description"], ["name", "name"], ["sprint_id", 1], ["total_effort", nil], ["updated_at", Fri, 08 Mar 2013 14:32:31 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 1 AND "stories"."completed" = 't'
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 1[0m
+  [1m[35m (0.4ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (24.2ms)[0m  [1mINSERT INTO "sprints" ("completed", "created_at", "description", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["completed", true], ["created_at", Fri, 08 Mar 2013 14:32:59 UTC +00:00], ["description", "description"], ["team_id", nil], ["title", "title"], ["updated_at", Fri, 08 Mar 2013 14:32:59 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "stories" ("completed", "created_at", "description", "name", "sprint_id", "total_effort", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)  [["completed", false], ["created_at", Fri, 08 Mar 2013 14:32:59 UTC +00:00], ["description", "description"], ["name", "name"], ["sprint_id", 1], ["total_effort", nil], ["updated_at", Fri, 08 Mar 2013 14:32:59 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 1
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 1 AND "stories"."completed" = 't'[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 1
+  [1m[36m (2.3ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "sprints" ("completed", "created_at", "description", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["completed", true], ["created_at", Fri, 08 Mar 2013 14:32:59 UTC +00:00], ["description", "description"], ["team_id", nil], ["title", "title"], ["updated_at", Fri, 08 Mar 2013 14:32:59 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  rollback transaction
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (5.0ms)[0m  [1mINSERT INTO "sprints" ("completed", "created_at", "description", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["completed", true], ["created_at", Fri, 08 Mar 2013 14:33:10 UTC +00:00], ["description", "description"], ["team_id", nil], ["title", "title"], ["updated_at", Fri, 08 Mar 2013 14:33:10 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (2.3ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "sprints" ("completed", "created_at", "description", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["completed", true], ["created_at", Fri, 08 Mar 2013 14:33:10 UTC +00:00], ["description", "description"], ["team_id", nil], ["title", "title"], ["updated_at", Fri, 08 Mar 2013 14:33:10 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "stories" ("completed", "created_at", "description", "name", "sprint_id", "total_effort", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["completed", false], ["created_at", Fri, 08 Mar 2013 14:33:10 UTC +00:00], ["description", "description"], ["name", "name"], ["sprint_id", 1], ["total_effort", nil], ["updated_at", Fri, 08 Mar 2013 14:33:10 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 1 AND "stories"."completed" = 't'
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 1[0m
+  [1m[35m (0.4ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (5.2ms)[0m  [1mINSERT INTO "sprints" ("completed", "created_at", "description", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["completed", true], ["created_at", Fri, 08 Mar 2013 14:33:27 UTC +00:00], ["description", "description"], ["team_id", nil], ["title", "title"], ["updated_at", Fri, 08 Mar 2013 14:33:27 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "stories" ("completed", "created_at", "description", "name", "sprint_id", "total_effort", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)  [["completed", true], ["created_at", Fri, 08 Mar 2013 14:33:27 UTC +00:00], ["description", "description"], ["name", "name"], ["sprint_id", 1], ["total_effort", nil], ["updated_at", Fri, 08 Mar 2013 14:33:27 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 1
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 1 AND "stories"."completed" = 't'[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 1
+  [1m[36m (2.3ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "sprints" ("completed", "created_at", "description", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["completed", true], ["created_at", Fri, 08 Mar 2013 14:33:27 UTC +00:00], ["description", "description"], ["team_id", nil], ["title", "title"], ["updated_at", Fri, 08 Mar 2013 14:33:27 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (5.3ms)[0m  [1mINSERT INTO "sprints" ("completed", "created_at", "description", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["completed", true], ["created_at", Fri, 08 Mar 2013 14:33:37 UTC +00:00], ["description", "description"], ["team_id", nil], ["title", "title"], ["updated_at", Fri, 08 Mar 2013 14:33:37 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "stories" ("completed", "created_at", "description", "name", "sprint_id", "total_effort", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)  [["completed", true], ["created_at", Fri, 08 Mar 2013 14:33:37 UTC +00:00], ["description", "description"], ["name", "name"], ["sprint_id", 1], ["total_effort", nil], ["updated_at", Fri, 08 Mar 2013 14:33:37 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 1
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 1 AND "stories"."completed" = 't'[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 1
+  [1m[36m (1.8ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "sprints" ("completed", "created_at", "description", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["completed", true], ["created_at", Fri, 08 Mar 2013 14:33:37 UTC +00:00], ["description", "description"], ["team_id", nil], ["title", "title"], ["updated_at", Fri, 08 Mar 2013 14:33:37 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (5.2ms)[0m  [1mINSERT INTO "sprints" ("completed", "created_at", "description", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["completed", true], ["created_at", Fri, 08 Mar 2013 14:33:40 UTC +00:00], ["description", "description"], ["team_id", nil], ["title", "title"], ["updated_at", Fri, 08 Mar 2013 14:33:40 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (2.2ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "sprints" ("completed", "created_at", "description", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["completed", true], ["created_at", Fri, 08 Mar 2013 14:33:40 UTC +00:00], ["description", "description"], ["team_id", nil], ["title", "title"], ["updated_at", Fri, 08 Mar 2013 14:33:40 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "stories" ("completed", "created_at", "description", "name", "sprint_id", "total_effort", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["completed", true], ["created_at", Fri, 08 Mar 2013 14:33:40 UTC +00:00], ["description", "description"], ["name", "name"], ["sprint_id", 1], ["total_effort", nil], ["updated_at", Fri, 08 Mar 2013 14:33:40 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 1 AND "stories"."completed" = 't'
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 1[0m
+  [1m[35m (0.3ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (22.3ms)[0m  [1mINSERT INTO "sprints" ("completed", "created_at", "description", "start_date", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["completed", true], ["created_at", Fri, 08 Mar 2013 19:37:00 UTC +00:00], ["description", "description"], ["start_date", nil], ["team_id", nil], ["title", "title"], ["updated_at", Fri, 08 Mar 2013 19:37:00 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.3ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "sprints" ("completed", "created_at", "description", "start_date", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)  [["completed", true], ["created_at", Fri, 08 Mar 2013 19:37:00 UTC +00:00], ["description", "description"], ["start_date", nil], ["team_id", nil], ["title", "title"], ["updated_at", Fri, 08 Mar 2013 19:37:00 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "stories" ("completed", "created_at", "description", "name", "sprint_id", "total_effort", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["completed", true], ["created_at", Fri, 08 Mar 2013 19:37:00 UTC +00:00], ["description", "description"], ["name", "name"], ["sprint_id", 1], ["total_effort", #<BigDecimal:7fa3668b5450,'0.44E2',9(36)>], ["updated_at", Fri, 08 Mar 2013 19:37:00 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 1
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 1 AND "stories"."completed" = 't'[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 1
+  [1m[36m (0.3ms)[0m  [1mrollback transaction[0m
