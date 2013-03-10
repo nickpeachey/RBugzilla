@@ -8,7 +8,7 @@
     <tr>
       <th><%= model_class.human_attribute_name(:id) %></th>
       <th><%= model_class.human_attribute_name(:title) %></th>
-      <th><%= model_class.human_attribute_name(:description) %></th>
+      <th></th>
       <th><%= model_class.human_attribute_name(:team_id) %></th>
 	  <th>Stories</th>
 	  <th><%= model_class.human_attribute_name(:completed) %></th>
@@ -20,9 +20,9 @@
       <tr>
         <td><%= link_to sprint.id, sprint_path(sprint) %></td>
         <td><%= sprint.title %></td>
-        <td><%= sprint.description %></td>
+        <td></td>
         <td><%= sprint.team.name %></td>
-		<td><a href="" data-placement="right" rel="popover" data-content="<%= sprint.stories_for_sprint_total_effort%>  total effort for this sprint" data-original-title="<%= sprint.title %> story highlight"><span class="badge badge-info"><%= sprint.stories.count%></span></a></td>
+		<td><a href="<%= forsprint_story_path(sprint) %>" data-placement="right" rel="popover" data-content="<%= 								sprint.stories_for_sprint_total_effort%>  total effort for this sprint" data-original-title="<%= sprint.title %> story highlight"><span class="badge badge-info"><%= sprint.stories.count%></span></a></td>
 		<td><div class="progress">
 		  <div class="bar bar-success" style="width: <%= sprint.stories_completed_percentage %>%"></div>
 		</div></td>

@@ -22,4 +22,9 @@
 	clear:both;
 }
 
+#right-banner {
+	float:right;
+	padding-left:50px;
+}
+
 

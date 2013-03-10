@@ -36,6 +36,12 @@ class StoriesController < ApplicationController
       format.json { render json: @story }
     end
   end
+  
+  def raiseforsprint
+    @story = Story.new
+    @story.sprint_id = params[:id]
+    render :action => "new"
+  end
 
   # GET /stories/1/edit
   def edit

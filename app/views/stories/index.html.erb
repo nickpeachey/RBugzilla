@@ -23,7 +23,8 @@
         <td><span class="badge badge-inverse"><%= story.total_effort %></span></td>
         <td><%= story.sprint.title %></td>
 		<td><span class="badge badge-info"><%= story.bugs.count %></span></td>
-		<td><%= story.completed %></td>
+		<td><%= image_tag(story.completed? ? 'icon_true.png' : 'icon_false.png', :size => "17x17",
+		            :alt => "True") %></td>
         <td><%= story.created_at.to_formatted_s(:long) %></td>
         <td>
           <%= link_to t('.edit', :default => t("helpers.links.edit")),
@@ -40,5 +41,5 @@
 </table>
 
 <%= link_to t('.new', :default => t("helpers.links.new")),
-            new_story_path,
+            raiseforsprint_story_path(params[:id]),
             :class => 'btn btn-primary' %>
