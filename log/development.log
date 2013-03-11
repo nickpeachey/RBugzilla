@@ -68877,3 +68877,18 @@ Served asset /errors.css - 200 OK (2ms)
 
 Started GET "/assets/404.jpeg" for 127.0.0.1 at 2013-03-11 21:11:04 +0000
 Served asset /404.jpeg - 304 Not Modified (0ms)
+
+
+Started GET "/error/error404" for 127.0.0.1 at 2013-03-11 21:22:12 +0000
+Processing by ErrorController#error404 as HTML
+  Rendered error/error404.html.erb within layouts/error_layout (0.2ms)
+Compiled error.css  (0ms)  (pid 988)
+Completed 200 OK in 61ms (Views: 60.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/error.css?body=1" for 127.0.0.1 at 2013-03-11 21:22:12 +0000
+Served asset /error.css - 200 OK (2ms)
+
+
+Started GET "/assets/404.jpeg" for 127.0.0.1 at 2013-03-11 21:22:12 +0000
+Served asset /404.jpeg - 304 Not Modified (0ms)
