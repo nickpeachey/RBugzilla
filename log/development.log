@@ -63231,3 +63231,3103 @@ Served asset /teams.js - 304 Not Modified (0ms)
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-11 20:17:01 +0000
 Served asset /application.js - 304 Not Modified (5ms)
+
+
+Started GET "/stories/1/forsprint" for 127.0.0.1 at 2013-03-11 20:17:58 +0000
+Processing by StoriesController#forsprint as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mSprint Load (0.2ms)[0m  SELECT "sprints".* FROM "sprints" WHERE "sprints"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36mStory Load (0.2ms)[0m  [1mSELECT "stories".* FROM "stories" WHERE "stories"."sprint_id" = 1[0m
+  [1m[35mSprint Load (0.2ms)[0m  SELECT "sprints".* FROM "sprints" WHERE "sprints"."id" = 1 LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "bugs" WHERE "bugs"."story_id" = 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "sprints".* FROM "sprints" WHERE "sprints"."id" = 1 LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "bugs" WHERE "bugs"."story_id" = 2[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "sprints".* FROM "sprints" WHERE "sprints"."id" = 1 LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "bugs" WHERE "bugs"."story_id" = 3[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "sprints".* FROM "sprints" WHERE "sprints"."id" = 1 LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "bugs" WHERE "bugs"."story_id" = 4[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "sprints".* FROM "sprints" WHERE "sprints"."id" = 1 LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "bugs" WHERE "bugs"."story_id" = 5[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "sprints".* FROM "sprints" WHERE "sprints"."id" = 1 LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "bugs" WHERE "bugs"."story_id" = 8[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "sprints".* FROM "sprints" WHERE "sprints"."id" = 1 LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "bugs" WHERE "bugs"."story_id" = 10[0m
+  Rendered stories/index.html.erb within layouts/application (43.9ms)
+  [1m[35m (0.4ms)[0m  SELECT COUNT(DISTINCT "teams"."id") FROM "teams" LEFT OUTER JOIN "sprints" ON "sprints"."team_id" = "teams"."id" WHERE (sprints.completed = 'f')
+  [1m[36mSQL (0.3ms)[0m  [1mSELECT "teams"."id" AS t0_r0, "teams"."name" AS t0_r1, "teams"."logo_url" AS t0_r2, "teams"."created_at" AS t0_r3, "teams"."updated_at" AS t0_r4, "sprints"."id" AS t1_r0, "sprints"."title" AS t1_r1, "sprints"."description" AS t1_r2, "sprints"."team_id" AS t1_r3, "sprints"."created_at" AS t1_r4, "sprints"."updated_at" AS t1_r5, "sprints"."completed" AS t1_r6, "sprints"."start_date" AS t1_r7 FROM "teams" LEFT OUTER JOIN "sprints" ON "sprints"."team_id" = "teams"."id" WHERE (sprints.completed = 'f')[0m
+Completed 200 OK in 123ms (Views: 118.0ms | ActiveRecord: 2.7ms)
+
+
+Started GET "/assets/jquery.ui.theme.css?body=1" for 127.0.0.1 at 2013-03-11 20:17:58 +0000
+Served asset /jquery.ui.theme.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.ui.core.css?body=1" for 127.0.0.1 at 2013-03-11 20:17:58 +0000
+Served asset /jquery.ui.core.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.css?body=1" for 127.0.0.1 at 2013-03-11 20:17:58 +0000
+Served asset /twitter-bootstrap-static/bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.datepicker.css?body=1" for 127.0.0.1 at 2013-03-11 20:17:58 +0000
+Served asset /jquery.ui.datepicker.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-11 20:17:58 +0000
+Served asset /application.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-03-11 20:17:58 +0000
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-11 20:17:58 +0000
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bugareas.css?body=1" for 127.0.0.1 at 2013-03-11 20:17:58 +0000
+Served asset /bugareas.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bugs.css?body=1" for 127.0.0.1 at 2013-03-11 20:17:58 +0000
+Served asset /bugs.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sprints.css?body=1" for 127.0.0.1 at 2013-03-11 20:17:58 +0000
+Served asset /sprints.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/stories.css?body=1" for 127.0.0.1 at 2013-03-11 20:17:58 +0000
+Served asset /stories.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/teams.css?body=1" for 127.0.0.1 at 2013-03-11 20:17:58 +0000
+Served asset /teams.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/icon_false.png" for 127.0.0.1 at 2013-03-11 20:17:58 +0000
+Served asset /icon_false.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/icon_true.png" for 127.0.0.1 at 2013-03-11 20:17:58 +0000
+Served asset /icon_true.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-11 20:17:58 +0000
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 127.0.0.1 at 2013-03-11 20:17:58 +0000
+Served asset /jquery.ui.core.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 127.0.0.1 at 2013-03-11 20:17:58 +0000
+Served asset /jquery.ui.datepicker.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-11 20:17:58 +0000
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-03-11 20:17:58 +0000
+Served asset /twitter/bootstrap/bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-03-11 20:17:58 +0000
+Served asset /twitter/bootstrap/bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-03-11 20:17:58 +0000
+Served asset /twitter/bootstrap/bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-03-11 20:17:58 +0000
+Served asset /twitter/bootstrap/bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-03-11 20:17:58 +0000
+Served asset /twitter/bootstrap/bootstrap-scrollspy.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-03-11 20:17:58 +0000
+Served asset /twitter/bootstrap/bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-03-11 20:17:58 +0000
+Served asset /twitter/bootstrap/bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-03-11 20:17:58 +0000
+Served asset /twitter/bootstrap/bootstrap-popover.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-03-11 20:17:58 +0000
+Served asset /twitter/bootstrap/bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-03-11 20:17:58 +0000
+Served asset /twitter/bootstrap/bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-03-11 20:17:58 +0000
+Served asset /twitter/bootstrap/bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-03-11 20:17:58 +0000
+Served asset /twitter/bootstrap/bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-03-11 20:17:58 +0000
+Served asset /twitter/bootstrap/bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-03-11 20:17:58 +0000
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bugareas.js?body=1" for 127.0.0.1 at 2013-03-11 20:17:58 +0000
+Served asset /bugareas.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-03-11 20:17:58 +0000
+Served asset /twitter/bootstrap.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bugs.js?body=1" for 127.0.0.1 at 2013-03-11 20:17:58 +0000
+Served asset /bugs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sprints.js?body=1" for 127.0.0.1 at 2013-03-11 20:17:58 +0000
+Served asset /sprints.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/stories.js?body=1" for 127.0.0.1 at 2013-03-11 20:17:58 +0000
+Served asset /stories.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/teams.js?body=1" for 127.0.0.1 at 2013-03-11 20:17:58 +0000
+Served asset /teams.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-11 20:17:58 +0000
+Served asset /application.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.css?body=1" for 127.0.0.1 at 2013-03-11 20:17:59 +0000
+Served asset /twitter-bootstrap-static/fontawesome.css - 304 Not Modified (0ms)
+
+
+Started GET "/bugs/1/forstory" for 127.0.0.1 at 2013-03-11 20:18:01 +0000
+Processing by BugsController#forstory as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mStory Load (0.2ms)[0m  SELECT "stories".* FROM "stories" WHERE "stories"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36mBug Load (0.2ms)[0m  [1mSELECT "bugs".* FROM "bugs" WHERE "bugs"."story_id" = 1[0m
+  [1m[35mStory Load (0.2ms)[0m  SELECT "stories".* FROM "stories" WHERE "stories"."id" = 1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "stories".* FROM "stories" WHERE "stories"."id" = 1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "stories".* FROM "stories" WHERE "stories"."id" = 1 LIMIT 1
+  Rendered bugs/index.html.erb within layouts/application (12.8ms)
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(DISTINCT "teams"."id") FROM "teams" LEFT OUTER JOIN "sprints" ON "sprints"."team_id" = "teams"."id" WHERE (sprints.completed = 'f')[0m
+  [1m[35mSQL (0.3ms)[0m  SELECT "teams"."id" AS t0_r0, "teams"."name" AS t0_r1, "teams"."logo_url" AS t0_r2, "teams"."created_at" AS t0_r3, "teams"."updated_at" AS t0_r4, "sprints"."id" AS t1_r0, "sprints"."title" AS t1_r1, "sprints"."description" AS t1_r2, "sprints"."team_id" AS t1_r3, "sprints"."created_at" AS t1_r4, "sprints"."updated_at" AS t1_r5, "sprints"."completed" AS t1_r6, "sprints"."start_date" AS t1_r7 FROM "teams" LEFT OUTER JOIN "sprints" ON "sprints"."team_id" = "teams"."id" WHERE (sprints.completed = 'f')
+Completed 200 OK in 56ms (Views: 53.3ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/assets/jquery.ui.theme.css?body=1" for 127.0.0.1 at 2013-03-11 20:18:01 +0000
+Served asset /jquery.ui.theme.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.ui.core.css?body=1" for 127.0.0.1 at 2013-03-11 20:18:01 +0000
+Served asset /jquery.ui.core.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.datepicker.css?body=1" for 127.0.0.1 at 2013-03-11 20:18:01 +0000
+Served asset /jquery.ui.datepicker.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-11 20:18:01 +0000
+Served asset /application.css - 304 Not Modified (9ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.css?body=1" for 127.0.0.1 at 2013-03-11 20:18:01 +0000
+Served asset /twitter-bootstrap-static/bootstrap.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-03-11 20:18:01 +0000
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bugareas.css?body=1" for 127.0.0.1 at 2013-03-11 20:18:01 +0000
+Served asset /bugareas.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bugs.css?body=1" for 127.0.0.1 at 2013-03-11 20:18:01 +0000
+Served asset /bugs.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-11 20:18:01 +0000
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/stories.css?body=1" for 127.0.0.1 at 2013-03-11 20:18:01 +0000
+Served asset /stories.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sprints.css?body=1" for 127.0.0.1 at 2013-03-11 20:18:01 +0000
+Served asset /sprints.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/teams.css?body=1" for 127.0.0.1 at 2013-03-11 20:18:01 +0000
+Served asset /teams.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-11 20:18:01 +0000
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 127.0.0.1 at 2013-03-11 20:18:01 +0000
+Served asset /jquery.ui.core.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 127.0.0.1 at 2013-03-11 20:18:02 +0000
+Served asset /jquery.ui.datepicker.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-03-11 20:18:02 +0000
+Served asset /twitter/bootstrap/bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-11 20:18:02 +0000
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-03-11 20:18:02 +0000
+Served asset /twitter/bootstrap/bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-03-11 20:18:02 +0000
+Served asset /twitter/bootstrap/bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-03-11 20:18:02 +0000
+Served asset /twitter/bootstrap/bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-03-11 20:18:02 +0000
+Served asset /twitter/bootstrap/bootstrap-tab.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-03-11 20:18:02 +0000
+Served asset /twitter/bootstrap/bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-03-11 20:18:02 +0000
+Served asset /twitter/bootstrap/bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-03-11 20:18:02 +0000
+Served asset /twitter/bootstrap/bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-03-11 20:18:02 +0000
+Served asset /twitter/bootstrap/bootstrap-button.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-03-11 20:18:02 +0000
+Served asset /twitter/bootstrap/bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-03-11 20:18:02 +0000
+Served asset /twitter/bootstrap/bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-03-11 20:18:02 +0000
+Served asset /twitter/bootstrap/bootstrap-typeahead.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-03-11 20:18:02 +0000
+Served asset /twitter/bootstrap/bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-03-11 20:18:02 +0000
+Served asset /twitter/bootstrap.js - 304 Not Modified (43ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-03-11 20:18:02 +0000
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bugareas.js?body=1" for 127.0.0.1 at 2013-03-11 20:18:02 +0000
+Served asset /bugareas.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sprints.js?body=1" for 127.0.0.1 at 2013-03-11 20:18:02 +0000
+Served asset /sprints.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bugs.js?body=1" for 127.0.0.1 at 2013-03-11 20:18:02 +0000
+Served asset /bugs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/stories.js?body=1" for 127.0.0.1 at 2013-03-11 20:18:02 +0000
+Served asset /stories.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-11 20:18:02 +0000
+Served asset /application.js - 304 Not Modified (9ms)
+
+
+Started GET "/assets/teams.js?body=1" for 127.0.0.1 at 2013-03-11 20:18:02 +0000
+Served asset /teams.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.css?body=1" for 127.0.0.1 at 2013-03-11 20:18:03 +0000
+Served asset /twitter-bootstrap-static/fontawesome.css - 304 Not Modified (0ms)
+
+
+Started GET "/stories/1/forsprint" for 127.0.0.1 at 2013-03-11 20:22:00 +0000
+Processing by StoriesController#forsprint as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mSprint Load (0.1ms)[0m  [1mSELECT "sprints".* FROM "sprints" WHERE "sprints"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mStory Load (0.2ms)[0m  SELECT "stories".* FROM "stories" WHERE "stories"."sprint_id" = 1
+  [1m[36mSprint Load (0.2ms)[0m  [1mSELECT "sprints".* FROM "sprints" WHERE "sprints"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.5ms)[0m  SELECT COUNT(*) FROM "bugs" WHERE "bugs"."story_id" = 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "sprints".* FROM "sprints" WHERE "sprints"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "bugs" WHERE "bugs"."story_id" = 2
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "sprints".* FROM "sprints" WHERE "sprints"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "bugs" WHERE "bugs"."story_id" = 3
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "sprints".* FROM "sprints" WHERE "sprints"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "bugs" WHERE "bugs"."story_id" = 4
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "sprints".* FROM "sprints" WHERE "sprints"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "bugs" WHERE "bugs"."story_id" = 5
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "sprints".* FROM "sprints" WHERE "sprints"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "bugs" WHERE "bugs"."story_id" = 8
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "sprints".* FROM "sprints" WHERE "sprints"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "bugs" WHERE "bugs"."story_id" = 10
+  Rendered stories/index.html.erb within layouts/application (29.6ms)
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(DISTINCT "teams"."id") FROM "teams" LEFT OUTER JOIN "sprints" ON "sprints"."team_id" = "teams"."id" WHERE (sprints.completed = 'f')[0m
+  [1m[35mSQL (0.3ms)[0m  SELECT "teams"."id" AS t0_r0, "teams"."name" AS t0_r1, "teams"."logo_url" AS t0_r2, "teams"."created_at" AS t0_r3, "teams"."updated_at" AS t0_r4, "sprints"."id" AS t1_r0, "sprints"."title" AS t1_r1, "sprints"."description" AS t1_r2, "sprints"."team_id" AS t1_r3, "sprints"."created_at" AS t1_r4, "sprints"."updated_at" AS t1_r5, "sprints"."completed" AS t1_r6, "sprints"."start_date" AS t1_r7 FROM "teams" LEFT OUTER JOIN "sprints" ON "sprints"."team_id" = "teams"."id" WHERE (sprints.completed = 'f')
+Completed 200 OK in 71ms (Views: 67.6ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-11 20:22:00 +0000
+Served asset /application.css - 200 OK (11ms)
+
+
+Started GET "/assets/jquery.ui.core.css?body=1" for 127.0.0.1 at 2013-03-11 20:22:00 +0000
+Served asset /jquery.ui.core.css - 200 OK (0ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.css?body=1" for 127.0.0.1 at 2013-03-11 20:22:00 +0000
+Served asset /twitter-bootstrap-static/fontawesome.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.ui.datepicker.css?body=1" for 127.0.0.1 at 2013-03-11 20:22:00 +0000
+Served asset /jquery.ui.datepicker.css - 200 OK (0ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.css?body=1" for 127.0.0.1 at 2013-03-11 20:22:00 +0000
+Served asset /twitter-bootstrap-static/bootstrap.css - 200 OK (1ms)
+
+
+Started GET "/assets/jquery.ui.theme.css?body=1" for 127.0.0.1 at 2013-03-11 20:22:00 +0000
+Served asset /jquery.ui.theme.css - 200 OK (13ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-03-11 20:22:00 +0000
+Served asset /bootstrap_and_overrides.css - 200 OK (1ms)
+
+
+Started GET "/assets/bugs.css?body=1" for 127.0.0.1 at 2013-03-11 20:22:00 +0000
+Served asset /bugs.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-11 20:22:00 +0000
+Served asset /scaffolds.css - 200 OK (3ms)
+
+
+Started GET "/assets/stories.css?body=1" for 127.0.0.1 at 2013-03-11 20:22:00 +0000
+Served asset /stories.css - 200 OK (0ms)
+
+
+Started GET "/assets/sprints.css?body=1" for 127.0.0.1 at 2013-03-11 20:22:00 +0000
+Served asset /sprints.css - 200 OK (0ms)
+
+
+Started GET "/assets/bugareas.css?body=1" for 127.0.0.1 at 2013-03-11 20:22:00 +0000
+Served asset /bugareas.css - 200 OK (4ms)
+
+
+Started GET "/assets/teams.css?body=1" for 127.0.0.1 at 2013-03-11 20:22:00 +0000
+Served asset /teams.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-11 20:22:00 +0000
+Served asset /jquery.js - 200 OK (1ms)
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 127.0.0.1 at 2013-03-11 20:22:00 +0000
+Served asset /jquery.ui.core.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 127.0.0.1 at 2013-03-11 20:22:00 +0000
+Served asset /jquery.ui.datepicker.js - 200 OK (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-03-11 20:22:00 +0000
+Served asset /twitter/bootstrap/bootstrap-scrollspy.js - 200 OK (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-03-11 20:22:00 +0000
+Served asset /twitter/bootstrap/bootstrap-alert.js - 200 OK (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-03-11 20:22:00 +0000
+Served asset /twitter/bootstrap/bootstrap-dropdown.js - 200 OK (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-03-11 20:22:00 +0000
+Served asset /twitter/bootstrap/bootstrap-tab.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-11 20:22:00 +0000
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-03-11 20:22:00 +0000
+Served asset /twitter/bootstrap/bootstrap-transition.js - 200 OK (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-03-11 20:22:00 +0000
+Served asset /twitter/bootstrap/bootstrap-modal.js - 200 OK (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-03-11 20:22:00 +0000
+Served asset /twitter/bootstrap/bootstrap-tooltip.js - 200 OK (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-03-11 20:22:00 +0000
+Served asset /twitter/bootstrap/bootstrap-popover.js - 200 OK (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-03-11 20:22:00 +0000
+Served asset /twitter/bootstrap/bootstrap-button.js - 200 OK (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-03-11 20:22:00 +0000
+Served asset /twitter/bootstrap/bootstrap-typeahead.js - 200 OK (3ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-03-11 20:22:00 +0000
+Served asset /twitter/bootstrap/bootstrap-carousel.js - 200 OK (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-03-11 20:22:00 +0000
+Served asset /twitter/bootstrap/bootstrap-collapse.js - 200 OK (0ms)
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-03-11 20:22:00 +0000
+Served asset /twitter/bootstrap.js - 200 OK (3ms)
+
+
+Started GET "/assets/bugareas.js?body=1" for 127.0.0.1 at 2013-03-11 20:22:00 +0000
+Served asset /bugareas.js - 200 OK (1ms)
+
+
+Started GET "/assets/stories.js?body=1" for 127.0.0.1 at 2013-03-11 20:22:00 +0000
+Served asset /stories.js - 200 OK (0ms)
+
+
+Started GET "/assets/teams.js?body=1" for 127.0.0.1 at 2013-03-11 20:22:00 +0000
+Served asset /teams.js - 200 OK (4ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-03-11 20:22:00 +0000
+Served asset /bootstrap.js - 200 OK (2ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-03-11 20:22:00 +0000
+Served asset /twitter/bootstrap/bootstrap-affix.js - 200 OK (0ms)
+
+
+Started GET "/assets/icon_true.png" for 127.0.0.1 at 2013-03-11 20:22:00 +0000
+Served asset /icon_true.png - 200 OK (0ms)
+
+
+Started GET "/assets/sprints.js?body=1" for 127.0.0.1 at 2013-03-11 20:22:00 +0000
+Served asset /sprints.js - 200 OK (0ms)
+
+
+Started GET "/assets/icon_false.png" for 127.0.0.1 at 2013-03-11 20:22:00 +0000
+Served asset /icon_false.png - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-11 20:22:00 +0000
+Served asset /application.js - 200 OK (4ms)
+
+
+Started GET "/assets/bugs.js?body=1" for 127.0.0.1 at 2013-03-11 20:22:00 +0000
+Served asset /bugs.js - 200 OK (0ms)
+
+
+Started GET "/stories/1/forsprint" for 127.0.0.1 at 2013-03-11 20:22:02 +0000
+Processing by StoriesController#forsprint as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mSprint Load (0.1ms)[0m  [1mSELECT "sprints".* FROM "sprints" WHERE "sprints"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mStory Load (0.3ms)[0m  SELECT "stories".* FROM "stories" WHERE "stories"."sprint_id" = 1
+  [1m[36mSprint Load (0.2ms)[0m  [1mSELECT "sprints".* FROM "sprints" WHERE "sprints"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "bugs" WHERE "bugs"."story_id" = 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "sprints".* FROM "sprints" WHERE "sprints"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "bugs" WHERE "bugs"."story_id" = 2
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "sprints".* FROM "sprints" WHERE "sprints"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "bugs" WHERE "bugs"."story_id" = 3
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "sprints".* FROM "sprints" WHERE "sprints"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "bugs" WHERE "bugs"."story_id" = 4
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "sprints".* FROM "sprints" WHERE "sprints"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "bugs" WHERE "bugs"."story_id" = 5
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "sprints".* FROM "sprints" WHERE "sprints"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "bugs" WHERE "bugs"."story_id" = 8
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "sprints".* FROM "sprints" WHERE "sprints"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "bugs" WHERE "bugs"."story_id" = 10
+  Rendered stories/index.html.erb within layouts/application (41.1ms)
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(DISTINCT "teams"."id") FROM "teams" LEFT OUTER JOIN "sprints" ON "sprints"."team_id" = "teams"."id" WHERE (sprints.completed = 'f')[0m
+  [1m[35mSQL (0.4ms)[0m  SELECT "teams"."id" AS t0_r0, "teams"."name" AS t0_r1, "teams"."logo_url" AS t0_r2, "teams"."created_at" AS t0_r3, "teams"."updated_at" AS t0_r4, "sprints"."id" AS t1_r0, "sprints"."title" AS t1_r1, "sprints"."description" AS t1_r2, "sprints"."team_id" AS t1_r3, "sprints"."created_at" AS t1_r4, "sprints"."updated_at" AS t1_r5, "sprints"."completed" AS t1_r6, "sprints"."start_date" AS t1_r7 FROM "teams" LEFT OUTER JOIN "sprints" ON "sprints"."team_id" = "teams"."id" WHERE (sprints.completed = 'f')
+Completed 200 OK in 130ms (Views: 127.0ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-11 20:22:02 +0000
+Served asset /application.css - 304 Not Modified (12ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.css?body=1" for 127.0.0.1 at 2013-03-11 20:22:02 +0000
+Served asset /twitter-bootstrap-static/bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.datepicker.css?body=1" for 127.0.0.1 at 2013-03-11 20:22:02 +0000
+Served asset /jquery.ui.datepicker.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.core.css?body=1" for 127.0.0.1 at 2013-03-11 20:22:02 +0000
+Served asset /jquery.ui.core.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.ui.theme.css?body=1" for 127.0.0.1 at 2013-03-11 20:22:02 +0000
+Served asset /jquery.ui.theme.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.css?body=1" for 127.0.0.1 at 2013-03-11 20:22:02 +0000
+Served asset /twitter-bootstrap-static/fontawesome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-03-11 20:22:02 +0000
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/sprints.css?body=1" for 127.0.0.1 at 2013-03-11 20:22:02 +0000
+Served asset /sprints.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bugs.css?body=1" for 127.0.0.1 at 2013-03-11 20:22:02 +0000
+Served asset /bugs.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-11 20:22:02 +0000
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bugareas.css?body=1" for 127.0.0.1 at 2013-03-11 20:22:02 +0000
+Served asset /bugareas.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/stories.css?body=1" for 127.0.0.1 at 2013-03-11 20:22:02 +0000
+Served asset /stories.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/teams.css?body=1" for 127.0.0.1 at 2013-03-11 20:22:02 +0000
+Served asset /teams.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-11 20:22:02 +0000
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 127.0.0.1 at 2013-03-11 20:22:02 +0000
+Served asset /jquery.ui.datepicker.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-11 20:22:02 +0000
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 127.0.0.1 at 2013-03-11 20:22:02 +0000
+Served asset /jquery.ui.core.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-03-11 20:22:02 +0000
+Served asset /twitter/bootstrap/bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-03-11 20:22:02 +0000
+Served asset /twitter/bootstrap/bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-03-11 20:22:02 +0000
+Served asset /twitter/bootstrap/bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-03-11 20:22:02 +0000
+Served asset /twitter/bootstrap/bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-03-11 20:22:02 +0000
+Served asset /twitter/bootstrap/bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-03-11 20:22:02 +0000
+Served asset /twitter/bootstrap/bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-03-11 20:22:02 +0000
+Served asset /twitter/bootstrap/bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-03-11 20:22:02 +0000
+Served asset /twitter/bootstrap/bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-03-11 20:22:02 +0000
+Served asset /twitter/bootstrap/bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-03-11 20:22:02 +0000
+Served asset /twitter/bootstrap/bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-03-11 20:22:02 +0000
+Served asset /twitter/bootstrap/bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-03-11 20:22:02 +0000
+Served asset /twitter/bootstrap.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-03-11 20:22:02 +0000
+Served asset /twitter/bootstrap/bootstrap-affix.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-03-11 20:22:02 +0000
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bugareas.js?body=1" for 127.0.0.1 at 2013-03-11 20:22:02 +0000
+Served asset /bugareas.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bugs.js?body=1" for 127.0.0.1 at 2013-03-11 20:22:02 +0000
+Served asset /bugs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sprints.js?body=1" for 127.0.0.1 at 2013-03-11 20:22:02 +0000
+Served asset /sprints.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/teams.js?body=1" for 127.0.0.1 at 2013-03-11 20:22:02 +0000
+Served asset /teams.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/stories.js?body=1" for 127.0.0.1 at 2013-03-11 20:22:02 +0000
+Served asset /stories.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-11 20:22:02 +0000
+Served asset /application.js - 304 Not Modified (79ms)
+
+
+Started GET "/assets/icon_true.png" for 127.0.0.1 at 2013-03-11 20:22:02 +0000
+Served asset /icon_true.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/icon_false.png" for 127.0.0.1 at 2013-03-11 20:22:02 +0000
+Served asset /icon_false.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-03-11 20:22:02 +0000
+Served asset /twitter/bootstrap/bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/stories/1/forsprint" for 127.0.0.1 at 2013-03-11 20:24:27 +0000
+Processing by StoriesController#forsprint as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mSprint Load (0.2ms)[0m  [1mSELECT "sprints".* FROM "sprints" WHERE "sprints"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mStory Load (0.4ms)[0m  SELECT "stories".* FROM "stories" WHERE "stories"."sprint_id" = 1
+  [1m[36mSprint Load (0.3ms)[0m  [1mSELECT "sprints".* FROM "sprints" WHERE "sprints"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "bugs" WHERE "bugs"."story_id" = 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "sprints".* FROM "sprints" WHERE "sprints"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "bugs" WHERE "bugs"."story_id" = 2
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "sprints".* FROM "sprints" WHERE "sprints"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "bugs" WHERE "bugs"."story_id" = 3
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "sprints".* FROM "sprints" WHERE "sprints"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "bugs" WHERE "bugs"."story_id" = 4
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "sprints".* FROM "sprints" WHERE "sprints"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "bugs" WHERE "bugs"."story_id" = 5
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "sprints".* FROM "sprints" WHERE "sprints"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "bugs" WHERE "bugs"."story_id" = 8
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "sprints".* FROM "sprints" WHERE "sprints"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "bugs" WHERE "bugs"."story_id" = 10
+  Rendered stories/index.html.erb within layouts/application (40.3ms)
+ERROR: compiling _app_views_layouts_application_html_erb__1116680657057976269_70323570424320 RAISED /Users/nickpeachey/Documents/developer/rails/r-bugzilla/app/views/layouts/application.html.erb:49: syntax error, unexpected tIDENTIFIER, expecting ')'
+          <div class="container nav-collapse">
+                               ^
+/Users/nickpeachey/Documents/developer/rails/r-bugzilla/app/views/layouts/application.html.erb:49: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+          <div class="container nav-collapse">
+                                             ^
+/Users/nickpeachey/Documents/developer/rails/r-bugzilla/app/views/layouts/application.html.erb:50: syntax error, unexpected tIDENTIFIER, expecting ')'
+            <ul class="nav">
+                          ^
+/Users/nickpeachey/Documents/developer/rails/r-bugzilla/app/views/layouts/application.html.erb:51: syntax error, unexpected tIDENTIFIER, expecting ')'
+	          <li>	<%= link_to t('.sprints', :default => t("sprints")),
+	              	                                                ^
+/Users/nickpeachey/Documents/developer/rails/r-bugzilla/app/views/layouts/application.html.erb:53: syntax error, unexpected tIDENTIFIER, expecting ')'
+... t('.bugs', :default => t("bugs")),
+...                               ^
+/Users/nickpeachey/Documents/developer/rails/r-bugzilla/app/views/layouts/application.html.erb:55: syntax error, unexpected tIDENTIFIER, expecting ')'
+...('.teams', :default => t("teams")),
+...                               ^
+/Users/nickpeachey/Documents/developer/rails/r-bugzilla/app/views/layouts/application.html.erb:63: syntax error, unexpected tIDENTIFIER, expecting ')'
+    <div class="container">
+                         ^
+/Users/nickpeachey/Documents/developer/rails/r-bugzilla/app/views/layouts/application.html.erb:64: syntax error, unexpected tIDENTIFIER, expecting ')'
+	        <div class="row">
+	                       ^
+/Users/nickpeachey/Documents/developer/rails/r-bugzilla/app/views/layouts/application.html.erb:65: syntax error, unexpected tIDENTIFIER, expecting ')'
+	          <div class="span9">
+	                           ^
+/Users/nickpeachey/Documents/developer/rails/r-bugzilla/app/views/layouts/application.html.erb:69: syntax error, unexpected tIDENTIFIER, expecting ')'
+	          <div class="span3" id=\'current-sprint-list\'>
+	                           ^
+/Users/nickpeachey/Documents/developer/rails/r-bugzilla/app/views/layouts/application.html.erb:71: syntax error, unexpected tIDENTIFIER, expecting ')'
+@output_buffer.safe_concat('	            <div class="well">
+                            	                            ^
+/Users/nickpeachey/Documents/developer/rails/r-bugzilla/app/views/layouts/application.html.erb:73: syntax error, unexpected tIDENTIFIER, expecting ')'
+	              <ul class="nav nav-list">
+	                            ^
+/Users/nickpeachey/Documents/developer/rails/r-bugzilla/app/views/layouts/application.html.erb:73: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+	              <ul class="nav nav-list">
+	                                      ^
+/Users/nickpeachey/Documents/developer/rails/r-bugzilla/app/views/layouts/application.html.erb:75: syntax error, unexpected tIDENTIFIER, expecting ')'
+...afe_concat('					<li class="nav-header">');@output_buffer.ap...
+...            					              ^
+/Users/nickpeachey/Documents/developer/rails/r-bugzilla/app/views/layouts/application.html.erb:75: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+...at('					<li class="nav-header">');@output_buffer.append= ( ...
+...    					                      ^
+/Users/nickpeachey/Documents/developer/rails/r-bugzilla/app/views/layouts/application.html.erb:79: syntax error, unexpected tIDENTIFIER, expecting ')'
+@output_buffer.safe_concat('					<li class="divider" />	
+                            					                  ^
+/Users/nickpeachey/Documents/developer/rails/r-bugzilla/app/views/layouts/application.html.erb:95: syntax error, unexpected tIDENTIFIER, expecting ')'
+...script_include_tag "application" );@output_buffer.safe_conca...
+...                               ^
+/Users/nickpeachey/Documents/developer/rails/r-bugzilla/app/views/layouts/application.html.erb:95: unterminated string meets end of file
+/Users/nickpeachey/Documents/developer/rails/r-bugzilla/app/views/layouts/application.html.erb:95: syntax error, unexpected $end, expecting ')'
+Function body:           def _app_views_layouts_application_html_erb__1116680657057976269_70323570424320(local_assigns, output_buffer)
+            _old_virtual_path, @virtual_path = @virtual_path, "layouts/application";_old_output_buffer = @output_buffer;;@output_buffer = output_buffer || ActionView::OutputBuffer.new;@output_buffer.safe_concat('<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>');@output_buffer.append= ( content_for?(:title) ? yield(:title) : "RBugzilla" );@output_buffer.safe_concat('</title>
+    ');@output_buffer.append= ( csrf_meta_tags );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('
+    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.1/html5shiv.js" type="text/javascript"></script>
+    <![endif]-->
+
+    ');@output_buffer.append= ( stylesheet_link_tag "application", :media => "all" );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('
+    <!-- For third-generation iPad with high-resolution Retina display: -->
+    <!-- Size should be 144 x 144 pixels -->
+    ');@output_buffer.append= ( favicon_link_tag 'images/apple-touch-icon-144x144-precomposed.png', :rel => 'apple-touch-icon-precomposed', :type => 'image/png', :sizes => '144x144' );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('
+    <!-- For iPhone with high-resolution Retina display: -->
+    <!-- Size should be 114 x 114 pixels -->
+    ');@output_buffer.append= ( favicon_link_tag 'images/apple-touch-icon-114x114-precomposed.png', :rel => 'apple-touch-icon-precomposed', :type => 'image/png', :sizes => '114x114' );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('
+    <!-- For first- and second-generation iPad: -->
+    <!-- Size should be 72 x 72 pixels -->
+    ');@output_buffer.append= ( favicon_link_tag 'images/apple-touch-icon-72x72-precomposed.png', :rel => 'apple-touch-icon-precomposed', :type => 'image/png', :sizes => '72x72' );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('
+    <!-- For non-Retina iPhone, iPod Touch, and Android 2.1+ devices: -->
+    <!-- Size should be 57 x 57 pixels -->
+    ');@output_buffer.append= ( favicon_link_tag 'images/apple-touch-icon-precomposed.png', :rel => 'apple-touch-icon-precomposed', :type => 'image/png' );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('
+    <!-- For all other devices -->
+    <!-- Size should be 32 x 32 pixels -->
+    ');@output_buffer.append= ( favicon_link_tag 'favicon.ico', :rel => 'shortcut icon' );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('  </head>
+  <body>
+
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="btn btn-navbar" data-target=".nav-collapse" data-toggle="collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+          <a class="brand" href="#
+');@output_buffer.append= ( link_to sprints_path">RBugzilla</a>
+          <div class="container nav-collapse">
+            <ul class="nav">
+	          <li>	<%= link_to t('.sprints', :default => t("sprints")),
+						                      sprints_path);@output_buffer.safe_concat('</li>
+              <!-- <li>	');@output_buffer.append= ( link_to t('.bugs', :default => t("bugs")),
+		                      bugs_path);@output_buffer.safe_concat('</li> -->
+			  <li>	');@output_buffer.append= ( link_to t('.teams', :default => t("teams")),
+						                      teams_path);@output_buffer.safe_concat('</li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+	        <div class="row">
+	          <div class="span9">
+	            ');@output_buffer.append= ( bootstrap_flash );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('	            ');@output_buffer.append= ( yield );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('	          </div>
+	          <div class="span3" id=\'current-sprint-list\'>
+');		 if Team.currentwork.size > 0
+@output_buffer.safe_concat('	            <div class="well">
+	              <h3>Current Sprints</h3>
+	              <ul class="nav nav-list">
+');					 Team.currentwork.each do |team|
+@output_buffer.safe_concat('					<li class="nav-header">');@output_buffer.append= ( team.name );@output_buffer.safe_concat('</li>
+');					 team.sprints.each do |sprint| 
+@output_buffer.safe_concat('					<li>');@output_buffer.append= ( link_to sprint.title, sprint_path(sprint) );@output_buffer.safe_concat('</li>
+');					 end
+@output_buffer.safe_concat('					<li class="divider" />	
+');					 end
+@output_buffer.safe_concat('	              </ul>
+	            </div><!--/.well -->
+');	    end 
+@output_buffer.safe_concat('	          </div><!--/span-->
+	        </div><!--/row-->
+
+      <footer>
+        <p>&copy; Company 2013</p>
+      </footer>
+    </div> <!-- /container -->
+
+    <!-- Javascripts
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    ');@output_buffer.append= ( javascript_include_tag "application" );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('
+  </body>
+</html>
+');@output_buffer.to_s
+          ensure
+            @virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+
+Backtrace: /Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_view/template.rb:297:in `module_eval'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_view/template.rb:297:in `compile'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_view/template.rb:244:in `block in compile!'
+<internal:prelude>:10:in `synchronize'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_view/template.rb:232:in `compile!'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_view/template.rb:144:in `block in render'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.12/lib/active_support/notifications.rb:125:in `instrument'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_view/template.rb:143:in `render'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_view/renderer/template_renderer.rb:59:in `render_with_layout'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_view/renderer/template_renderer.rb:45:in `render_template'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_view/renderer/template_renderer.rb:18:in `render'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_view/renderer/renderer.rb:36:in `render_template'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_view/renderer/renderer.rb:17:in `render'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/abstract_controller/rendering.rb:110:in `_render_template'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_controller/metal/streaming.rb:225:in `_render_template'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/abstract_controller/rendering.rb:103:in `render_to_body'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_controller/metal/renderers.rb:28:in `render_to_body'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_controller/metal/compatibility.rb:50:in `render_to_body'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/abstract_controller/rendering.rb:88:in `render'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_controller/metal/rendering.rb:16:in `render'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.12/lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+/Users/nickpeachey/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/benchmark.rb:295:in `realtime'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.12/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_controller/metal/instrumentation.rb:83:in `cleanup_view_runtime'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.12/lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_controller/metal/instrumentation.rb:39:in `render'
+/Users/nickpeachey/Documents/developer/rails/r-bugzilla/app/controllers/stories_controller.rb:26:in `forsprint'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/abstract_controller/base.rb:167:in `process_action'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_controller/metal/rendering.rb:10:in `process_action'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.12/lib/active_support/callbacks.rb:414:in `_run__3877940519467443127__process_action__337381222473198098__callbacks'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.12/lib/active_support/callbacks.rb:405:in `__run_callback'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.12/lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.12/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_controller/metal/rescue.rb:29:in `process_action'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.12/lib/active_support/notifications.rb:123:in `block in instrument'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.12/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.12/lib/active_support/notifications.rb:123:in `instrument'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_controller/metal/params_wrapper.rb:207:in `process_action'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.12/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/abstract_controller/base.rb:121:in `process'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/abstract_controller/rendering.rb:45:in `process'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_controller/metal.rb:203:in `dispatch'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_controller/metal.rb:246:in `block in action'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_dispatch/routing/route_set.rb:73:in `call'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_dispatch/routing/route_set.rb:36:in `call'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/journey-1.0.4/lib/journey/router.rb:68:in `block in call'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/journey-1.0.4/lib/journey/router.rb:56:in `each'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/journey-1.0.4/lib/journey/router.rb:56:in `call'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_dispatch/routing/route_set.rb:601:in `call'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/rack-1.4.5/lib/rack/etag.rb:23:in `call'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/rack-1.4.5/lib/rack/conditionalget.rb:25:in `call'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_dispatch/middleware/head.rb:14:in `call'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_dispatch/middleware/flash.rb:242:in `call'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/rack-1.4.5/lib/rack/session/abstract/id.rb:210:in `context'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/rack-1.4.5/lib/rack/session/abstract/id.rb:205:in `call'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_dispatch/middleware/cookies.rb:341:in `call'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.12/lib/active_record/query_cache.rb:64:in `call'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.12/lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.12/lib/active_support/callbacks.rb:405:in `_run__1960253233999934479__call__2941272740956766025__callbacks'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.12/lib/active_support/callbacks.rb:405:in `__run_callback'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.12/lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.12/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_dispatch/middleware/reloader.rb:65:in `call'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/railties-3.2.12/lib/rails/rack/logger.rb:32:in `call_app'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/railties-3.2.12/lib/rails/rack/logger.rb:16:in `block in call'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.12/lib/active_support/tagged_logging.rb:22:in `tagged'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/railties-3.2.12/lib/rails/rack/logger.rb:16:in `call'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_dispatch/middleware/request_id.rb:22:in `call'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/rack-1.4.5/lib/rack/methodoverride.rb:21:in `call'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/rack-1.4.5/lib/rack/runtime.rb:17:in `call'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.12/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/rack-1.4.5/lib/rack/lock.rb:15:in `call'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_dispatch/middleware/static.rb:62:in `call'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/railties-3.2.12/lib/rails/engine.rb:479:in `call'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/railties-3.2.12/lib/rails/application.rb:223:in `call'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/rack-1.4.5/lib/rack/content_length.rb:14:in `call'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/railties-3.2.12/lib/rails/rack/log_tailer.rb:17:in `call'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/rack-1.4.5/lib/rack/handler/webrick.rb:59:in `service'
+/Users/nickpeachey/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+/Users/nickpeachey/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+/Users/nickpeachey/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+Completed 500 Internal Server Error in 47ms
+
+ActionView::Template::Error (/Users/nickpeachey/Documents/developer/rails/r-bugzilla/app/views/layouts/application.html.erb:49: syntax error, unexpected tIDENTIFIER, expecting ')'
+          <div class="container nav-collapse">
+                               ^
+/Users/nickpeachey/Documents/developer/rails/r-bugzilla/app/views/layouts/application.html.erb:49: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+          <div class="container nav-collapse">
+                                             ^
+/Users/nickpeachey/Documents/developer/rails/r-bugzilla/app/views/layouts/application.html.erb:50: syntax error, unexpected tIDENTIFIER, expecting ')'
+            <ul class="nav">
+                          ^
+/Users/nickpeachey/Documents/developer/rails/r-bugzilla/app/views/layouts/application.html.erb:51: syntax error, unexpected tIDENTIFIER, expecting ')'
+	          <li>	<%= link_to t('.sprints', :default => t("sprints")),
+	              	                                                ^
+/Users/nickpeachey/Documents/developer/rails/r-bugzilla/app/views/layouts/application.html.erb:53: syntax error, unexpected tIDENTIFIER, expecting ')'
+... t('.bugs', :default => t("bugs")),
+...                               ^
+/Users/nickpeachey/Documents/developer/rails/r-bugzilla/app/views/layouts/application.html.erb:55: syntax error, unexpected tIDENTIFIER, expecting ')'
+...('.teams', :default => t("teams")),
+...                               ^
+/Users/nickpeachey/Documents/developer/rails/r-bugzilla/app/views/layouts/application.html.erb:63: syntax error, unexpected tIDENTIFIER, expecting ')'
+    <div class="container">
+                         ^
+/Users/nickpeachey/Documents/developer/rails/r-bugzilla/app/views/layouts/application.html.erb:64: syntax error, unexpected tIDENTIFIER, expecting ')'
+	        <div class="row">
+	                       ^
+/Users/nickpeachey/Documents/developer/rails/r-bugzilla/app/views/layouts/application.html.erb:65: syntax error, unexpected tIDENTIFIER, expecting ')'
+	          <div class="span9">
+	                           ^
+/Users/nickpeachey/Documents/developer/rails/r-bugzilla/app/views/layouts/application.html.erb:69: syntax error, unexpected tIDENTIFIER, expecting ')'
+	          <div class="span3" id=\'current-sprint-list\'>
+	                           ^
+/Users/nickpeachey/Documents/developer/rails/r-bugzilla/app/views/layouts/application.html.erb:71: syntax error, unexpected tIDENTIFIER, expecting ')'
+@output_buffer.safe_concat('	            <div class="well">
+                            	                            ^
+/Users/nickpeachey/Documents/developer/rails/r-bugzilla/app/views/layouts/application.html.erb:73: syntax error, unexpected tIDENTIFIER, expecting ')'
+	              <ul class="nav nav-list">
+	                            ^
+/Users/nickpeachey/Documents/developer/rails/r-bugzilla/app/views/layouts/application.html.erb:73: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+	              <ul class="nav nav-list">
+	                                      ^
+/Users/nickpeachey/Documents/developer/rails/r-bugzilla/app/views/layouts/application.html.erb:75: syntax error, unexpected tIDENTIFIER, expecting ')'
+...afe_concat('					<li class="nav-header">');@output_buffer.ap...
+...            					              ^
+/Users/nickpeachey/Documents/developer/rails/r-bugzilla/app/views/layouts/application.html.erb:75: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+...at('					<li class="nav-header">');@output_buffer.append= ( ...
+...    					                      ^
+/Users/nickpeachey/Documents/developer/rails/r-bugzilla/app/views/layouts/application.html.erb:79: syntax error, unexpected tIDENTIFIER, expecting ')'
+@output_buffer.safe_concat('					<li class="divider" />	
+                            					                  ^
+/Users/nickpeachey/Documents/developer/rails/r-bugzilla/app/views/layouts/application.html.erb:95: syntax error, unexpected tIDENTIFIER, expecting ')'
+...script_include_tag "application" );@output_buffer.safe_conca...
+...                               ^
+/Users/nickpeachey/Documents/developer/rails/r-bugzilla/app/views/layouts/application.html.erb:95: unterminated string meets end of file
+/Users/nickpeachey/Documents/developer/rails/r-bugzilla/app/views/layouts/application.html.erb:95: syntax error, unexpected $end, expecting ')'):
+    46:           </a>
+    47:           <a class="brand" href="#
+    48: <%= link_to sprints_path">RBugzilla</a>
+    49:           <div class="container nav-collapse">
+    50:             <ul class="nav">
+    51: 	          <li>	<%= link_to t('.sprints', :default => t("sprints")),
+    52: 						                      sprints_path%></li>
+  app/controllers/stories_controller.rb:26:in `forsprint'
+
+
+  Rendered /Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+  Rendered /Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (10.1ms)
+
+
+Started GET "/stories/1/forsprint" for 127.0.0.1 at 2013-03-11 20:24:41 +0000
+Processing by StoriesController#forsprint as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mSprint Load (0.2ms)[0m  [1mSELECT "sprints".* FROM "sprints" WHERE "sprints"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mStory Load (0.3ms)[0m  SELECT "stories".* FROM "stories" WHERE "stories"."sprint_id" = 1
+  [1m[36mSprint Load (0.3ms)[0m  [1mSELECT "sprints".* FROM "sprints" WHERE "sprints"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "bugs" WHERE "bugs"."story_id" = 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "sprints".* FROM "sprints" WHERE "sprints"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "bugs" WHERE "bugs"."story_id" = 2
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "sprints".* FROM "sprints" WHERE "sprints"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "bugs" WHERE "bugs"."story_id" = 3
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "sprints".* FROM "sprints" WHERE "sprints"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "bugs" WHERE "bugs"."story_id" = 4
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "sprints".* FROM "sprints" WHERE "sprints"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "bugs" WHERE "bugs"."story_id" = 5
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "sprints".* FROM "sprints" WHERE "sprints"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "bugs" WHERE "bugs"."story_id" = 8
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "sprints".* FROM "sprints" WHERE "sprints"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "bugs" WHERE "bugs"."story_id" = 10
+  Rendered stories/index.html.erb within layouts/application (40.4ms)
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(DISTINCT "teams"."id") FROM "teams" LEFT OUTER JOIN "sprints" ON "sprints"."team_id" = "teams"."id" WHERE (sprints.completed = 'f')[0m
+  [1m[35mSQL (0.3ms)[0m  SELECT "teams"."id" AS t0_r0, "teams"."name" AS t0_r1, "teams"."logo_url" AS t0_r2, "teams"."created_at" AS t0_r3, "teams"."updated_at" AS t0_r4, "sprints"."id" AS t1_r0, "sprints"."title" AS t1_r1, "sprints"."description" AS t1_r2, "sprints"."team_id" AS t1_r3, "sprints"."created_at" AS t1_r4, "sprints"."updated_at" AS t1_r5, "sprints"."completed" AS t1_r6, "sprints"."start_date" AS t1_r7 FROM "teams" LEFT OUTER JOIN "sprints" ON "sprints"."team_id" = "teams"."id" WHERE (sprints.completed = 'f')
+Completed 200 OK in 110ms (Views: 105.0ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-11 20:24:42 +0000
+Served asset /application.css - 304 Not Modified (18ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.css?body=1" for 127.0.0.1 at 2013-03-11 20:24:42 +0000
+Served asset /twitter-bootstrap-static/bootstrap.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.ui.core.css?body=1" for 127.0.0.1 at 2013-03-11 20:24:42 +0000
+Served asset /jquery.ui.core.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.css?body=1" for 127.0.0.1 at 2013-03-11 20:24:42 +0000
+Served asset /twitter-bootstrap-static/fontawesome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.theme.css?body=1" for 127.0.0.1 at 2013-03-11 20:24:42 +0000
+Served asset /jquery.ui.theme.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.datepicker.css?body=1" for 127.0.0.1 at 2013-03-11 20:24:42 +0000
+Served asset /jquery.ui.datepicker.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-03-11 20:24:42 +0000
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/bugareas.css?body=1" for 127.0.0.1 at 2013-03-11 20:24:42 +0000
+Served asset /bugareas.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-11 20:24:42 +0000
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bugs.css?body=1" for 127.0.0.1 at 2013-03-11 20:24:42 +0000
+Served asset /bugs.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sprints.css?body=1" for 127.0.0.1 at 2013-03-11 20:24:42 +0000
+Served asset /sprints.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/stories.css?body=1" for 127.0.0.1 at 2013-03-11 20:24:42 +0000
+Served asset /stories.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/teams.css?body=1" for 127.0.0.1 at 2013-03-11 20:24:42 +0000
+Served asset /teams.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/icon_true.png" for 127.0.0.1 at 2013-03-11 20:24:42 +0000
+Served asset /icon_true.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/icon_false.png" for 127.0.0.1 at 2013-03-11 20:24:42 +0000
+Served asset /icon_false.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 127.0.0.1 at 2013-03-11 20:24:42 +0000
+Served asset /jquery.ui.core.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-11 20:24:42 +0000
+Served asset /jquery.js - 304 Not Modified (9ms)
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 127.0.0.1 at 2013-03-11 20:24:42 +0000
+Served asset /jquery.ui.datepicker.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-03-11 20:24:42 +0000
+Served asset /twitter/bootstrap/bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-11 20:24:42 +0000
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-03-11 20:24:42 +0000
+Served asset /twitter/bootstrap/bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-03-11 20:24:42 +0000
+Served asset /twitter/bootstrap/bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-03-11 20:24:42 +0000
+Served asset /twitter/bootstrap/bootstrap-dropdown.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-03-11 20:24:42 +0000
+Served asset /twitter/bootstrap/bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-03-11 20:24:42 +0000
+Served asset /twitter/bootstrap/bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-03-11 20:24:42 +0000
+Served asset /twitter/bootstrap/bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-03-11 20:24:42 +0000
+Served asset /twitter/bootstrap/bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-03-11 20:24:42 +0000
+Served asset /twitter/bootstrap/bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-03-11 20:24:42 +0000
+Served asset /twitter/bootstrap/bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-03-11 20:24:42 +0000
+Served asset /twitter/bootstrap/bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-03-11 20:24:42 +0000
+Served asset /twitter/bootstrap/bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-03-11 20:24:42 +0000
+Served asset /twitter/bootstrap/bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-03-11 20:24:42 +0000
+Served asset /twitter/bootstrap.js - 304 Not Modified (9ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-03-11 20:24:42 +0000
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bugs.js?body=1" for 127.0.0.1 at 2013-03-11 20:24:42 +0000
+Served asset /bugs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sprints.js?body=1" for 127.0.0.1 at 2013-03-11 20:24:42 +0000
+Served asset /sprints.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bugareas.js?body=1" for 127.0.0.1 at 2013-03-11 20:24:42 +0000
+Served asset /bugareas.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/stories.js?body=1" for 127.0.0.1 at 2013-03-11 20:24:42 +0000
+Served asset /stories.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/teams.js?body=1" for 127.0.0.1 at 2013-03-11 20:24:42 +0000
+Served asset /teams.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-11 20:24:42 +0000
+Served asset /application.js - 304 Not Modified (5ms)
+
+
+Started GET "/stories/1/forsprint" for 127.0.0.1 at 2013-03-11 20:24:59 +0000
+Processing by StoriesController#forsprint as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mSprint Load (2.3ms)[0m  [1mSELECT "sprints".* FROM "sprints" WHERE "sprints"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mStory Load (0.5ms)[0m  SELECT "stories".* FROM "stories" WHERE "stories"."sprint_id" = 1
+  [1m[36mSprint Load (0.2ms)[0m  [1mSELECT "sprints".* FROM "sprints" WHERE "sprints"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "bugs" WHERE "bugs"."story_id" = 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "sprints".* FROM "sprints" WHERE "sprints"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "bugs" WHERE "bugs"."story_id" = 2
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "sprints".* FROM "sprints" WHERE "sprints"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "bugs" WHERE "bugs"."story_id" = 3
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "sprints".* FROM "sprints" WHERE "sprints"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "bugs" WHERE "bugs"."story_id" = 4
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "sprints".* FROM "sprints" WHERE "sprints"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.8ms)[0m  SELECT COUNT(*) FROM "bugs" WHERE "bugs"."story_id" = 5
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "sprints".* FROM "sprints" WHERE "sprints"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "bugs" WHERE "bugs"."story_id" = 8
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "sprints".* FROM "sprints" WHERE "sprints"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "bugs" WHERE "bugs"."story_id" = 10
+  Rendered stories/index.html.erb within layouts/application (40.6ms)
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(DISTINCT "teams"."id") FROM "teams" LEFT OUTER JOIN "sprints" ON "sprints"."team_id" = "teams"."id" WHERE (sprints.completed = 'f')[0m
+  [1m[35mSQL (0.3ms)[0m  SELECT "teams"."id" AS t0_r0, "teams"."name" AS t0_r1, "teams"."logo_url" AS t0_r2, "teams"."created_at" AS t0_r3, "teams"."updated_at" AS t0_r4, "sprints"."id" AS t1_r0, "sprints"."title" AS t1_r1, "sprints"."description" AS t1_r2, "sprints"."team_id" AS t1_r3, "sprints"."created_at" AS t1_r4, "sprints"."updated_at" AS t1_r5, "sprints"."completed" AS t1_r6, "sprints"."start_date" AS t1_r7 FROM "teams" LEFT OUTER JOIN "sprints" ON "sprints"."team_id" = "teams"."id" WHERE (sprints.completed = 'f')
+Completed 200 OK in 123ms (Views: 116.0ms | ActiveRecord: 5.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-11 20:24:59 +0000
+Served asset /application.css - 304 Not Modified (11ms)
+
+
+Started GET "/assets/jquery.ui.datepicker.css?body=1" for 127.0.0.1 at 2013-03-11 20:24:59 +0000
+Served asset /jquery.ui.datepicker.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.ui.theme.css?body=1" for 127.0.0.1 at 2013-03-11 20:24:59 +0000
+Served asset /jquery.ui.theme.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.ui.core.css?body=1" for 127.0.0.1 at 2013-03-11 20:24:59 +0000
+Served asset /jquery.ui.core.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.css?body=1" for 127.0.0.1 at 2013-03-11 20:24:59 +0000
+Served asset /twitter-bootstrap-static/fontawesome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.css?body=1" for 127.0.0.1 at 2013-03-11 20:24:59 +0000
+Served asset /twitter-bootstrap-static/bootstrap.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-03-11 20:24:59 +0000
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-11 20:24:59 +0000
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sprints.css?body=1" for 127.0.0.1 at 2013-03-11 20:24:59 +0000
+Served asset /sprints.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bugs.css?body=1" for 127.0.0.1 at 2013-03-11 20:24:59 +0000
+Served asset /bugs.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bugareas.css?body=1" for 127.0.0.1 at 2013-03-11 20:24:59 +0000
+Served asset /bugareas.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/stories.css?body=1" for 127.0.0.1 at 2013-03-11 20:24:59 +0000
+Served asset /stories.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/icon_false.png" for 127.0.0.1 at 2013-03-11 20:24:59 +0000
+Served asset /icon_false.png - 304 Not Modified (2ms)
+
+
+Started GET "/assets/icon_true.png" for 127.0.0.1 at 2013-03-11 20:24:59 +0000
+Served asset /icon_true.png - 304 Not Modified (3ms)
+
+
+Started GET "/assets/teams.css?body=1" for 127.0.0.1 at 2013-03-11 20:24:59 +0000
+Served asset /teams.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-11 20:24:59 +0000
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 127.0.0.1 at 2013-03-11 20:24:59 +0000
+Served asset /jquery.ui.datepicker.js - 304 Not Modified (11ms)
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 127.0.0.1 at 2013-03-11 20:24:59 +0000
+Served asset /jquery.ui.core.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-11 20:24:59 +0000
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-03-11 20:24:59 +0000
+Served asset /twitter/bootstrap/bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-03-11 20:24:59 +0000
+Served asset /twitter/bootstrap/bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-03-11 20:25:00 +0000
+Served asset /twitter/bootstrap/bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-03-11 20:25:00 +0000
+Served asset /twitter/bootstrap/bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-03-11 20:25:00 +0000
+Served asset /twitter/bootstrap/bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-03-11 20:25:00 +0000
+Served asset /twitter/bootstrap/bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-03-11 20:25:00 +0000
+Served asset /twitter/bootstrap/bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-03-11 20:25:00 +0000
+Served asset /twitter/bootstrap/bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-03-11 20:25:00 +0000
+Served asset /twitter/bootstrap/bootstrap-button.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-03-11 20:25:00 +0000
+Served asset /twitter/bootstrap/bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-03-11 20:25:00 +0000
+Served asset /twitter/bootstrap/bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-03-11 20:25:00 +0000
+Served asset /twitter/bootstrap/bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-03-11 20:25:00 +0000
+Served asset /twitter/bootstrap/bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-03-11 20:25:00 +0000
+Served asset /twitter/bootstrap.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-03-11 20:25:00 +0000
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bugareas.js?body=1" for 127.0.0.1 at 2013-03-11 20:25:00 +0000
+Served asset /bugareas.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bugs.js?body=1" for 127.0.0.1 at 2013-03-11 20:25:00 +0000
+Served asset /bugs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/stories.js?body=1" for 127.0.0.1 at 2013-03-11 20:25:00 +0000
+Served asset /stories.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sprints.js?body=1" for 127.0.0.1 at 2013-03-11 20:25:00 +0000
+Served asset /sprints.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/teams.js?body=1" for 127.0.0.1 at 2013-03-11 20:25:00 +0000
+Served asset /teams.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-11 20:25:00 +0000
+Served asset /application.js - 304 Not Modified (42ms)
+
+
+Started GET "/stories/1/forsprint" for 127.0.0.1 at 2013-03-11 20:25:44 +0000
+Processing by StoriesController#forsprint as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mSprint Load (0.2ms)[0m  [1mSELECT "sprints".* FROM "sprints" WHERE "sprints"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mStory Load (0.3ms)[0m  SELECT "stories".* FROM "stories" WHERE "stories"."sprint_id" = 1
+  [1m[36mSprint Load (0.2ms)[0m  [1mSELECT "sprints".* FROM "sprints" WHERE "sprints"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "bugs" WHERE "bugs"."story_id" = 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "sprints".* FROM "sprints" WHERE "sprints"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "bugs" WHERE "bugs"."story_id" = 2
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "sprints".* FROM "sprints" WHERE "sprints"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "bugs" WHERE "bugs"."story_id" = 3
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "sprints".* FROM "sprints" WHERE "sprints"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "bugs" WHERE "bugs"."story_id" = 4
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "sprints".* FROM "sprints" WHERE "sprints"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "bugs" WHERE "bugs"."story_id" = 5
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "sprints".* FROM "sprints" WHERE "sprints"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "bugs" WHERE "bugs"."story_id" = 8
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "sprints".* FROM "sprints" WHERE "sprints"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "bugs" WHERE "bugs"."story_id" = 10
+  Rendered stories/index.html.erb within layouts/application (37.6ms)
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(DISTINCT "teams"."id") FROM "teams" LEFT OUTER JOIN "sprints" ON "sprints"."team_id" = "teams"."id" WHERE (sprints.completed = 'f')[0m
+  [1m[35mSQL (0.3ms)[0m  SELECT "teams"."id" AS t0_r0, "teams"."name" AS t0_r1, "teams"."logo_url" AS t0_r2, "teams"."created_at" AS t0_r3, "teams"."updated_at" AS t0_r4, "sprints"."id" AS t1_r0, "sprints"."title" AS t1_r1, "sprints"."description" AS t1_r2, "sprints"."team_id" AS t1_r3, "sprints"."created_at" AS t1_r4, "sprints"."updated_at" AS t1_r5, "sprints"."completed" AS t1_r6, "sprints"."start_date" AS t1_r7 FROM "teams" LEFT OUTER JOIN "sprints" ON "sprints"."team_id" = "teams"."id" WHERE (sprints.completed = 'f')
+Completed 200 OK in 82ms (Views: 78.0ms | ActiveRecord: 2.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-11 20:25:44 +0000
+Served asset /application.css - 304 Not Modified (14ms)
+
+
+Started GET "/assets/jquery.ui.core.css?body=1" for 127.0.0.1 at 2013-03-11 20:25:44 +0000
+Served asset /jquery.ui.core.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.css?body=1" for 127.0.0.1 at 2013-03-11 20:25:44 +0000
+Served asset /twitter-bootstrap-static/bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.css?body=1" for 127.0.0.1 at 2013-03-11 20:25:44 +0000
+Served asset /twitter-bootstrap-static/fontawesome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.theme.css?body=1" for 127.0.0.1 at 2013-03-11 20:25:44 +0000
+Served asset /jquery.ui.theme.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.datepicker.css?body=1" for 127.0.0.1 at 2013-03-11 20:25:44 +0000
+Served asset /jquery.ui.datepicker.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-03-11 20:25:44 +0000
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-11 20:25:44 +0000
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sprints.css?body=1" for 127.0.0.1 at 2013-03-11 20:25:44 +0000
+Served asset /sprints.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bugareas.css?body=1" for 127.0.0.1 at 2013-03-11 20:25:44 +0000
+Served asset /bugareas.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bugs.css?body=1" for 127.0.0.1 at 2013-03-11 20:25:44 +0000
+Served asset /bugs.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/stories.css?body=1" for 127.0.0.1 at 2013-03-11 20:25:44 +0000
+Served asset /stories.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/teams.css?body=1" for 127.0.0.1 at 2013-03-11 20:25:44 +0000
+Served asset /teams.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/icon_false.png" for 127.0.0.1 at 2013-03-11 20:25:44 +0000
+Served asset /icon_false.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/icon_true.png" for 127.0.0.1 at 2013-03-11 20:25:44 +0000
+Served asset /icon_true.png - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 127.0.0.1 at 2013-03-11 20:25:44 +0000
+Served asset /jquery.ui.datepicker.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-11 20:25:44 +0000
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 127.0.0.1 at 2013-03-11 20:25:44 +0000
+Served asset /jquery.ui.core.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-11 20:25:44 +0000
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-03-11 20:25:44 +0000
+Served asset /twitter/bootstrap/bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-03-11 20:25:44 +0000
+Served asset /twitter/bootstrap/bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-03-11 20:25:44 +0000
+Served asset /twitter/bootstrap/bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-03-11 20:25:44 +0000
+Served asset /twitter/bootstrap/bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-03-11 20:25:45 +0000
+Served asset /twitter/bootstrap/bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-03-11 20:25:45 +0000
+Served asset /twitter/bootstrap/bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-03-11 20:25:45 +0000
+Served asset /twitter/bootstrap/bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-03-11 20:25:45 +0000
+Served asset /twitter/bootstrap/bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-03-11 20:25:45 +0000
+Served asset /twitter/bootstrap/bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-03-11 20:25:45 +0000
+Served asset /twitter/bootstrap/bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-03-11 20:25:45 +0000
+Served asset /twitter/bootstrap/bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-03-11 20:25:45 +0000
+Served asset /twitter/bootstrap/bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-03-11 20:25:45 +0000
+Served asset /twitter/bootstrap.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-03-11 20:25:45 +0000
+Served asset /twitter/bootstrap/bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-03-11 20:25:45 +0000
+Served asset /bootstrap.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bugareas.js?body=1" for 127.0.0.1 at 2013-03-11 20:25:45 +0000
+Served asset /bugareas.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bugs.js?body=1" for 127.0.0.1 at 2013-03-11 20:25:45 +0000
+Served asset /bugs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sprints.js?body=1" for 127.0.0.1 at 2013-03-11 20:25:45 +0000
+Served asset /sprints.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/teams.js?body=1" for 127.0.0.1 at 2013-03-11 20:25:45 +0000
+Served asset /teams.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/stories.js?body=1" for 127.0.0.1 at 2013-03-11 20:25:45 +0000
+Served asset /stories.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-11 20:25:45 +0000
+Served asset /application.js - 304 Not Modified (4ms)
+
+
+Started GET "/stories/1/forsprint" for 127.0.0.1 at 2013-03-11 20:29:54 +0000
+Processing by StoriesController#forsprint as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mSprint Load (0.2ms)[0m  [1mSELECT "sprints".* FROM "sprints" WHERE "sprints"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mStory Load (0.2ms)[0m  SELECT "stories".* FROM "stories" WHERE "stories"."sprint_id" = 1
+  [1m[36mSprint Load (0.2ms)[0m  [1mSELECT "sprints".* FROM "sprints" WHERE "sprints"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "bugs" WHERE "bugs"."story_id" = 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "sprints".* FROM "sprints" WHERE "sprints"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "bugs" WHERE "bugs"."story_id" = 2
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "sprints".* FROM "sprints" WHERE "sprints"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "bugs" WHERE "bugs"."story_id" = 3
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "sprints".* FROM "sprints" WHERE "sprints"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "bugs" WHERE "bugs"."story_id" = 4
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "sprints".* FROM "sprints" WHERE "sprints"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "bugs" WHERE "bugs"."story_id" = 5
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "sprints".* FROM "sprints" WHERE "sprints"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "bugs" WHERE "bugs"."story_id" = 8
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "sprints".* FROM "sprints" WHERE "sprints"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "bugs" WHERE "bugs"."story_id" = 10
+  Rendered stories/index.html.erb within layouts/application (30.3ms)
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(DISTINCT "teams"."id") FROM "teams" LEFT OUTER JOIN "sprints" ON "sprints"."team_id" = "teams"."id" WHERE (sprints.completed = 'f')[0m
+  [1m[35mSQL (0.3ms)[0m  SELECT "teams"."id" AS t0_r0, "teams"."name" AS t0_r1, "teams"."logo_url" AS t0_r2, "teams"."created_at" AS t0_r3, "teams"."updated_at" AS t0_r4, "sprints"."id" AS t1_r0, "sprints"."title" AS t1_r1, "sprints"."description" AS t1_r2, "sprints"."team_id" AS t1_r3, "sprints"."created_at" AS t1_r4, "sprints"."updated_at" AS t1_r5, "sprints"."completed" AS t1_r6, "sprints"."start_date" AS t1_r7 FROM "teams" LEFT OUTER JOIN "sprints" ON "sprints"."team_id" = "teams"."id" WHERE (sprints.completed = 'f')
+Completed 200 OK in 69ms (Views: 64.9ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/assets/jquery.ui.core.css?body=1" for 127.0.0.1 at 2013-03-11 20:29:54 +0000
+Served asset /jquery.ui.core.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.css?body=1" for 127.0.0.1 at 2013-03-11 20:29:54 +0000
+Served asset /twitter-bootstrap-static/bootstrap.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.ui.theme.css?body=1" for 127.0.0.1 at 2013-03-11 20:29:54 +0000
+Served asset /jquery.ui.theme.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.css?body=1" for 127.0.0.1 at 2013-03-11 20:29:54 +0000
+Served asset /twitter-bootstrap-static/fontawesome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.datepicker.css?body=1" for 127.0.0.1 at 2013-03-11 20:29:54 +0000
+Served asset /jquery.ui.datepicker.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-11 20:29:54 +0000
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bugs.css?body=1" for 127.0.0.1 at 2013-03-11 20:29:54 +0000
+Served asset /bugs.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-11 20:29:54 +0000
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sprints.css?body=1" for 127.0.0.1 at 2013-03-11 20:29:54 +0000
+Served asset /sprints.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-03-11 20:29:54 +0000
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bugareas.css?body=1" for 127.0.0.1 at 2013-03-11 20:29:54 +0000
+Served asset /bugareas.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/teams.css?body=1" for 127.0.0.1 at 2013-03-11 20:29:54 +0000
+Served asset /teams.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/icon_false.png" for 127.0.0.1 at 2013-03-11 20:29:54 +0000
+Served asset /icon_false.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-11 20:29:54 +0000
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/icon_true.png" for 127.0.0.1 at 2013-03-11 20:29:54 +0000
+Served asset /icon_true.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 127.0.0.1 at 2013-03-11 20:29:54 +0000
+Served asset /jquery.ui.datepicker.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 127.0.0.1 at 2013-03-11 20:29:54 +0000
+Served asset /jquery.ui.core.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-11 20:29:54 +0000
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-03-11 20:29:54 +0000
+Served asset /twitter/bootstrap/bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-03-11 20:29:54 +0000
+Served asset /twitter/bootstrap/bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-03-11 20:29:54 +0000
+Served asset /twitter/bootstrap/bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-03-11 20:29:54 +0000
+Served asset /twitter/bootstrap/bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-03-11 20:29:54 +0000
+Served asset /twitter/bootstrap/bootstrap-scrollspy.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-03-11 20:29:54 +0000
+Served asset /twitter/bootstrap/bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-03-11 20:29:54 +0000
+Served asset /twitter/bootstrap/bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-03-11 20:29:54 +0000
+Served asset /twitter/bootstrap/bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-03-11 20:29:54 +0000
+Served asset /twitter/bootstrap/bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-03-11 20:29:54 +0000
+Served asset /twitter/bootstrap/bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-03-11 20:29:54 +0000
+Served asset /twitter/bootstrap/bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-03-11 20:29:55 +0000
+Served asset /twitter/bootstrap/bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-03-11 20:29:55 +0000
+Served asset /twitter/bootstrap.js - 304 Not Modified (17ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-03-11 20:29:55 +0000
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-03-11 20:29:55 +0000
+Served asset /twitter/bootstrap/bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bugareas.js?body=1" for 127.0.0.1 at 2013-03-11 20:29:55 +0000
+Served asset /bugareas.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bugs.js?body=1" for 127.0.0.1 at 2013-03-11 20:29:55 +0000
+Served asset /bugs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sprints.js?body=1" for 127.0.0.1 at 2013-03-11 20:29:55 +0000
+Served asset /sprints.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/stories.js?body=1" for 127.0.0.1 at 2013-03-11 20:29:55 +0000
+Served asset /stories.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/teams.js?body=1" for 127.0.0.1 at 2013-03-11 20:29:55 +0000
+Served asset /teams.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-11 20:29:55 +0000
+Served asset /application.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/stories.css?body=1" for 127.0.0.1 at 2013-03-11 20:29:55 +0000
+Served asset /stories.css - 304 Not Modified (0ms)
+
+
+Started GET "/stories/1/forsprint" for 127.0.0.1 at 2013-03-11 20:31:15 +0000
+Processing by StoriesController#forsprint as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mSprint Load (0.2ms)[0m  [1mSELECT "sprints".* FROM "sprints" WHERE "sprints"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mStory Load (0.2ms)[0m  SELECT "stories".* FROM "stories" WHERE "stories"."sprint_id" = 1
+  [1m[36mSprint Load (0.2ms)[0m  [1mSELECT "sprints".* FROM "sprints" WHERE "sprints"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "bugs" WHERE "bugs"."story_id" = 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "sprints".* FROM "sprints" WHERE "sprints"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "bugs" WHERE "bugs"."story_id" = 2
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "sprints".* FROM "sprints" WHERE "sprints"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "bugs" WHERE "bugs"."story_id" = 3
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "sprints".* FROM "sprints" WHERE "sprints"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "bugs" WHERE "bugs"."story_id" = 4
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "sprints".* FROM "sprints" WHERE "sprints"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "bugs" WHERE "bugs"."story_id" = 5
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "sprints".* FROM "sprints" WHERE "sprints"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "bugs" WHERE "bugs"."story_id" = 8
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "sprints".* FROM "sprints" WHERE "sprints"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "bugs" WHERE "bugs"."story_id" = 10
+  Rendered stories/index.html.erb within layouts/application (37.0ms)
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(DISTINCT "teams"."id") FROM "teams" LEFT OUTER JOIN "sprints" ON "sprints"."team_id" = "teams"."id" WHERE (sprints.completed = 'f')[0m
+  [1m[35mSQL (0.4ms)[0m  SELECT "teams"."id" AS t0_r0, "teams"."name" AS t0_r1, "teams"."logo_url" AS t0_r2, "teams"."created_at" AS t0_r3, "teams"."updated_at" AS t0_r4, "sprints"."id" AS t1_r0, "sprints"."title" AS t1_r1, "sprints"."description" AS t1_r2, "sprints"."team_id" AS t1_r3, "sprints"."created_at" AS t1_r4, "sprints"."updated_at" AS t1_r5, "sprints"."completed" AS t1_r6, "sprints"."start_date" AS t1_r7 FROM "teams" LEFT OUTER JOIN "sprints" ON "sprints"."team_id" = "teams"."id" WHERE (sprints.completed = 'f')
+Completed 200 OK in 115ms (Views: 110.5ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-11 20:31:15 +0000
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.ui.theme.css?body=1" for 127.0.0.1 at 2013-03-11 20:31:15 +0000
+Served asset /jquery.ui.theme.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.core.css?body=1" for 127.0.0.1 at 2013-03-11 20:31:15 +0000
+Served asset /jquery.ui.core.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.datepicker.css?body=1" for 127.0.0.1 at 2013-03-11 20:31:15 +0000
+Served asset /jquery.ui.datepicker.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.css?body=1" for 127.0.0.1 at 2013-03-11 20:31:15 +0000
+Served asset /twitter-bootstrap-static/bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.css?body=1" for 127.0.0.1 at 2013-03-11 20:31:15 +0000
+Served asset /twitter-bootstrap-static/fontawesome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-03-11 20:31:15 +0000
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bugs.css?body=1" for 127.0.0.1 at 2013-03-11 20:31:15 +0000
+Served asset /bugs.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sprints.css?body=1" for 127.0.0.1 at 2013-03-11 20:31:15 +0000
+Served asset /sprints.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-11 20:31:15 +0000
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bugareas.css?body=1" for 127.0.0.1 at 2013-03-11 20:31:15 +0000
+Served asset /bugareas.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/stories.css?body=1" for 127.0.0.1 at 2013-03-11 20:31:15 +0000
+Served asset /stories.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/teams.css?body=1" for 127.0.0.1 at 2013-03-11 20:31:16 +0000
+Served asset /teams.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-11 20:31:16 +0000
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/icon_false.png" for 127.0.0.1 at 2013-03-11 20:31:16 +0000
+Served asset /icon_false.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/icon_true.png" for 127.0.0.1 at 2013-03-11 20:31:16 +0000
+Served asset /icon_true.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 127.0.0.1 at 2013-03-11 20:31:16 +0000
+Served asset /jquery.ui.core.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 127.0.0.1 at 2013-03-11 20:31:16 +0000
+Served asset /jquery.ui.datepicker.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-11 20:31:16 +0000
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-03-11 20:31:16 +0000
+Served asset /twitter/bootstrap/bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-03-11 20:31:16 +0000
+Served asset /twitter/bootstrap/bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-03-11 20:31:16 +0000
+Served asset /twitter/bootstrap/bootstrap-modal.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-03-11 20:31:16 +0000
+Served asset /twitter/bootstrap/bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-03-11 20:31:16 +0000
+Served asset /twitter/bootstrap/bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-03-11 20:31:16 +0000
+Served asset /twitter/bootstrap/bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-03-11 20:31:16 +0000
+Served asset /twitter/bootstrap/bootstrap-popover.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-03-11 20:31:16 +0000
+Served asset /twitter/bootstrap/bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-03-11 20:31:16 +0000
+Served asset /twitter/bootstrap/bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-03-11 20:31:16 +0000
+Served asset /twitter/bootstrap/bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-03-11 20:31:16 +0000
+Served asset /twitter/bootstrap/bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-03-11 20:31:16 +0000
+Served asset /twitter/bootstrap/bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-03-11 20:31:16 +0000
+Served asset /twitter/bootstrap.js - 304 Not Modified (67ms)
+
+
+Started GET "/assets/bugareas.js?body=1" for 127.0.0.1 at 2013-03-11 20:31:16 +0000
+Served asset /bugareas.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-03-11 20:31:16 +0000
+Served asset /twitter/bootstrap/bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bugs.js?body=1" for 127.0.0.1 at 2013-03-11 20:31:16 +0000
+Served asset /bugs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sprints.js?body=1" for 127.0.0.1 at 2013-03-11 20:31:16 +0000
+Served asset /sprints.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-03-11 20:31:16 +0000
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/stories.js?body=1" for 127.0.0.1 at 2013-03-11 20:31:16 +0000
+Served asset /stories.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/teams.js?body=1" for 127.0.0.1 at 2013-03-11 20:31:16 +0000
+Served asset /teams.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-11 20:31:16 +0000
+Served asset /application.js - 304 Not Modified (5ms)
+
+
+Started GET "/stories/1/forsprint" for 127.0.0.1 at 2013-03-11 20:32:24 +0000
+Processing by StoriesController#forsprint as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mSprint Load (0.2ms)[0m  [1mSELECT "sprints".* FROM "sprints" WHERE "sprints"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mStory Load (0.2ms)[0m  SELECT "stories".* FROM "stories" WHERE "stories"."sprint_id" = 1
+  [1m[36mSprint Load (0.2ms)[0m  [1mSELECT "sprints".* FROM "sprints" WHERE "sprints"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "bugs" WHERE "bugs"."story_id" = 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "sprints".* FROM "sprints" WHERE "sprints"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "bugs" WHERE "bugs"."story_id" = 2
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "sprints".* FROM "sprints" WHERE "sprints"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "bugs" WHERE "bugs"."story_id" = 3
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "sprints".* FROM "sprints" WHERE "sprints"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "bugs" WHERE "bugs"."story_id" = 4
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "sprints".* FROM "sprints" WHERE "sprints"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "bugs" WHERE "bugs"."story_id" = 5
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "sprints".* FROM "sprints" WHERE "sprints"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "bugs" WHERE "bugs"."story_id" = 8
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "sprints".* FROM "sprints" WHERE "sprints"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "bugs" WHERE "bugs"."story_id" = 10
+  Rendered stories/index.html.erb within layouts/application (35.0ms)
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(DISTINCT "teams"."id") FROM "teams" LEFT OUTER JOIN "sprints" ON "sprints"."team_id" = "teams"."id" WHERE (sprints.completed = 'f')[0m
+  [1m[35mSQL (0.3ms)[0m  SELECT "teams"."id" AS t0_r0, "teams"."name" AS t0_r1, "teams"."logo_url" AS t0_r2, "teams"."created_at" AS t0_r3, "teams"."updated_at" AS t0_r4, "sprints"."id" AS t1_r0, "sprints"."title" AS t1_r1, "sprints"."description" AS t1_r2, "sprints"."team_id" AS t1_r3, "sprints"."created_at" AS t1_r4, "sprints"."updated_at" AS t1_r5, "sprints"."completed" AS t1_r6, "sprints"."start_date" AS t1_r7 FROM "teams" LEFT OUTER JOIN "sprints" ON "sprints"."team_id" = "teams"."id" WHERE (sprints.completed = 'f')
+Completed 200 OK in 72ms (Views: 68.5ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-11 20:32:24 +0000
+Served asset /application.css - 304 Not Modified (16ms)
+
+
+Started GET "/assets/jquery.ui.core.css?body=1" for 127.0.0.1 at 2013-03-11 20:32:24 +0000
+Served asset /jquery.ui.core.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.theme.css?body=1" for 127.0.0.1 at 2013-03-11 20:32:24 +0000
+Served asset /jquery.ui.theme.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.css?body=1" for 127.0.0.1 at 2013-03-11 20:32:24 +0000
+Served asset /twitter-bootstrap-static/fontawesome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.css?body=1" for 127.0.0.1 at 2013-03-11 20:32:24 +0000
+Served asset /twitter-bootstrap-static/bootstrap.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.ui.datepicker.css?body=1" for 127.0.0.1 at 2013-03-11 20:32:24 +0000
+Served asset /jquery.ui.datepicker.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-03-11 20:32:24 +0000
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/bugareas.css?body=1" for 127.0.0.1 at 2013-03-11 20:32:24 +0000
+Served asset /bugareas.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sprints.css?body=1" for 127.0.0.1 at 2013-03-11 20:32:24 +0000
+Served asset /sprints.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bugs.css?body=1" for 127.0.0.1 at 2013-03-11 20:32:24 +0000
+Served asset /bugs.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-11 20:32:24 +0000
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/stories.css?body=1" for 127.0.0.1 at 2013-03-11 20:32:24 +0000
+Served asset /stories.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/teams.css?body=1" for 127.0.0.1 at 2013-03-11 20:32:25 +0000
+Served asset /teams.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/icon_false.png" for 127.0.0.1 at 2013-03-11 20:32:25 +0000
+Served asset /icon_false.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/icon_true.png" for 127.0.0.1 at 2013-03-11 20:32:25 +0000
+Served asset /icon_true.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-11 20:32:25 +0000
+Served asset /jquery.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 127.0.0.1 at 2013-03-11 20:32:25 +0000
+Served asset /jquery.ui.datepicker.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 127.0.0.1 at 2013-03-11 20:32:25 +0000
+Served asset /jquery.ui.core.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-03-11 20:32:25 +0000
+Served asset /twitter/bootstrap/bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-03-11 20:32:25 +0000
+Served asset /twitter/bootstrap/bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-03-11 20:32:25 +0000
+Served asset /twitter/bootstrap/bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-03-11 20:32:25 +0000
+Served asset /twitter/bootstrap/bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-11 20:32:25 +0000
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-03-11 20:32:25 +0000
+Served asset /twitter/bootstrap/bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-03-11 20:32:25 +0000
+Served asset /twitter/bootstrap/bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-03-11 20:32:25 +0000
+Served asset /twitter/bootstrap/bootstrap-popover.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-03-11 20:32:25 +0000
+Served asset /twitter/bootstrap/bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-03-11 20:32:25 +0000
+Served asset /twitter/bootstrap/bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-03-11 20:32:25 +0000
+Served asset /twitter/bootstrap/bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-03-11 20:32:25 +0000
+Served asset /twitter/bootstrap/bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-03-11 20:32:25 +0000
+Served asset /twitter/bootstrap/bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-03-11 20:32:25 +0000
+Served asset /twitter/bootstrap.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-03-11 20:32:25 +0000
+Served asset /twitter/bootstrap/bootstrap-typeahead.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-03-11 20:32:25 +0000
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bugs.js?body=1" for 127.0.0.1 at 2013-03-11 20:32:25 +0000
+Served asset /bugs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/stories.js?body=1" for 127.0.0.1 at 2013-03-11 20:32:25 +0000
+Served asset /stories.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/teams.js?body=1" for 127.0.0.1 at 2013-03-11 20:32:25 +0000
+Served asset /teams.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sprints.js?body=1" for 127.0.0.1 at 2013-03-11 20:32:25 +0000
+Served asset /sprints.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bugareas.js?body=1" for 127.0.0.1 at 2013-03-11 20:32:25 +0000
+Served asset /bugareas.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-11 20:32:26 +0000
+Served asset /application.js - 304 Not Modified (6ms)
+
+
+Started GET "/stories/1/forsprint" for 127.0.0.1 at 2013-03-11 20:32:48 +0000
+Processing by StoriesController#forsprint as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mSprint Load (0.2ms)[0m  [1mSELECT "sprints".* FROM "sprints" WHERE "sprints"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mStory Load (0.3ms)[0m  SELECT "stories".* FROM "stories" WHERE "stories"."sprint_id" = 1
+  [1m[36mSprint Load (0.3ms)[0m  [1mSELECT "sprints".* FROM "sprints" WHERE "sprints"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "bugs" WHERE "bugs"."story_id" = 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "sprints".* FROM "sprints" WHERE "sprints"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "bugs" WHERE "bugs"."story_id" = 2
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "sprints".* FROM "sprints" WHERE "sprints"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "bugs" WHERE "bugs"."story_id" = 3
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "sprints".* FROM "sprints" WHERE "sprints"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "bugs" WHERE "bugs"."story_id" = 4
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "sprints".* FROM "sprints" WHERE "sprints"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "bugs" WHERE "bugs"."story_id" = 5
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "sprints".* FROM "sprints" WHERE "sprints"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "bugs" WHERE "bugs"."story_id" = 8
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "sprints".* FROM "sprints" WHERE "sprints"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "bugs" WHERE "bugs"."story_id" = 10
+  Rendered stories/index.html.erb within layouts/application (35.5ms)
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(DISTINCT "teams"."id") FROM "teams" LEFT OUTER JOIN "sprints" ON "sprints"."team_id" = "teams"."id" WHERE (sprints.completed = 'f')[0m
+  [1m[35mSQL (0.3ms)[0m  SELECT "teams"."id" AS t0_r0, "teams"."name" AS t0_r1, "teams"."logo_url" AS t0_r2, "teams"."created_at" AS t0_r3, "teams"."updated_at" AS t0_r4, "sprints"."id" AS t1_r0, "sprints"."title" AS t1_r1, "sprints"."description" AS t1_r2, "sprints"."team_id" AS t1_r3, "sprints"."created_at" AS t1_r4, "sprints"."updated_at" AS t1_r5, "sprints"."completed" AS t1_r6, "sprints"."start_date" AS t1_r7 FROM "teams" LEFT OUTER JOIN "sprints" ON "sprints"."team_id" = "teams"."id" WHERE (sprints.completed = 'f')
+Completed 200 OK in 114ms (Views: 110.2ms | ActiveRecord: 2.7ms)
+
+
+Started GET "/assets/jquery.ui.core.css?body=1" for 127.0.0.1 at 2013-03-11 20:32:48 +0000
+Served asset /jquery.ui.core.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.datepicker.css?body=1" for 127.0.0.1 at 2013-03-11 20:32:48 +0000
+Served asset /jquery.ui.datepicker.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.css?body=1" for 127.0.0.1 at 2013-03-11 20:32:48 +0000
+Served asset /twitter-bootstrap-static/bootstrap.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.ui.theme.css?body=1" for 127.0.0.1 at 2013-03-11 20:32:48 +0000
+Served asset /jquery.ui.theme.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.css?body=1" for 127.0.0.1 at 2013-03-11 20:32:48 +0000
+Served asset /twitter-bootstrap-static/fontawesome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-11 20:32:48 +0000
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-03-11 20:32:48 +0000
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/sprints.css?body=1" for 127.0.0.1 at 2013-03-11 20:32:48 +0000
+Served asset /sprints.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-11 20:32:48 +0000
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bugareas.css?body=1" for 127.0.0.1 at 2013-03-11 20:32:48 +0000
+Served asset /bugareas.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bugs.css?body=1" for 127.0.0.1 at 2013-03-11 20:32:48 +0000
+Served asset /bugs.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/teams.css?body=1" for 127.0.0.1 at 2013-03-11 20:32:48 +0000
+Served asset /teams.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-11 20:32:49 +0000
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 127.0.0.1 at 2013-03-11 20:32:49 +0000
+Served asset /jquery.ui.core.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/icon_true.png" for 127.0.0.1 at 2013-03-11 20:32:49 +0000
+Served asset /icon_true.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/icon_false.png" for 127.0.0.1 at 2013-03-11 20:32:49 +0000
+Served asset /icon_false.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-11 20:32:49 +0000
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 127.0.0.1 at 2013-03-11 20:32:49 +0000
+Served asset /jquery.ui.datepicker.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-03-11 20:32:49 +0000
+Served asset /twitter/bootstrap/bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-03-11 20:32:49 +0000
+Served asset /twitter/bootstrap/bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-03-11 20:32:49 +0000
+Served asset /twitter/bootstrap/bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-03-11 20:32:49 +0000
+Served asset /twitter/bootstrap/bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-03-11 20:32:49 +0000
+Served asset /twitter/bootstrap/bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-03-11 20:32:49 +0000
+Served asset /twitter/bootstrap/bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-03-11 20:32:49 +0000
+Served asset /twitter/bootstrap/bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-03-11 20:32:49 +0000
+Served asset /twitter/bootstrap/bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-03-11 20:32:49 +0000
+Served asset /twitter/bootstrap/bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-03-11 20:32:49 +0000
+Served asset /twitter/bootstrap/bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-03-11 20:32:49 +0000
+Served asset /twitter/bootstrap/bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-03-11 20:32:49 +0000
+Served asset /twitter/bootstrap/bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-03-11 20:32:49 +0000
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-03-11 20:32:49 +0000
+Served asset /twitter/bootstrap/bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-03-11 20:32:49 +0000
+Served asset /twitter/bootstrap.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bugareas.js?body=1" for 127.0.0.1 at 2013-03-11 20:32:49 +0000
+Served asset /bugareas.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sprints.js?body=1" for 127.0.0.1 at 2013-03-11 20:32:49 +0000
+Served asset /sprints.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bugs.js?body=1" for 127.0.0.1 at 2013-03-11 20:32:49 +0000
+Served asset /bugs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/stories.js?body=1" for 127.0.0.1 at 2013-03-11 20:32:49 +0000
+Served asset /stories.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/teams.js?body=1" for 127.0.0.1 at 2013-03-11 20:32:49 +0000
+Served asset /teams.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-11 20:32:49 +0000
+Served asset /application.js - 304 Not Modified (9ms)
+
+
+Started GET "/assets/stories.css?body=1" for 127.0.0.1 at 2013-03-11 20:32:49 +0000
+Served asset /stories.css - 304 Not Modified (0ms)
+
+
+Started GET "/stories/1/forsprint" for 127.0.0.1 at 2013-03-11 20:34:26 +0000
+Processing by StoriesController#forsprint as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mSprint Load (0.2ms)[0m  [1mSELECT "sprints".* FROM "sprints" WHERE "sprints"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mStory Load (0.3ms)[0m  SELECT "stories".* FROM "stories" WHERE "stories"."sprint_id" = 1
+  [1m[36mSprint Load (0.2ms)[0m  [1mSELECT "sprints".* FROM "sprints" WHERE "sprints"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "bugs" WHERE "bugs"."story_id" = 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "sprints".* FROM "sprints" WHERE "sprints"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "bugs" WHERE "bugs"."story_id" = 2
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "sprints".* FROM "sprints" WHERE "sprints"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "bugs" WHERE "bugs"."story_id" = 3
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "sprints".* FROM "sprints" WHERE "sprints"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "bugs" WHERE "bugs"."story_id" = 4
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "sprints".* FROM "sprints" WHERE "sprints"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "bugs" WHERE "bugs"."story_id" = 5
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "sprints".* FROM "sprints" WHERE "sprints"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "bugs" WHERE "bugs"."story_id" = 8
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "sprints".* FROM "sprints" WHERE "sprints"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "bugs" WHERE "bugs"."story_id" = 10
+  Rendered stories/index.html.erb within layouts/application (28.6ms)
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(DISTINCT "teams"."id") FROM "teams" LEFT OUTER JOIN "sprints" ON "sprints"."team_id" = "teams"."id" WHERE (sprints.completed = 'f')[0m
+  [1m[35mSQL (0.3ms)[0m  SELECT "teams"."id" AS t0_r0, "teams"."name" AS t0_r1, "teams"."logo_url" AS t0_r2, "teams"."created_at" AS t0_r3, "teams"."updated_at" AS t0_r4, "sprints"."id" AS t1_r0, "sprints"."title" AS t1_r1, "sprints"."description" AS t1_r2, "sprints"."team_id" AS t1_r3, "sprints"."created_at" AS t1_r4, "sprints"."updated_at" AS t1_r5, "sprints"."completed" AS t1_r6, "sprints"."start_date" AS t1_r7 FROM "teams" LEFT OUTER JOIN "sprints" ON "sprints"."team_id" = "teams"."id" WHERE (sprints.completed = 'f')
+Completed 200 OK in 108ms (Views: 104.5ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.css?body=1" for 127.0.0.1 at 2013-03-11 20:34:26 +0000
+Served asset /twitter-bootstrap-static/bootstrap.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-11 20:34:27 +0000
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.ui.datepicker.css?body=1" for 127.0.0.1 at 2013-03-11 20:34:27 +0000
+Served asset /jquery.ui.datepicker.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.theme.css?body=1" for 127.0.0.1 at 2013-03-11 20:34:27 +0000
+Served asset /jquery.ui.theme.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.css?body=1" for 127.0.0.1 at 2013-03-11 20:34:27 +0000
+Served asset /twitter-bootstrap-static/fontawesome.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.ui.core.css?body=1" for 127.0.0.1 at 2013-03-11 20:34:27 +0000
+Served asset /jquery.ui.core.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-03-11 20:34:27 +0000
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (9ms)
+
+
+Started GET "/assets/stories.css?body=1" for 127.0.0.1 at 2013-03-11 20:34:27 +0000
+Served asset /stories.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bugs.css?body=1" for 127.0.0.1 at 2013-03-11 20:34:27 +0000
+Served asset /bugs.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/teams.css?body=1" for 127.0.0.1 at 2013-03-11 20:34:27 +0000
+Served asset /teams.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sprints.css?body=1" for 127.0.0.1 at 2013-03-11 20:34:27 +0000
+Served asset /sprints.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bugareas.css?body=1" for 127.0.0.1 at 2013-03-11 20:34:27 +0000
+Served asset /bugareas.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-11 20:34:27 +0000
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/icon_true.png" for 127.0.0.1 at 2013-03-11 20:34:27 +0000
+Served asset /icon_true.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-11 20:34:27 +0000
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/icon_false.png" for 127.0.0.1 at 2013-03-11 20:34:27 +0000
+Served asset /icon_false.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 127.0.0.1 at 2013-03-11 20:34:27 +0000
+Served asset /jquery.ui.datepicker.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 127.0.0.1 at 2013-03-11 20:34:27 +0000
+Served asset /jquery.ui.core.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-11 20:34:27 +0000
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-03-11 20:34:27 +0000
+Served asset /twitter/bootstrap/bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-03-11 20:34:27 +0000
+Served asset /twitter/bootstrap/bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-03-11 20:34:27 +0000
+Served asset /twitter/bootstrap/bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-03-11 20:34:27 +0000
+Served asset /twitter/bootstrap/bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-03-11 20:34:27 +0000
+Served asset /twitter/bootstrap/bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-03-11 20:34:27 +0000
+Served asset /twitter/bootstrap/bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-03-11 20:34:27 +0000
+Served asset /twitter/bootstrap/bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-03-11 20:34:27 +0000
+Served asset /twitter/bootstrap/bootstrap-tooltip.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-03-11 20:34:27 +0000
+Served asset /twitter/bootstrap/bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-03-11 20:34:27 +0000
+Served asset /twitter/bootstrap/bootstrap-carousel.js - 304 Not Modified (60ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-03-11 20:34:27 +0000
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-03-11 20:34:27 +0000
+Served asset /twitter/bootstrap/bootstrap-typeahead.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-03-11 20:34:27 +0000
+Served asset /twitter/bootstrap.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-03-11 20:34:27 +0000
+Served asset /twitter/bootstrap/bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bugareas.js?body=1" for 127.0.0.1 at 2013-03-11 20:34:27 +0000
+Served asset /bugareas.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bugs.js?body=1" for 127.0.0.1 at 2013-03-11 20:34:27 +0000
+Served asset /bugs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/stories.js?body=1" for 127.0.0.1 at 2013-03-11 20:34:27 +0000
+Served asset /stories.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/teams.js?body=1" for 127.0.0.1 at 2013-03-11 20:34:27 +0000
+Served asset /teams.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-11 20:34:27 +0000
+Served asset /application.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/sprints.js?body=1" for 127.0.0.1 at 2013-03-11 20:34:27 +0000
+Served asset /sprints.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-03-11 20:34:28 +0000
+Served asset /twitter/bootstrap/bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/stories/1/forsprint" for 127.0.0.1 at 2013-03-11 20:34:53 +0000
+Processing by StoriesController#forsprint as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mSprint Load (0.2ms)[0m  [1mSELECT "sprints".* FROM "sprints" WHERE "sprints"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mStory Load (0.3ms)[0m  SELECT "stories".* FROM "stories" WHERE "stories"."sprint_id" = 1
+  [1m[36mSprint Load (0.3ms)[0m  [1mSELECT "sprints".* FROM "sprints" WHERE "sprints"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "bugs" WHERE "bugs"."story_id" = 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "sprints".* FROM "sprints" WHERE "sprints"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "bugs" WHERE "bugs"."story_id" = 2
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "sprints".* FROM "sprints" WHERE "sprints"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "bugs" WHERE "bugs"."story_id" = 3
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "sprints".* FROM "sprints" WHERE "sprints"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM "bugs" WHERE "bugs"."story_id" = 4
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "sprints".* FROM "sprints" WHERE "sprints"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "bugs" WHERE "bugs"."story_id" = 5
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "sprints".* FROM "sprints" WHERE "sprints"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "bugs" WHERE "bugs"."story_id" = 8
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "sprints".* FROM "sprints" WHERE "sprints"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "bugs" WHERE "bugs"."story_id" = 10
+  Rendered stories/index.html.erb within layouts/application (38.1ms)
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(DISTINCT "teams"."id") FROM "teams" LEFT OUTER JOIN "sprints" ON "sprints"."team_id" = "teams"."id" WHERE (sprints.completed = 'f')[0m
+  [1m[35mSQL (0.3ms)[0m  SELECT "teams"."id" AS t0_r0, "teams"."name" AS t0_r1, "teams"."logo_url" AS t0_r2, "teams"."created_at" AS t0_r3, "teams"."updated_at" AS t0_r4, "sprints"."id" AS t1_r0, "sprints"."title" AS t1_r1, "sprints"."description" AS t1_r2, "sprints"."team_id" AS t1_r3, "sprints"."created_at" AS t1_r4, "sprints"."updated_at" AS t1_r5, "sprints"."completed" AS t1_r6, "sprints"."start_date" AS t1_r7 FROM "teams" LEFT OUTER JOIN "sprints" ON "sprints"."team_id" = "teams"."id" WHERE (sprints.completed = 'f')
+Completed 200 OK in 79ms (Views: 72.9ms | ActiveRecord: 2.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-11 20:34:53 +0000
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.ui.core.css?body=1" for 127.0.0.1 at 2013-03-11 20:34:53 +0000
+Served asset /jquery.ui.core.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.css?body=1" for 127.0.0.1 at 2013-03-11 20:34:53 +0000
+Served asset /twitter-bootstrap-static/bootstrap.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.ui.datepicker.css?body=1" for 127.0.0.1 at 2013-03-11 20:34:53 +0000
+Served asset /jquery.ui.datepicker.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.css?body=1" for 127.0.0.1 at 2013-03-11 20:34:53 +0000
+Served asset /twitter-bootstrap-static/fontawesome.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.ui.theme.css?body=1" for 127.0.0.1 at 2013-03-11 20:34:53 +0000
+Served asset /jquery.ui.theme.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/stories.css?body=1" for 127.0.0.1 at 2013-03-11 20:34:54 +0000
+Served asset /stories.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-03-11 20:34:54 +0000
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/sprints.css?body=1" for 127.0.0.1 at 2013-03-11 20:34:54 +0000
+Served asset /sprints.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bugs.css?body=1" for 127.0.0.1 at 2013-03-11 20:34:54 +0000
+Served asset /bugs.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-11 20:34:54 +0000
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/teams.css?body=1" for 127.0.0.1 at 2013-03-11 20:34:54 +0000
+Served asset /teams.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/icon_false.png" for 127.0.0.1 at 2013-03-11 20:34:54 +0000
+Served asset /icon_false.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/icon_true.png" for 127.0.0.1 at 2013-03-11 20:34:54 +0000
+Served asset /icon_true.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-11 20:34:54 +0000
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 127.0.0.1 at 2013-03-11 20:34:54 +0000
+Served asset /jquery.ui.core.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 127.0.0.1 at 2013-03-11 20:34:54 +0000
+Served asset /jquery.ui.datepicker.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-03-11 20:34:54 +0000
+Served asset /twitter/bootstrap/bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-11 20:34:54 +0000
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-03-11 20:34:54 +0000
+Served asset /twitter/bootstrap/bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-03-11 20:34:54 +0000
+Served asset /twitter/bootstrap/bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-03-11 20:34:54 +0000
+Served asset /twitter/bootstrap/bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-03-11 20:34:54 +0000
+Served asset /twitter/bootstrap/bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-03-11 20:34:54 +0000
+Served asset /twitter/bootstrap/bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-03-11 20:34:54 +0000
+Served asset /twitter/bootstrap/bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-03-11 20:34:54 +0000
+Served asset /twitter/bootstrap/bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-03-11 20:34:54 +0000
+Served asset /twitter/bootstrap/bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-03-11 20:34:54 +0000
+Served asset /twitter/bootstrap/bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-03-11 20:34:54 +0000
+Served asset /twitter/bootstrap/bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-03-11 20:34:54 +0000
+Served asset /twitter/bootstrap/bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-03-11 20:34:54 +0000
+Served asset /twitter/bootstrap/bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-03-11 20:34:54 +0000
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-03-11 20:34:54 +0000
+Served asset /twitter/bootstrap.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bugareas.js?body=1" for 127.0.0.1 at 2013-03-11 20:34:54 +0000
+Served asset /bugareas.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sprints.js?body=1" for 127.0.0.1 at 2013-03-11 20:34:54 +0000
+Served asset /sprints.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/stories.js?body=1" for 127.0.0.1 at 2013-03-11 20:34:54 +0000
+Served asset /stories.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bugs.js?body=1" for 127.0.0.1 at 2013-03-11 20:34:54 +0000
+Served asset /bugs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/teams.js?body=1" for 127.0.0.1 at 2013-03-11 20:34:54 +0000
+Served asset /teams.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-11 20:34:54 +0000
+Served asset /application.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/bugareas.css?body=1" for 127.0.0.1 at 2013-03-11 20:34:55 +0000
+Served asset /bugareas.css - 304 Not Modified (0ms)
+
+
+Started GET "/stories/1/forsprint" for 127.0.0.1 at 2013-03-11 20:35:25 +0000
+Processing by StoriesController#forsprint as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mSprint Load (0.2ms)[0m  [1mSELECT "sprints".* FROM "sprints" WHERE "sprints"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mStory Load (0.2ms)[0m  SELECT "stories".* FROM "stories" WHERE "stories"."sprint_id" = 1
+  [1m[36mSprint Load (0.2ms)[0m  [1mSELECT "sprints".* FROM "sprints" WHERE "sprints"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "bugs" WHERE "bugs"."story_id" = 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "sprints".* FROM "sprints" WHERE "sprints"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "bugs" WHERE "bugs"."story_id" = 2
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "sprints".* FROM "sprints" WHERE "sprints"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "bugs" WHERE "bugs"."story_id" = 3
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "sprints".* FROM "sprints" WHERE "sprints"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "bugs" WHERE "bugs"."story_id" = 4
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "sprints".* FROM "sprints" WHERE "sprints"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "bugs" WHERE "bugs"."story_id" = 5
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "sprints".* FROM "sprints" WHERE "sprints"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "bugs" WHERE "bugs"."story_id" = 8
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "sprints".* FROM "sprints" WHERE "sprints"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "bugs" WHERE "bugs"."story_id" = 10
+  Rendered stories/index.html.erb within layouts/application (36.0ms)
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(DISTINCT "teams"."id") FROM "teams" LEFT OUTER JOIN "sprints" ON "sprints"."team_id" = "teams"."id" WHERE (sprints.completed = 'f')[0m
+  [1m[35mSQL (0.3ms)[0m  SELECT "teams"."id" AS t0_r0, "teams"."name" AS t0_r1, "teams"."logo_url" AS t0_r2, "teams"."created_at" AS t0_r3, "teams"."updated_at" AS t0_r4, "sprints"."id" AS t1_r0, "sprints"."title" AS t1_r1, "sprints"."description" AS t1_r2, "sprints"."team_id" AS t1_r3, "sprints"."created_at" AS t1_r4, "sprints"."updated_at" AS t1_r5, "sprints"."completed" AS t1_r6, "sprints"."start_date" AS t1_r7 FROM "teams" LEFT OUTER JOIN "sprints" ON "sprints"."team_id" = "teams"."id" WHERE (sprints.completed = 'f')
+Completed 200 OK in 148ms (Views: 143.3ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-11 20:35:25 +0000
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.ui.core.css?body=1" for 127.0.0.1 at 2013-03-11 20:35:25 +0000
+Served asset /jquery.ui.core.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.theme.css?body=1" for 127.0.0.1 at 2013-03-11 20:35:25 +0000
+Served asset /jquery.ui.theme.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.datepicker.css?body=1" for 127.0.0.1 at 2013-03-11 20:35:25 +0000
+Served asset /jquery.ui.datepicker.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.css?body=1" for 127.0.0.1 at 2013-03-11 20:35:25 +0000
+Served asset /twitter-bootstrap-static/fontawesome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.css?body=1" for 127.0.0.1 at 2013-03-11 20:35:25 +0000
+Served asset /twitter-bootstrap-static/bootstrap.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-03-11 20:35:25 +0000
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-11 20:35:25 +0000
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bugareas.css?body=1" for 127.0.0.1 at 2013-03-11 20:35:25 +0000
+Served asset /bugareas.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bugs.css?body=1" for 127.0.0.1 at 2013-03-11 20:35:25 +0000
+Served asset /bugs.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/stories.css?body=1" for 127.0.0.1 at 2013-03-11 20:35:25 +0000
+Served asset /stories.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sprints.css?body=1" for 127.0.0.1 at 2013-03-11 20:35:25 +0000
+Served asset /sprints.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/icon_false.png" for 127.0.0.1 at 2013-03-11 20:35:25 +0000
+Served asset /icon_false.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/teams.css?body=1" for 127.0.0.1 at 2013-03-11 20:35:25 +0000
+Served asset /teams.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/icon_true.png" for 127.0.0.1 at 2013-03-11 20:35:25 +0000
+Served asset /icon_true.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-11 20:35:25 +0000
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 127.0.0.1 at 2013-03-11 20:35:25 +0000
+Served asset /jquery.ui.datepicker.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 127.0.0.1 at 2013-03-11 20:35:25 +0000
+Served asset /jquery.ui.core.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-11 20:35:25 +0000
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-03-11 20:35:25 +0000
+Served asset /twitter/bootstrap/bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-03-11 20:35:25 +0000
+Served asset /twitter/bootstrap/bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-03-11 20:35:25 +0000
+Served asset /twitter/bootstrap/bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-03-11 20:35:25 +0000
+Served asset /twitter/bootstrap/bootstrap-scrollspy.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-03-11 20:35:25 +0000
+Served asset /twitter/bootstrap/bootstrap-tab.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-03-11 20:35:25 +0000
+Served asset /twitter/bootstrap/bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-03-11 20:35:25 +0000
+Served asset /twitter/bootstrap/bootstrap-popover.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-03-11 20:35:25 +0000
+Served asset /twitter/bootstrap/bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-03-11 20:35:25 +0000
+Served asset /twitter/bootstrap/bootstrap-button.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-03-11 20:35:25 +0000
+Served asset /twitter/bootstrap/bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-03-11 20:35:25 +0000
+Served asset /twitter/bootstrap/bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-03-11 20:35:25 +0000
+Served asset /twitter/bootstrap/bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-03-11 20:35:25 +0000
+Served asset /twitter/bootstrap/bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-03-11 20:35:25 +0000
+Served asset /twitter/bootstrap.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/sprints.js?body=1" for 127.0.0.1 at 2013-03-11 20:35:25 +0000
+Served asset /sprints.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bugareas.js?body=1" for 127.0.0.1 at 2013-03-11 20:35:26 +0000
+Served asset /bugareas.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bugs.js?body=1" for 127.0.0.1 at 2013-03-11 20:35:26 +0000
+Served asset /bugs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-03-11 20:35:26 +0000
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/stories.js?body=1" for 127.0.0.1 at 2013-03-11 20:35:26 +0000
+Served asset /stories.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/teams.js?body=1" for 127.0.0.1 at 2013-03-11 20:35:26 +0000
+Served asset /teams.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-11 20:35:26 +0000
+Served asset /application.js - 304 Not Modified (72ms)
+
+
+Started GET "/stories/1/forsprint" for 127.0.0.1 at 2013-03-11 20:35:49 +0000
+Processing by StoriesController#forsprint as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mSprint Load (0.1ms)[0m  [1mSELECT "sprints".* FROM "sprints" WHERE "sprints"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mStory Load (0.3ms)[0m  SELECT "stories".* FROM "stories" WHERE "stories"."sprint_id" = 1
+  [1m[36mSprint Load (0.3ms)[0m  [1mSELECT "sprints".* FROM "sprints" WHERE "sprints"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "bugs" WHERE "bugs"."story_id" = 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "sprints".* FROM "sprints" WHERE "sprints"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "bugs" WHERE "bugs"."story_id" = 2
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "sprints".* FROM "sprints" WHERE "sprints"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "bugs" WHERE "bugs"."story_id" = 3
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "sprints".* FROM "sprints" WHERE "sprints"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "bugs" WHERE "bugs"."story_id" = 4
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "sprints".* FROM "sprints" WHERE "sprints"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "bugs" WHERE "bugs"."story_id" = 5
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "sprints".* FROM "sprints" WHERE "sprints"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "bugs" WHERE "bugs"."story_id" = 8
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "sprints".* FROM "sprints" WHERE "sprints"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "bugs" WHERE "bugs"."story_id" = 10
+  Rendered stories/index.html.erb within layouts/application (36.2ms)
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(DISTINCT "teams"."id") FROM "teams" LEFT OUTER JOIN "sprints" ON "sprints"."team_id" = "teams"."id" WHERE (sprints.completed = 'f')[0m
+  [1m[35mSQL (0.3ms)[0m  SELECT "teams"."id" AS t0_r0, "teams"."name" AS t0_r1, "teams"."logo_url" AS t0_r2, "teams"."created_at" AS t0_r3, "teams"."updated_at" AS t0_r4, "sprints"."id" AS t1_r0, "sprints"."title" AS t1_r1, "sprints"."description" AS t1_r2, "sprints"."team_id" AS t1_r3, "sprints"."created_at" AS t1_r4, "sprints"."updated_at" AS t1_r5, "sprints"."completed" AS t1_r6, "sprints"."start_date" AS t1_r7 FROM "teams" LEFT OUTER JOIN "sprints" ON "sprints"."team_id" = "teams"."id" WHERE (sprints.completed = 'f')
+Completed 200 OK in 76ms (Views: 71.2ms | ActiveRecord: 2.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-11 20:35:49 +0000
+Served asset /application.css - 304 Not Modified (13ms)
+
+
+Started GET "/assets/jquery.ui.theme.css?body=1" for 127.0.0.1 at 2013-03-11 20:35:49 +0000
+Served asset /jquery.ui.theme.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.core.css?body=1" for 127.0.0.1 at 2013-03-11 20:35:49 +0000
+Served asset /jquery.ui.core.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.datepicker.css?body=1" for 127.0.0.1 at 2013-03-11 20:35:49 +0000
+Served asset /jquery.ui.datepicker.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.css?body=1" for 127.0.0.1 at 2013-03-11 20:35:49 +0000
+Served asset /twitter-bootstrap-static/fontawesome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.css?body=1" for 127.0.0.1 at 2013-03-11 20:35:49 +0000
+Served asset /twitter-bootstrap-static/bootstrap.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-03-11 20:35:50 +0000
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bugs.css?body=1" for 127.0.0.1 at 2013-03-11 20:35:50 +0000
+Served asset /bugs.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bugareas.css?body=1" for 127.0.0.1 at 2013-03-11 20:35:50 +0000
+Served asset /bugareas.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/stories.css?body=1" for 127.0.0.1 at 2013-03-11 20:35:50 +0000
+Served asset /stories.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sprints.css?body=1" for 127.0.0.1 at 2013-03-11 20:35:50 +0000
+Served asset /sprints.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-11 20:35:50 +0000
+Served asset /scaffolds.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/teams.css?body=1" for 127.0.0.1 at 2013-03-11 20:35:50 +0000
+Served asset /teams.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/icon_true.png" for 127.0.0.1 at 2013-03-11 20:35:50 +0000
+Served asset /icon_true.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/icon_false.png" for 127.0.0.1 at 2013-03-11 20:35:50 +0000
+Served asset /icon_false.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-11 20:35:50 +0000
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 127.0.0.1 at 2013-03-11 20:35:50 +0000
+Served asset /jquery.ui.core.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 127.0.0.1 at 2013-03-11 20:35:50 +0000
+Served asset /jquery.ui.datepicker.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-11 20:35:50 +0000
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-03-11 20:35:50 +0000
+Served asset /twitter/bootstrap/bootstrap-modal.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-03-11 20:35:50 +0000
+Served asset /twitter/bootstrap/bootstrap-alert.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-03-11 20:35:50 +0000
+Served asset /twitter/bootstrap/bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-03-11 20:35:50 +0000
+Served asset /twitter/bootstrap/bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-03-11 20:35:50 +0000
+Served asset /twitter/bootstrap/bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-03-11 20:35:50 +0000
+Served asset /twitter/bootstrap/bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-03-11 20:35:50 +0000
+Served asset /twitter/bootstrap/bootstrap-button.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-03-11 20:35:50 +0000
+Served asset /twitter/bootstrap/bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-03-11 20:35:50 +0000
+Served asset /twitter/bootstrap/bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-03-11 20:35:50 +0000
+Served asset /twitter/bootstrap/bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-03-11 20:35:50 +0000
+Served asset /twitter/bootstrap/bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-03-11 20:35:50 +0000
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-03-11 20:35:50 +0000
+Served asset /twitter/bootstrap/bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-03-11 20:35:50 +0000
+Served asset /twitter/bootstrap.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-03-11 20:35:50 +0000
+Served asset /twitter/bootstrap/bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bugareas.js?body=1" for 127.0.0.1 at 2013-03-11 20:35:50 +0000
+Served asset /bugareas.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/stories.js?body=1" for 127.0.0.1 at 2013-03-11 20:35:50 +0000
+Served asset /stories.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/teams.js?body=1" for 127.0.0.1 at 2013-03-11 20:35:50 +0000
+Served asset /teams.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-11 20:35:50 +0000
+Served asset /application.js - 304 Not Modified (9ms)
+
+
+Started GET "/assets/sprints.js?body=1" for 127.0.0.1 at 2013-03-11 20:35:50 +0000
+Served asset /sprints.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bugs.js?body=1" for 127.0.0.1 at 2013-03-11 20:35:50 +0000
+Served asset /bugs.js - 304 Not Modified (0ms)
