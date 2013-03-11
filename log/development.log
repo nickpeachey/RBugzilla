@@ -50449,3 +50449,74 @@ Served asset /teams.js - 304 Not Modified (0ms)
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-10 18:44:13 +0000
 Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/sprints" for 127.0.0.1 at 2013-03-11 19:42:31 +0000
+Connecting to database specified by database.yml
+Processing by SprintsController#index as HTML
+  [1m[36mSprint Load (0.1ms)[0m  [1mSELECT "sprints".* FROM "sprints" [0m
+  [1m[35mTeam Load (0.2ms)[0m  SELECT "teams".* FROM "teams" WHERE "teams"."id" = 1 LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 1[0m
+  [1m[35mStory Load (0.2ms)[0m  SELECT "stories".* FROM "stories" WHERE "stories"."sprint_id" = 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 1
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 1 AND "stories"."completed" = 't'[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "teams".* FROM "teams" WHERE "teams"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 2
+  [1m[36mStory Load (0.1ms)[0m  [1mSELECT "stories".* FROM "stories" WHERE "stories"."sprint_id" = 2[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 2
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 2[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 2 AND "stories"."completed" = 't'
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 2[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "teams".* FROM "teams" WHERE "teams"."id" = 1 LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 3[0m
+  [1m[35mStory Load (0.1ms)[0m  SELECT "stories".* FROM "stories" WHERE "stories"."sprint_id" = 3
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 3[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 3
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 3 AND "stories"."completed" = 't'[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 3
+  [1m[36mTeam Load (0.2ms)[0m  [1mSELECT "teams".* FROM "teams" WHERE "teams"."id" = 2 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 4
+  [1m[36mStory Load (0.1ms)[0m  [1mSELECT "stories".* FROM "stories" WHERE "stories"."sprint_id" = 4[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 4
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 4[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 4 AND "stories"."completed" = 't'
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 4[0m
+  Rendered sprints/index.html.erb within layouts/application (134.8ms)
+  [1m[35m (0.4ms)[0m  SELECT COUNT(DISTINCT "teams"."id") FROM "teams" LEFT OUTER JOIN "sprints" ON "sprints"."team_id" = "teams"."id" WHERE (sprints.completed = 'f')
+  [1m[36mSQL (0.3ms)[0m  [1mSELECT "teams"."id" AS t0_r0, "teams"."name" AS t0_r1, "teams"."logo_url" AS t0_r2, "teams"."created_at" AS t0_r3, "teams"."updated_at" AS t0_r4, "sprints"."id" AS t1_r0, "sprints"."title" AS t1_r1, "sprints"."description" AS t1_r2, "sprints"."team_id" AS t1_r3, "sprints"."created_at" AS t1_r4, "sprints"."updated_at" AS t1_r5, "sprints"."completed" AS t1_r6, "sprints"."start_date" AS t1_r7 FROM "teams" LEFT OUTER JOIN "sprints" ON "sprints"."team_id" = "teams"."id" WHERE (sprints.completed = 'f')[0m
+Completed 200 OK in 440ms (Views: 398.4ms | ActiveRecord: 7.2ms)
+
+
+Started GET "/stories/1/forsprint" for 127.0.0.1 at 2013-03-11 19:42:37 +0000
+Processing by StoriesController#forsprint as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mSprint Load (0.3ms)[0m  SELECT "sprints".* FROM "sprints" WHERE "sprints"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36mStory Load (0.2ms)[0m  [1mSELECT "stories".* FROM "stories" WHERE "stories"."sprint_id" = 1[0m
+  [1m[35mSprint Load (0.2ms)[0m  SELECT "sprints".* FROM "sprints" WHERE "sprints"."id" = 1 LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "bugs" WHERE "bugs"."story_id" = 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "sprints".* FROM "sprints" WHERE "sprints"."id" = 1 LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "bugs" WHERE "bugs"."story_id" = 2[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "sprints".* FROM "sprints" WHERE "sprints"."id" = 1 LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "bugs" WHERE "bugs"."story_id" = 3[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "sprints".* FROM "sprints" WHERE "sprints"."id" = 1 LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "bugs" WHERE "bugs"."story_id" = 4[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "sprints".* FROM "sprints" WHERE "sprints"."id" = 1 LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "bugs" WHERE "bugs"."story_id" = 5[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "sprints".* FROM "sprints" WHERE "sprints"."id" = 1 LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "bugs" WHERE "bugs"."story_id" = 8[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "sprints".* FROM "sprints" WHERE "sprints"."id" = 1 LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "bugs" WHERE "bugs"."story_id" = 10[0m
+  Rendered stories/index.html.erb within layouts/application (39.9ms)
+  [1m[35m (0.4ms)[0m  SELECT COUNT(DISTINCT "teams"."id") FROM "teams" LEFT OUTER JOIN "sprints" ON "sprints"."team_id" = "teams"."id" WHERE (sprints.completed = 'f')
+  [1m[36mSQL (0.4ms)[0m  [1mSELECT "teams"."id" AS t0_r0, "teams"."name" AS t0_r1, "teams"."logo_url" AS t0_r2, "teams"."created_at" AS t0_r3, "teams"."updated_at" AS t0_r4, "sprints"."id" AS t1_r0, "sprints"."title" AS t1_r1, "sprints"."description" AS t1_r2, "sprints"."team_id" AS t1_r3, "sprints"."created_at" AS t1_r4, "sprints"."updated_at" AS t1_r5, "sprints"."completed" AS t1_r6, "sprints"."start_date" AS t1_r7 FROM "teams" LEFT OUTER JOIN "sprints" ON "sprints"."team_id" = "teams"."id" WHERE (sprints.completed = 'f')[0m
+Completed 200 OK in 78ms (Views: 72.7ms | ActiveRecord: 2.9ms)
+
+
+Started GET "/assets/icon_false.png" for 127.0.0.1 at 2013-03-11 19:42:37 +0000
+Served asset /icon_false.png - 200 OK (36ms)
+
+
+Started GET "/assets/icon_true.png" for 127.0.0.1 at 2013-03-11 19:42:37 +0000
+Served asset /icon_true.png - 200 OK (3ms)
