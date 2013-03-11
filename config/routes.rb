@@ -1,4 +1,7 @@
 RBugzilla::Application.routes.draw do
+  get "error/error404"
+  get "error/errorgeneral"
+
   resources :bugareas
   resources :bugs
   resources :teams

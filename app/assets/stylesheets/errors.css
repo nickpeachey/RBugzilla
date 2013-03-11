@@ -1,0 +1,7 @@
+.error-container {
+	text-align:center;
+}
+
+.404error {
+	position: absolute; left: 80%; top: 50%; margin-left: -285px; margin-top: -190px;
+}

@@ -66331,3 +66331,2549 @@ Served asset /sprints.js - 304 Not Modified (0ms)
 
 Started GET "/assets/bugs.js?body=1" for 127.0.0.1 at 2013-03-11 20:35:50 +0000
 Served asset /bugs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/images/404.jpg" for 127.0.0.1 at 2013-03-11 20:42:57 +0000
+Served asset /images/404.jpg - 404 Not Found (31ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/404.jpg"):
+  actionpack (3.2.12) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.12) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.12) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.12) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.12) lib/rails/engine.rb:479:in `call'
+  railties (3.2.12) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.12) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/nickpeachey/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/nickpeachey/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/nickpeachey/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/assets/images/404.jpeg" for 127.0.0.1 at 2013-03-11 20:43:23 +0000
+Served asset /images/404.jpeg - 404 Not Found (6ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/404.jpeg"):
+  actionpack (3.2.12) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.12) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.12) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.12) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.12) lib/rails/engine.rb:479:in `call'
+  railties (3.2.12) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.12) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/nickpeachey/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/nickpeachey/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/nickpeachey/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/assets/images/404.jpeg" for 127.0.0.1 at 2013-03-11 20:43:36 +0000
+Served asset /images/404.jpeg - 404 Not Found (6ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/404.jpeg"):
+  actionpack (3.2.12) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.12) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.12) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.12) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.12) lib/rails/engine.rb:479:in `call'
+  railties (3.2.12) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.12) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/nickpeachey/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/nickpeachey/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/nickpeachey/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/assets/images/404.jpeg" for 127.0.0.1 at 2013-03-11 20:44:14 +0000
+Served asset /images/404.jpeg - 404 Not Found (19ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/404.jpeg"):
+  actionpack (3.2.12) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.12) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.12) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.12) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.12) lib/rails/engine.rb:479:in `call'
+  railties (3.2.12) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.12) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/nickpeachey/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/nickpeachey/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/nickpeachey/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/assets/images/true.png" for 127.0.0.1 at 2013-03-11 20:44:29 +0000
+Served asset /images/true.png - 404 Not Found (55ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/true.png"):
+  actionpack (3.2.12) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.12) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.12) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.12) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.12) lib/rails/engine.rb:479:in `call'
+  railties (3.2.12) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.12) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/nickpeachey/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/nickpeachey/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/nickpeachey/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/sprints" for 127.0.0.1 at 2013-03-11 20:44:39 +0000
+Processing by SprintsController#index as HTML
+  [1m[36mSprint Load (0.3ms)[0m  [1mSELECT "sprints".* FROM "sprints" [0m
+  [1m[35mTeam Load (0.3ms)[0m  SELECT "teams".* FROM "teams" WHERE "teams"."id" = 1 LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 1[0m
+  [1m[35mStory Load (0.2ms)[0m  SELECT "stories".* FROM "stories" WHERE "stories"."sprint_id" = 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 1
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 1 AND "stories"."completed" = 't'[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "teams".* FROM "teams" WHERE "teams"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 2
+  [1m[36mStory Load (0.2ms)[0m  [1mSELECT "stories".* FROM "stories" WHERE "stories"."sprint_id" = 2[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 2
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 2[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 2 AND "stories"."completed" = 't'
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 2[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "teams".* FROM "teams" WHERE "teams"."id" = 1 LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 3[0m
+  [1m[35mStory Load (0.1ms)[0m  SELECT "stories".* FROM "stories" WHERE "stories"."sprint_id" = 3
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 3[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 3
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 3 AND "stories"."completed" = 't'[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 3
+  [1m[36mTeam Load (0.2ms)[0m  [1mSELECT "teams".* FROM "teams" WHERE "teams"."id" = 2 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 4
+  [1m[36mStory Load (0.1ms)[0m  [1mSELECT "stories".* FROM "stories" WHERE "stories"."sprint_id" = 4[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 4
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 4[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 4 AND "stories"."completed" = 't'
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 4[0m
+  Rendered sprints/index.html.erb within layouts/application (41.4ms)
+  [1m[35m (0.4ms)[0m  SELECT COUNT(DISTINCT "teams"."id") FROM "teams" LEFT OUTER JOIN "sprints" ON "sprints"."team_id" = "teams"."id" WHERE (sprints.completed = 'f')
+  [1m[36mSQL (0.3ms)[0m  [1mSELECT "teams"."id" AS t0_r0, "teams"."name" AS t0_r1, "teams"."logo_url" AS t0_r2, "teams"."created_at" AS t0_r3, "teams"."updated_at" AS t0_r4, "sprints"."id" AS t1_r0, "sprints"."title" AS t1_r1, "sprints"."description" AS t1_r2, "sprints"."team_id" AS t1_r3, "sprints"."created_at" AS t1_r4, "sprints"."updated_at" AS t1_r5, "sprints"."completed" AS t1_r6, "sprints"."start_date" AS t1_r7 FROM "teams" LEFT OUTER JOIN "sprints" ON "sprints"."team_id" = "teams"."id" WHERE (sprints.completed = 'f')[0m
+Completed 200 OK in 101ms (Views: 95.0ms | ActiveRecord: 3.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-11 20:44:39 +0000
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.ui.core.css?body=1" for 127.0.0.1 at 2013-03-11 20:44:39 +0000
+Served asset /jquery.ui.core.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.theme.css?body=1" for 127.0.0.1 at 2013-03-11 20:44:39 +0000
+Served asset /jquery.ui.theme.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.css?body=1" for 127.0.0.1 at 2013-03-11 20:44:39 +0000
+Served asset /twitter-bootstrap-static/bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.css?body=1" for 127.0.0.1 at 2013-03-11 20:44:39 +0000
+Served asset /twitter-bootstrap-static/fontawesome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.datepicker.css?body=1" for 127.0.0.1 at 2013-03-11 20:44:39 +0000
+Served asset /jquery.ui.datepicker.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bugareas.css?body=1" for 127.0.0.1 at 2013-03-11 20:44:40 +0000
+Served asset /bugareas.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-11 20:44:40 +0000
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sprints.css?body=1" for 127.0.0.1 at 2013-03-11 20:44:40 +0000
+Served asset /sprints.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-03-11 20:44:40 +0000
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bugs.css?body=1" for 127.0.0.1 at 2013-03-11 20:44:40 +0000
+Served asset /bugs.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/teams.css?body=1" for 127.0.0.1 at 2013-03-11 20:44:40 +0000
+Served asset /teams.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-11 20:44:40 +0000
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 127.0.0.1 at 2013-03-11 20:44:40 +0000
+Served asset /jquery.ui.core.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-11 20:44:40 +0000
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 127.0.0.1 at 2013-03-11 20:44:40 +0000
+Served asset /jquery.ui.datepicker.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-03-11 20:44:40 +0000
+Served asset /twitter/bootstrap/bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-03-11 20:44:40 +0000
+Served asset /twitter/bootstrap/bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-03-11 20:44:40 +0000
+Served asset /twitter/bootstrap/bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-03-11 20:44:40 +0000
+Served asset /twitter/bootstrap/bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-03-11 20:44:40 +0000
+Served asset /twitter/bootstrap/bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-03-11 20:44:40 +0000
+Served asset /twitter/bootstrap/bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-03-11 20:44:40 +0000
+Served asset /twitter/bootstrap/bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-03-11 20:44:40 +0000
+Served asset /twitter/bootstrap/bootstrap-popover.js - 304 Not Modified (10ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-03-11 20:44:40 +0000
+Served asset /twitter/bootstrap/bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-03-11 20:44:40 +0000
+Served asset /twitter/bootstrap/bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-03-11 20:44:40 +0000
+Served asset /twitter/bootstrap/bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-03-11 20:44:40 +0000
+Served asset /twitter/bootstrap/bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-03-11 20:44:40 +0000
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bugareas.js?body=1" for 127.0.0.1 at 2013-03-11 20:44:40 +0000
+Served asset /bugareas.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-03-11 20:44:40 +0000
+Served asset /twitter/bootstrap/bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-03-11 20:44:40 +0000
+Served asset /twitter/bootstrap.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bugs.js?body=1" for 127.0.0.1 at 2013-03-11 20:44:40 +0000
+Served asset /bugs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sprints.js?body=1" for 127.0.0.1 at 2013-03-11 20:44:40 +0000
+Served asset /sprints.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/stories.js?body=1" for 127.0.0.1 at 2013-03-11 20:44:40 +0000
+Served asset /stories.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/teams.js?body=1" for 127.0.0.1 at 2013-03-11 20:44:40 +0000
+Served asset /teams.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-11 20:44:40 +0000
+Served asset /application.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/stories.css?body=1" for 127.0.0.1 at 2013-03-11 20:44:41 +0000
+Served asset /stories.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/images/404.jpeg" for 127.0.0.1 at 2013-03-11 20:44:43 +0000
+Served asset /images/404.jpeg - 404 Not Found (29ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/404.jpeg"):
+  actionpack (3.2.12) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.12) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.12) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.12) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.12) lib/rails/engine.rb:479:in `call'
+  railties (3.2.12) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.12) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/nickpeachey/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/nickpeachey/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/nickpeachey/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/error/404" for 127.0.0.1 at 2013-03-11 20:47:22 +0000
+
+SyntaxError (/Users/nickpeachey/Documents/developer/rails/r-bugzilla/app/controllers/error_controller.rb:2: syntax error, unexpected tINTEGER
+/Users/nickpeachey/Documents/developer/rails/r-bugzilla/app/controllers/error_controller.rb:7: syntax error, unexpected keyword_end, expecting $end):
+  activesupport (3.2.12) lib/active_support/dependencies.rb:469:in `load'
+  activesupport (3.2.12) lib/active_support/dependencies.rb:469:in `block in load_file'
+  activesupport (3.2.12) lib/active_support/dependencies.rb:639:in `new_constants_in'
+  activesupport (3.2.12) lib/active_support/dependencies.rb:468:in `load_file'
+  activesupport (3.2.12) lib/active_support/dependencies.rb:353:in `require_or_load'
+  activesupport (3.2.12) lib/active_support/dependencies.rb:502:in `load_missing_constant'
+  activesupport (3.2.12) lib/active_support/dependencies.rb:192:in `block in const_missing'
+  activesupport (3.2.12) lib/active_support/dependencies.rb:190:in `each'
+  activesupport (3.2.12) lib/active_support/dependencies.rb:190:in `const_missing'
+  activesupport (3.2.12) lib/active_support/inflector/methods.rb:230:in `block in constantize'
+  activesupport (3.2.12) lib/active_support/inflector/methods.rb:229:in `each'
+  activesupport (3.2.12) lib/active_support/inflector/methods.rb:229:in `constantize'
+  activesupport (3.2.12) lib/active_support/dependencies.rb:554:in `get'
+  actionpack (3.2.12) lib/action_dispatch/routing/route_set.rb:69:in `controller_reference'
+  actionpack (3.2.12) lib/action_dispatch/routing/route_set.rb:54:in `controller'
+  actionpack (3.2.12) lib/action_dispatch/routing/route_set.rb:32:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.12) lib/action_dispatch/routing/route_set.rb:601:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.5) lib/rack/etag.rb:23:in `call'
+  rack (1.4.5) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:210:in `context'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:205:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/cookies.rb:341:in `call'
+  activerecord (3.2.12) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.12) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:405:in `_run__1960253233999934479__call__2941272740956766025__callbacks'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.12) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.12) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.12) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.12) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.12) lib/rails/engine.rb:479:in `call'
+  railties (3.2.12) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.12) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/nickpeachey/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/nickpeachey/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/nickpeachey/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.8ms)
+
+
+Started GET "/error/40" for 127.0.0.1 at 2013-03-11 20:47:55 +0000
+Connecting to database specified by database.yml
+
+ActionController::RoutingError (No route matches [GET] "/error/40"):
+  actionpack (3.2.12) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.12) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.12) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.12) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.12) lib/rails/engine.rb:479:in `call'
+  railties (3.2.12) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.12) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/nickpeachey/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/nickpeachey/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/nickpeachey/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (4.1ms)
+
+
+Started GET "/error/404" for 127.0.0.1 at 2013-03-11 20:47:59 +0000
+
+SyntaxError (/Users/nickpeachey/Documents/developer/rails/r-bugzilla/app/controllers/error_controller.rb:2: syntax error, unexpected tINTEGER
+/Users/nickpeachey/Documents/developer/rails/r-bugzilla/app/controllers/error_controller.rb:7: syntax error, unexpected keyword_end, expecting $end):
+  activesupport (3.2.12) lib/active_support/dependencies.rb:469:in `load'
+  activesupport (3.2.12) lib/active_support/dependencies.rb:469:in `block in load_file'
+  activesupport (3.2.12) lib/active_support/dependencies.rb:639:in `new_constants_in'
+  activesupport (3.2.12) lib/active_support/dependencies.rb:468:in `load_file'
+  activesupport (3.2.12) lib/active_support/dependencies.rb:353:in `require_or_load'
+  activesupport (3.2.12) lib/active_support/dependencies.rb:502:in `load_missing_constant'
+  activesupport (3.2.12) lib/active_support/dependencies.rb:192:in `block in const_missing'
+  activesupport (3.2.12) lib/active_support/dependencies.rb:190:in `each'
+  activesupport (3.2.12) lib/active_support/dependencies.rb:190:in `const_missing'
+  activesupport (3.2.12) lib/active_support/inflector/methods.rb:230:in `block in constantize'
+  activesupport (3.2.12) lib/active_support/inflector/methods.rb:229:in `each'
+  activesupport (3.2.12) lib/active_support/inflector/methods.rb:229:in `constantize'
+  activesupport (3.2.12) lib/active_support/dependencies.rb:554:in `get'
+  actionpack (3.2.12) lib/action_dispatch/routing/route_set.rb:69:in `controller_reference'
+  actionpack (3.2.12) lib/action_dispatch/routing/route_set.rb:54:in `controller'
+  actionpack (3.2.12) lib/action_dispatch/routing/route_set.rb:32:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.12) lib/action_dispatch/routing/route_set.rb:601:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.5) lib/rack/etag.rb:23:in `call'
+  rack (1.4.5) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:210:in `context'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:205:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/cookies.rb:341:in `call'
+  activerecord (3.2.12) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.12) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:405:in `_run__958343516053604113__call__2793817935572086693__callbacks'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.12) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.12) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.12) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.12) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.12) lib/rails/engine.rb:479:in `call'
+  railties (3.2.12) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.12) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/nickpeachey/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/nickpeachey/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/nickpeachey/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (21.0ms)
+  Rendered /Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.4ms)
+  Rendered /Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (40.4ms)
+
+
+Started GET "/error/404" for 127.0.0.1 at 2013-03-11 20:48:22 +0000
+
+SyntaxError (/Users/nickpeachey/Documents/developer/rails/r-bugzilla/app/controllers/error_controller.rb:2: syntax error, unexpected tINTEGER
+/Users/nickpeachey/Documents/developer/rails/r-bugzilla/app/controllers/error_controller.rb:8: syntax error, unexpected keyword_end, expecting $end):
+  activesupport (3.2.12) lib/active_support/dependencies.rb:469:in `load'
+  activesupport (3.2.12) lib/active_support/dependencies.rb:469:in `block in load_file'
+  activesupport (3.2.12) lib/active_support/dependencies.rb:639:in `new_constants_in'
+  activesupport (3.2.12) lib/active_support/dependencies.rb:468:in `load_file'
+  activesupport (3.2.12) lib/active_support/dependencies.rb:353:in `require_or_load'
+  activesupport (3.2.12) lib/active_support/dependencies.rb:502:in `load_missing_constant'
+  activesupport (3.2.12) lib/active_support/dependencies.rb:192:in `block in const_missing'
+  activesupport (3.2.12) lib/active_support/dependencies.rb:190:in `each'
+  activesupport (3.2.12) lib/active_support/dependencies.rb:190:in `const_missing'
+  activesupport (3.2.12) lib/active_support/inflector/methods.rb:230:in `block in constantize'
+  activesupport (3.2.12) lib/active_support/inflector/methods.rb:229:in `each'
+  activesupport (3.2.12) lib/active_support/inflector/methods.rb:229:in `constantize'
+  activesupport (3.2.12) lib/active_support/dependencies.rb:554:in `get'
+  actionpack (3.2.12) lib/action_dispatch/routing/route_set.rb:69:in `controller_reference'
+  actionpack (3.2.12) lib/action_dispatch/routing/route_set.rb:54:in `controller'
+  actionpack (3.2.12) lib/action_dispatch/routing/route_set.rb:32:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.12) lib/action_dispatch/routing/route_set.rb:601:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.5) lib/rack/etag.rb:23:in `call'
+  rack (1.4.5) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:210:in `context'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:205:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/cookies.rb:341:in `call'
+  activerecord (3.2.12) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.12) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:405:in `_run__958343516053604113__call__2793817935572086693__callbacks'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.12) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.12) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.12) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.12) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.12) lib/rails/engine.rb:479:in `call'
+  railties (3.2.12) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.12) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/nickpeachey/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/nickpeachey/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/nickpeachey/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered /Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (14.7ms)
+
+
+Started GET "/error/404" for 127.0.0.1 at 2013-03-11 20:49:31 +0000
+
+SyntaxError (/Users/nickpeachey/Documents/developer/rails/r-bugzilla/app/controllers/error_controller.rb:2: syntax error, unexpected tINTEGER
+/Users/nickpeachey/Documents/developer/rails/r-bugzilla/app/controllers/error_controller.rb:10: syntax error, unexpected keyword_end, expecting $end):
+  activesupport (3.2.12) lib/active_support/dependencies.rb:469:in `load'
+  activesupport (3.2.12) lib/active_support/dependencies.rb:469:in `block in load_file'
+  activesupport (3.2.12) lib/active_support/dependencies.rb:639:in `new_constants_in'
+  activesupport (3.2.12) lib/active_support/dependencies.rb:468:in `load_file'
+  activesupport (3.2.12) lib/active_support/dependencies.rb:353:in `require_or_load'
+  activesupport (3.2.12) lib/active_support/dependencies.rb:502:in `load_missing_constant'
+  activesupport (3.2.12) lib/active_support/dependencies.rb:192:in `block in const_missing'
+  activesupport (3.2.12) lib/active_support/dependencies.rb:190:in `each'
+  activesupport (3.2.12) lib/active_support/dependencies.rb:190:in `const_missing'
+  activesupport (3.2.12) lib/active_support/inflector/methods.rb:230:in `block in constantize'
+  activesupport (3.2.12) lib/active_support/inflector/methods.rb:229:in `each'
+  activesupport (3.2.12) lib/active_support/inflector/methods.rb:229:in `constantize'
+  activesupport (3.2.12) lib/active_support/dependencies.rb:554:in `get'
+  actionpack (3.2.12) lib/action_dispatch/routing/route_set.rb:69:in `controller_reference'
+  actionpack (3.2.12) lib/action_dispatch/routing/route_set.rb:54:in `controller'
+  actionpack (3.2.12) lib/action_dispatch/routing/route_set.rb:32:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.12) lib/action_dispatch/routing/route_set.rb:601:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.5) lib/rack/etag.rb:23:in `call'
+  rack (1.4.5) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:210:in `context'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:205:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/cookies.rb:341:in `call'
+  activerecord (3.2.12) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.12) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:405:in `_run__958343516053604113__call__2793817935572086693__callbacks'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.12) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.12) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.12) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.12) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.12) lib/rails/engine.rb:479:in `call'
+  railties (3.2.12) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.12) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/nickpeachey/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/nickpeachey/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/nickpeachey/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered /Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (16.7ms)
+
+
+Started GET "/error/404" for 127.0.0.1 at 2013-03-11 20:49:51 +0000
+
+SyntaxError (/Users/nickpeachey/Documents/developer/rails/r-bugzilla/app/controllers/error_controller.rb:2: syntax error, unexpected tINTEGER
+/Users/nickpeachey/Documents/developer/rails/r-bugzilla/app/controllers/error_controller.rb:10: syntax error, unexpected keyword_end, expecting $end):
+  activesupport (3.2.12) lib/active_support/dependencies.rb:469:in `load'
+  activesupport (3.2.12) lib/active_support/dependencies.rb:469:in `block in load_file'
+  activesupport (3.2.12) lib/active_support/dependencies.rb:639:in `new_constants_in'
+  activesupport (3.2.12) lib/active_support/dependencies.rb:468:in `load_file'
+  activesupport (3.2.12) lib/active_support/dependencies.rb:353:in `require_or_load'
+  activesupport (3.2.12) lib/active_support/dependencies.rb:502:in `load_missing_constant'
+  activesupport (3.2.12) lib/active_support/dependencies.rb:192:in `block in const_missing'
+  activesupport (3.2.12) lib/active_support/dependencies.rb:190:in `each'
+  activesupport (3.2.12) lib/active_support/dependencies.rb:190:in `const_missing'
+  activesupport (3.2.12) lib/active_support/inflector/methods.rb:230:in `block in constantize'
+  activesupport (3.2.12) lib/active_support/inflector/methods.rb:229:in `each'
+  activesupport (3.2.12) lib/active_support/inflector/methods.rb:229:in `constantize'
+  activesupport (3.2.12) lib/active_support/dependencies.rb:554:in `get'
+  actionpack (3.2.12) lib/action_dispatch/routing/route_set.rb:69:in `controller_reference'
+  actionpack (3.2.12) lib/action_dispatch/routing/route_set.rb:54:in `controller'
+  actionpack (3.2.12) lib/action_dispatch/routing/route_set.rb:32:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.12) lib/action_dispatch/routing/route_set.rb:601:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.5) lib/rack/etag.rb:23:in `call'
+  rack (1.4.5) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:210:in `context'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:205:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/cookies.rb:341:in `call'
+  activerecord (3.2.12) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.12) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:405:in `_run__958343516053604113__call__2793817935572086693__callbacks'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.12) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.12) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.12) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.12) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.12) lib/rails/engine.rb:479:in `call'
+  railties (3.2.12) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.12) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/nickpeachey/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/nickpeachey/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/nickpeachey/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+  Rendered /Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.5ms)
+  Rendered /Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (14.2ms)
+
+
+Started GET "/error/error404" for 127.0.0.1 at 2013-03-11 20:51:19 +0000
+
+ActionController::RoutingError (No route matches [GET] "/error/error404"):
+  actionpack (3.2.12) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.12) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.12) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.12) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.12) lib/rails/engine.rb:479:in `call'
+  railties (3.2.12) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.12) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/nickpeachey/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/nickpeachey/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/nickpeachey/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/error/error404" for 127.0.0.1 at 2013-03-11 20:51:47 +0000
+Connecting to database specified by database.yml
+
+SyntaxError (/Users/nickpeachey/Documents/developer/rails/r-bugzilla/app/controllers/error_controller.rb:2: syntax error, unexpected tINTEGER
+/Users/nickpeachey/Documents/developer/rails/r-bugzilla/app/controllers/error_controller.rb:10: syntax error, unexpected keyword_end, expecting $end):
+  activesupport (3.2.12) lib/active_support/dependencies.rb:469:in `load'
+  activesupport (3.2.12) lib/active_support/dependencies.rb:469:in `block in load_file'
+  activesupport (3.2.12) lib/active_support/dependencies.rb:639:in `new_constants_in'
+  activesupport (3.2.12) lib/active_support/dependencies.rb:468:in `load_file'
+  activesupport (3.2.12) lib/active_support/dependencies.rb:353:in `require_or_load'
+  activesupport (3.2.12) lib/active_support/dependencies.rb:502:in `load_missing_constant'
+  activesupport (3.2.12) lib/active_support/dependencies.rb:192:in `block in const_missing'
+  activesupport (3.2.12) lib/active_support/dependencies.rb:190:in `each'
+  activesupport (3.2.12) lib/active_support/dependencies.rb:190:in `const_missing'
+  activesupport (3.2.12) lib/active_support/inflector/methods.rb:230:in `block in constantize'
+  activesupport (3.2.12) lib/active_support/inflector/methods.rb:229:in `each'
+  activesupport (3.2.12) lib/active_support/inflector/methods.rb:229:in `constantize'
+  activesupport (3.2.12) lib/active_support/dependencies.rb:554:in `get'
+  actionpack (3.2.12) lib/action_dispatch/routing/route_set.rb:69:in `controller_reference'
+  actionpack (3.2.12) lib/action_dispatch/routing/route_set.rb:54:in `controller'
+  actionpack (3.2.12) lib/action_dispatch/routing/route_set.rb:32:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.12) lib/action_dispatch/routing/route_set.rb:601:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.5) lib/rack/etag.rb:23:in `call'
+  rack (1.4.5) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:210:in `context'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:205:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/cookies.rb:341:in `call'
+  activerecord (3.2.12) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.12) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:405:in `_run__874833448787920420__call__1163757267987066737__callbacks'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.12) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.12) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.12) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.12) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.12) lib/rails/engine.rb:479:in `call'
+  railties (3.2.12) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.12) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/nickpeachey/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/nickpeachey/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/nickpeachey/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+  Rendered /Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.9ms)
+  Rendered /Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (18.1ms)
+
+
+Started GET "/error/error404" for 127.0.0.1 at 2013-03-11 20:53:26 +0000
+Connecting to database specified by database.yml
+
+SyntaxError (/Users/nickpeachey/Documents/developer/rails/r-bugzilla/app/controllers/error_controller.rb:2: syntax error, unexpected tINTEGER
+/Users/nickpeachey/Documents/developer/rails/r-bugzilla/app/controllers/error_controller.rb:10: syntax error, unexpected keyword_end, expecting $end):
+  activesupport (3.2.12) lib/active_support/dependencies.rb:469:in `load'
+  activesupport (3.2.12) lib/active_support/dependencies.rb:469:in `block in load_file'
+  activesupport (3.2.12) lib/active_support/dependencies.rb:639:in `new_constants_in'
+  activesupport (3.2.12) lib/active_support/dependencies.rb:468:in `load_file'
+  activesupport (3.2.12) lib/active_support/dependencies.rb:353:in `require_or_load'
+  activesupport (3.2.12) lib/active_support/dependencies.rb:502:in `load_missing_constant'
+  activesupport (3.2.12) lib/active_support/dependencies.rb:192:in `block in const_missing'
+  activesupport (3.2.12) lib/active_support/dependencies.rb:190:in `each'
+  activesupport (3.2.12) lib/active_support/dependencies.rb:190:in `const_missing'
+  activesupport (3.2.12) lib/active_support/inflector/methods.rb:230:in `block in constantize'
+  activesupport (3.2.12) lib/active_support/inflector/methods.rb:229:in `each'
+  activesupport (3.2.12) lib/active_support/inflector/methods.rb:229:in `constantize'
+  activesupport (3.2.12) lib/active_support/dependencies.rb:554:in `get'
+  actionpack (3.2.12) lib/action_dispatch/routing/route_set.rb:69:in `controller_reference'
+  actionpack (3.2.12) lib/action_dispatch/routing/route_set.rb:54:in `controller'
+  actionpack (3.2.12) lib/action_dispatch/routing/route_set.rb:32:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.12) lib/action_dispatch/routing/route_set.rb:601:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.5) lib/rack/etag.rb:23:in `call'
+  rack (1.4.5) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:210:in `context'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:205:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/cookies.rb:341:in `call'
+  activerecord (3.2.12) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.12) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:405:in `_run__82183396225712516__call__4497203002155703274__callbacks'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.12) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.12) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.12) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.12) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.12) lib/rails/engine.rb:479:in `call'
+  railties (3.2.12) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.12) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/nickpeachey/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/nickpeachey/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/nickpeachey/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+  Rendered /Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.6ms)
+  Rendered /Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (19.4ms)
+
+
+Started GET "/error/error404" for 127.0.0.1 at 2013-03-11 20:53:58 +0000
+
+SyntaxError (/Users/nickpeachey/Documents/developer/rails/r-bugzilla/app/controllers/error_controller.rb:2: syntax error, unexpected tINTEGER
+/Users/nickpeachey/Documents/developer/rails/r-bugzilla/app/controllers/error_controller.rb:10: syntax error, unexpected keyword_end, expecting $end):
+  activesupport (3.2.12) lib/active_support/dependencies.rb:469:in `load'
+  activesupport (3.2.12) lib/active_support/dependencies.rb:469:in `block in load_file'
+  activesupport (3.2.12) lib/active_support/dependencies.rb:639:in `new_constants_in'
+  activesupport (3.2.12) lib/active_support/dependencies.rb:468:in `load_file'
+  activesupport (3.2.12) lib/active_support/dependencies.rb:353:in `require_or_load'
+  activesupport (3.2.12) lib/active_support/dependencies.rb:502:in `load_missing_constant'
+  activesupport (3.2.12) lib/active_support/dependencies.rb:192:in `block in const_missing'
+  activesupport (3.2.12) lib/active_support/dependencies.rb:190:in `each'
+  activesupport (3.2.12) lib/active_support/dependencies.rb:190:in `const_missing'
+  activesupport (3.2.12) lib/active_support/inflector/methods.rb:230:in `block in constantize'
+  activesupport (3.2.12) lib/active_support/inflector/methods.rb:229:in `each'
+  activesupport (3.2.12) lib/active_support/inflector/methods.rb:229:in `constantize'
+  activesupport (3.2.12) lib/active_support/dependencies.rb:554:in `get'
+  actionpack (3.2.12) lib/action_dispatch/routing/route_set.rb:69:in `controller_reference'
+  actionpack (3.2.12) lib/action_dispatch/routing/route_set.rb:54:in `controller'
+  actionpack (3.2.12) lib/action_dispatch/routing/route_set.rb:32:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.12) lib/action_dispatch/routing/route_set.rb:601:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.5) lib/rack/etag.rb:23:in `call'
+  rack (1.4.5) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:210:in `context'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:205:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/cookies.rb:341:in `call'
+  activerecord (3.2.12) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.12) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:405:in `_run__82183396225712516__call__4497203002155703274__callbacks'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.12) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.12) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.12) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.12) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.12) lib/rails/engine.rb:479:in `call'
+  railties (3.2.12) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.12) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/nickpeachey/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/nickpeachey/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/nickpeachey/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+  Rendered /Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+  Rendered /Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (14.0ms)
+
+
+Started GET "/error/error404" for 127.0.0.1 at 2013-03-11 20:54:28 +0000
+
+AbstractController::ActionNotFound (The action 'show' could not be found for ErrorController):
+  actionpack (3.2.12) lib/abstract_controller/base.rb:116:in `process'
+  actionpack (3.2.12) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.12) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.12) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.12) lib/action_controller/metal.rb:246:in `block in action'
+  actionpack (3.2.12) lib/action_dispatch/routing/route_set.rb:73:in `call'
+  actionpack (3.2.12) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (3.2.12) lib/action_dispatch/routing/route_set.rb:36:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.12) lib/action_dispatch/routing/route_set.rb:601:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.5) lib/rack/etag.rb:23:in `call'
+  rack (1.4.5) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:210:in `context'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:205:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/cookies.rb:341:in `call'
+  activerecord (3.2.12) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.12) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:405:in `_run__82183396225712516__call__4497203002155703274__callbacks'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.12) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.12) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.12) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.12) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.12) lib/rails/engine.rb:479:in `call'
+  railties (3.2.12) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.12) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/nickpeachey/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/nickpeachey/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/nickpeachey/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.5ms)
+
+
+Started GET "/error/error404" for 127.0.0.1 at 2013-03-11 20:55:25 +0000
+Connecting to database specified by database.yml
+
+AbstractController::ActionNotFound (The action 'show' could not be found for ErrorController):
+  actionpack (3.2.12) lib/abstract_controller/base.rb:116:in `process'
+  actionpack (3.2.12) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.12) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.12) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.12) lib/action_controller/metal.rb:246:in `block in action'
+  actionpack (3.2.12) lib/action_dispatch/routing/route_set.rb:73:in `call'
+  actionpack (3.2.12) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (3.2.12) lib/action_dispatch/routing/route_set.rb:36:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.12) lib/action_dispatch/routing/route_set.rb:601:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.5) lib/rack/etag.rb:23:in `call'
+  rack (1.4.5) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:210:in `context'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:205:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/cookies.rb:341:in `call'
+  activerecord (3.2.12) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.12) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:405:in `_run__1053256925654112423__call__1954630718090069423__callbacks'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.12) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.12) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.12) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.12) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.12) lib/rails/engine.rb:479:in `call'
+  railties (3.2.12) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.12) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/nickpeachey/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/nickpeachey/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/nickpeachey/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (3.7ms)
+
+
+Started GET "/error/error404" for 127.0.0.1 at 2013-03-11 20:55:29 +0000
+
+AbstractController::ActionNotFound (The action 'show' could not be found for ErrorController):
+  actionpack (3.2.12) lib/abstract_controller/base.rb:116:in `process'
+  actionpack (3.2.12) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.12) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.12) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.12) lib/action_controller/metal.rb:246:in `block in action'
+  actionpack (3.2.12) lib/action_dispatch/routing/route_set.rb:73:in `call'
+  actionpack (3.2.12) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (3.2.12) lib/action_dispatch/routing/route_set.rb:36:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.12) lib/action_dispatch/routing/route_set.rb:601:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.5) lib/rack/etag.rb:23:in `call'
+  rack (1.4.5) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:210:in `context'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:205:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/cookies.rb:341:in `call'
+  activerecord (3.2.12) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.12) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:405:in `_run__1053256925654112423__call__1954630718090069423__callbacks'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.12) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.12) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.12) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.12) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.12) lib/rails/engine.rb:479:in `call'
+  railties (3.2.12) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.12) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/nickpeachey/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/nickpeachey/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/nickpeachey/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.7ms)
+
+
+Started GET "/error/error404" for 127.0.0.1 at 2013-03-11 20:56:45 +0000
+Connecting to database specified by database.yml
+Processing by ErrorController#error404 as HTML
+  Rendered error/error404.html.erb within layouts/application (3.4ms)
+Compiled error.css  (36ms)  (pid 988)
+Compiled application.css  (104ms)  (pid 988)
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(DISTINCT "teams"."id") FROM "teams" LEFT OUTER JOIN "sprints" ON "sprints"."team_id" = "teams"."id" WHERE (sprints.completed = 'f')[0m
+  [1m[35mSQL (0.3ms)[0m  SELECT "teams"."id" AS t0_r0, "teams"."name" AS t0_r1, "teams"."logo_url" AS t0_r2, "teams"."created_at" AS t0_r3, "teams"."updated_at" AS t0_r4, "sprints"."id" AS t1_r0, "sprints"."title" AS t1_r1, "sprints"."description" AS t1_r2, "sprints"."team_id" AS t1_r3, "sprints"."created_at" AS t1_r4, "sprints"."updated_at" AS t1_r5, "sprints"."completed" AS t1_r6, "sprints"."start_date" AS t1_r7 FROM "teams" LEFT OUTER JOIN "sprints" ON "sprints"."team_id" = "teams"."id" WHERE (sprints.completed = 'f')
+Compiled error.js  (188ms)  (pid 988)
+Compiled application.js  (207ms)  (pid 988)
+Completed 200 OK in 1271ms (Views: 1266.7ms | ActiveRecord: 4.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-11 20:56:47 +0000
+Served asset /application.css - 304 Not Modified (74ms)
+
+
+Started GET "/assets/jquery.ui.core.css?body=1" for 127.0.0.1 at 2013-03-11 20:56:47 +0000
+Served asset /jquery.ui.core.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.ui.datepicker.css?body=1" for 127.0.0.1 at 2013-03-11 20:56:47 +0000
+Served asset /jquery.ui.datepicker.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery.ui.theme.css?body=1" for 127.0.0.1 at 2013-03-11 20:56:47 +0000
+Served asset /jquery.ui.theme.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.css?body=1" for 127.0.0.1 at 2013-03-11 20:56:47 +0000
+Served asset /twitter-bootstrap-static/fontawesome.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.css?body=1" for 127.0.0.1 at 2013-03-11 20:56:47 +0000
+Served asset /twitter-bootstrap-static/bootstrap.css - 304 Not Modified (17ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-03-11 20:56:47 +0000
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (17ms)
+
+
+Started GET "/assets/bugareas.css?body=1" for 127.0.0.1 at 2013-03-11 20:56:47 +0000
+Served asset /bugareas.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bugs.css?body=1" for 127.0.0.1 at 2013-03-11 20:56:47 +0000
+Served asset /bugs.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/error.css?body=1" for 127.0.0.1 at 2013-03-11 20:56:47 +0000
+Served asset /error.css - 200 OK (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-11 20:56:47 +0000
+Served asset /scaffolds.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/stories.css?body=1" for 127.0.0.1 at 2013-03-11 20:56:47 +0000
+Served asset /stories.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/sprints.css?body=1" for 127.0.0.1 at 2013-03-11 20:56:47 +0000
+Served asset /sprints.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/teams.css?body=1" for 127.0.0.1 at 2013-03-11 20:56:47 +0000
+Served asset /teams.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 127.0.0.1 at 2013-03-11 20:56:47 +0000
+Served asset /jquery.ui.core.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-11 20:56:47 +0000
+Served asset /jquery.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-03-11 20:56:47 +0000
+Served asset /twitter/bootstrap/bootstrap-transition.js - 304 Not Modified (75ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-11 20:56:47 +0000
+Served asset /jquery_ujs.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 127.0.0.1 at 2013-03-11 20:56:47 +0000
+Served asset /jquery.ui.datepicker.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-03-11 20:56:47 +0000
+Served asset /twitter/bootstrap/bootstrap-alert.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-03-11 20:56:47 +0000
+Served asset /twitter/bootstrap/bootstrap-modal.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-03-11 20:56:47 +0000
+Served asset /twitter/bootstrap/bootstrap-tooltip.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-03-11 20:56:47 +0000
+Served asset /twitter/bootstrap/bootstrap-popover.js - 304 Not Modified (11ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-03-11 20:56:47 +0000
+Served asset /twitter/bootstrap/bootstrap-button.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-03-11 20:56:47 +0000
+Served asset /twitter/bootstrap/bootstrap-dropdown.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-03-11 20:56:47 +0000
+Served asset /twitter/bootstrap/bootstrap-scrollspy.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-03-11 20:56:47 +0000
+Served asset /twitter/bootstrap/bootstrap-tab.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-03-11 20:56:47 +0000
+Served asset /twitter/bootstrap/bootstrap-collapse.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-03-11 20:56:47 +0000
+Served asset /twitter/bootstrap/bootstrap-typeahead.js - 304 Not Modified (10ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-03-11 20:56:47 +0000
+Served asset /twitter/bootstrap/bootstrap-carousel.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-03-11 20:56:47 +0000
+Served asset /twitter/bootstrap/bootstrap-affix.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-03-11 20:56:47 +0000
+Served asset /bootstrap.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-03-11 20:56:47 +0000
+Served asset /twitter/bootstrap.js - 304 Not Modified (20ms)
+
+
+Started GET "/assets/bugareas.js?body=1" for 127.0.0.1 at 2013-03-11 20:56:47 +0000
+Served asset /bugareas.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/teams.js?body=1" for 127.0.0.1 at 2013-03-11 20:56:48 +0000
+Served asset /teams.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/sprints.js?body=1" for 127.0.0.1 at 2013-03-11 20:56:48 +0000
+Served asset /sprints.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/error.js?body=1" for 127.0.0.1 at 2013-03-11 20:56:48 +0000
+Served asset /error.js - 200 OK (2ms)
+
+
+Started GET "/assets/bugs.js?body=1" for 127.0.0.1 at 2013-03-11 20:56:48 +0000
+Served asset /bugs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/stories.js?body=1" for 127.0.0.1 at 2013-03-11 20:56:48 +0000
+Served asset /stories.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-11 20:56:49 +0000
+Served asset /application.js - 304 Not Modified (37ms)
+
+
+Started GET "/error/error404" for 127.0.0.1 at 2013-03-11 20:57:47 +0000
+Processing by ErrorController#error404 as HTML
+  Rendered error/error404.html.erb within layouts/application (0.0ms)
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(DISTINCT "teams"."id") FROM "teams" LEFT OUTER JOIN "sprints" ON "sprints"."team_id" = "teams"."id" WHERE (sprints.completed = 'f')[0m
+  [1m[35mSQL (0.3ms)[0m  SELECT "teams"."id" AS t0_r0, "teams"."name" AS t0_r1, "teams"."logo_url" AS t0_r2, "teams"."created_at" AS t0_r3, "teams"."updated_at" AS t0_r4, "sprints"."id" AS t1_r0, "sprints"."title" AS t1_r1, "sprints"."description" AS t1_r2, "sprints"."team_id" AS t1_r3, "sprints"."created_at" AS t1_r4, "sprints"."updated_at" AS t1_r5, "sprints"."completed" AS t1_r6, "sprints"."start_date" AS t1_r7 FROM "teams" LEFT OUTER JOIN "sprints" ON "sprints"."team_id" = "teams"."id" WHERE (sprints.completed = 'f')
+Completed 500 Internal Server Error in 123ms
+
+AbstractController::DoubleRenderError (Render and/or redirect were called multiple times in this action. Please note that you may only call render OR redirect, and at most once per action. Also note that neither redirect nor render terminate execution of the action, so if you want to exit an action after redirecting, you need to do something like "redirect_to(...) and return".):
+  app/controllers/error_controller.rb:6:in `error404'
+
+
+  Rendered /Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.5ms)
+
+
+Started GET "/error/error404" for 127.0.0.1 at 2013-03-11 20:58:06 +0000
+Processing by ErrorController#error404 as HTML
+Completed 500 Internal Server Error in 34ms
+
+ActionView::MissingTemplate (Missing template layouts/special_layout with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :coffee]}. Searched in:
+  * "/Users/nickpeachey/Documents/developer/rails/r-bugzilla/app/views"
+  * "/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/twitter-bootstrap-rails-2.2.4/app/views"
+):
+  app/controllers/error_controller.rb:3:in `error404'
+
+
+  Rendered /Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.5ms)
+
+
+Started GET "/error/error404" for 127.0.0.1 at 2013-03-11 20:59:31 +0000
+Processing by ErrorController#error404 as HTML
+  Rendered error/error404.html.erb within layouts/error_layout (0.1ms)
+Completed 500 Internal Server Error in 4ms
+
+AbstractController::DoubleRenderError (Render and/or redirect were called multiple times in this action. Please note that you may only call render OR redirect, and at most once per action. Also note that neither redirect nor render terminate execution of the action, so if you want to exit an action after redirecting, you need to do something like "redirect_to(...) and return".):
+  app/controllers/error_controller.rb:4:in `error404'
+
+
+  Rendered /Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+  Rendered /Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.4ms)
+
+
+Started GET "/error/error404" for 127.0.0.1 at 2013-03-11 20:59:34 +0000
+Processing by ErrorController#error404 as HTML
+  Rendered error/error404.html.erb within layouts/error_layout (0.1ms)
+Completed 500 Internal Server Error in 3ms
+
+AbstractController::DoubleRenderError (Render and/or redirect were called multiple times in this action. Please note that you may only call render OR redirect, and at most once per action. Also note that neither redirect nor render terminate execution of the action, so if you want to exit an action after redirecting, you need to do something like "redirect_to(...) and return".):
+  app/controllers/error_controller.rb:4:in `error404'
+
+
+  Rendered /Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+  Rendered /Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (10.5ms)
+
+
+Started GET "/error/error404" for 127.0.0.1 at 2013-03-11 20:59:52 +0000
+Processing by ErrorController#error404 as HTML
+  Rendered error/error404.html.erb within layouts/error_layout (0.0ms)
+Completed 500 Internal Server Error in 3ms
+
+AbstractController::DoubleRenderError (Render and/or redirect were called multiple times in this action. Please note that you may only call render OR redirect, and at most once per action. Also note that neither redirect nor render terminate execution of the action, so if you want to exit an action after redirecting, you need to do something like "redirect_to(...) and return".):
+  app/controllers/error_controller.rb:4:in `error404'
+
+
+  Rendered /Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.4ms)
+
+
+Started GET "/error/error404" for 127.0.0.1 at 2013-03-11 21:00:07 +0000
+Processing by ErrorController#error404 as HTML
+  Rendered error/error404.html.erb within layouts/error_layout (0.0ms)
+Completed 200 OK in 2ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/error/error404" for 127.0.0.1 at 2013-03-11 21:00:17 +0000
+Processing by ErrorController#error404 as HTML
+  Rendered error/error404.html.erb within layouts/error_layout (0.4ms)
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/error/error404" for 127.0.0.1 at 2013-03-11 21:00:44 +0000
+Processing by ErrorController#error404 as HTML
+  Rendered error/error404.html.erb within layouts/error_layout (0.5ms)
+Completed 200 OK in 4ms (Views: 4.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/images/404.jpeg" for 127.0.0.1 at 2013-03-11 21:00:44 +0000
+Served asset /images/404.jpeg - 404 Not Found (56ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/404.jpeg"):
+  actionpack (3.2.12) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.12) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.12) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.12) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.12) lib/rails/engine.rb:479:in `call'
+  railties (3.2.12) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.12) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/nickpeachey/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/nickpeachey/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/nickpeachey/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/error/40" for 127.0.0.1 at 2013-03-11 21:01:34 +0000
+
+ActionController::RoutingError (No route matches [GET] "/error/40"):
+  actionpack (3.2.12) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.12) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.12) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.12) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.12) lib/rails/engine.rb:479:in `call'
+  railties (3.2.12) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.12) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/nickpeachey/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/nickpeachey/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/nickpeachey/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/error/error404" for 127.0.0.1 at 2013-03-11 21:01:39 +0000
+Processing by ErrorController#error404 as HTML
+  Rendered error/error404.html.erb within layouts/error_layout (0.1ms)
+Completed 200 OK in 4ms (Views: 4.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/images/404.jpeg" for 127.0.0.1 at 2013-03-11 21:01:39 +0000
+Served asset /images/404.jpeg - 404 Not Found (8ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/404.jpeg"):
+  actionpack (3.2.12) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.12) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.12) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.12) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.12) lib/rails/engine.rb:479:in `call'
+  railties (3.2.12) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.12) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/nickpeachey/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/nickpeachey/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/nickpeachey/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/error/error404" for 127.0.0.1 at 2013-03-11 21:02:30 +0000
+Processing by ErrorController#error404 as HTML
+  Rendered error/error404.html.erb within layouts/error_layout (0.9ms)
+Completed 200 OK in 3ms (Views: 3.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/404.jpeg" for 127.0.0.1 at 2013-03-11 21:02:30 +0000
+Served asset /404.jpeg - 200 OK (25ms)
+
+
+Started GET "/assets/images/404.jpeg" for 127.0.0.1 at 2013-03-11 21:02:30 +0000
+Served asset /images/404.jpeg - 404 Not Found (6ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/404.jpeg"):
+  actionpack (3.2.12) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.12) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.12) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.12) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.12) lib/rails/engine.rb:479:in `call'
+  railties (3.2.12) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.12) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/nickpeachey/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/nickpeachey/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/nickpeachey/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/error/error404" for 127.0.0.1 at 2013-03-11 21:03:22 +0000
+Processing by ErrorController#error404 as HTML
+ERROR: compiling _app_views_error_error____html_erb__3650202474306691715_70139583317640 RAISED /Users/nickpeachey/Documents/developer/rails/r-bugzilla/app/views/error/error404.html.erb:4: syntax error, unexpected tSYMBEG, expecting ')'
+            :alt => "True") );@output_buffer.to_s
+             ^
+/Users/nickpeachey/Documents/developer/rails/r-bugzilla/app/views/error/error404.html.erb:4: syntax error, unexpected ')', expecting keyword_end
+            :alt => "True") );@output_buffer.to_s
+                             ^
+Function body:           def _app_views_error_error____html_erb__3650202474306691715_70139583317640(local_assigns, output_buffer)
+            _old_virtual_path, @virtual_path = @virtual_path, "error/error404";_old_output_buffer = @output_buffer;;@output_buffer = output_buffer || ActionView::OutputBuffer.new;@output_buffer.safe_concat('<img src="/assets/images/404.jpeg" alt="" style="position: absolute; left: 50%; top: 50%; margin-left: -285px; margin-top: -190px;">
+
+');@output_buffer.append= ( image_tag('404.jpeg', :class => '404error'
+            :alt => "True") );@output_buffer.to_s
+          ensure
+            @virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+
+Backtrace: /Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_view/template.rb:297:in `module_eval'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_view/template.rb:297:in `compile'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_view/template.rb:244:in `block in compile!'
+<internal:prelude>:10:in `synchronize'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_view/template.rb:232:in `compile!'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_view/template.rb:144:in `block in render'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.12/lib/active_support/notifications.rb:125:in `instrument'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_view/template.rb:143:in `render'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_view/renderer/template_renderer.rb:47:in `block (2 levels) in render_template'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.12/lib/active_support/notifications.rb:123:in `block in instrument'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.12/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.12/lib/active_support/notifications.rb:123:in `instrument'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_view/renderer/template_renderer.rb:46:in `block in render_template'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_view/renderer/template_renderer.rb:54:in `render_with_layout'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_view/renderer/template_renderer.rb:45:in `render_template'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_view/renderer/template_renderer.rb:18:in `render'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_view/renderer/renderer.rb:36:in `render_template'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_view/renderer/renderer.rb:17:in `render'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/abstract_controller/rendering.rb:110:in `_render_template'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_controller/metal/streaming.rb:225:in `_render_template'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/abstract_controller/rendering.rb:103:in `render_to_body'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_controller/metal/renderers.rb:28:in `render_to_body'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_controller/metal/compatibility.rb:50:in `render_to_body'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/abstract_controller/rendering.rb:88:in `render'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_controller/metal/rendering.rb:16:in `render'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.12/lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+/Users/nickpeachey/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/benchmark.rb:295:in `realtime'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.12/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_controller/metal/instrumentation.rb:83:in `cleanup_view_runtime'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.12/lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_controller/metal/instrumentation.rb:39:in `render'
+/Users/nickpeachey/Documents/developer/rails/r-bugzilla/app/controllers/error_controller.rb:3:in `error404'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/abstract_controller/base.rb:167:in `process_action'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_controller/metal/rendering.rb:10:in `process_action'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.12/lib/active_support/callbacks.rb:414:in `_run__3269487371257668951__process_action__466590116400816163__callbacks'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.12/lib/active_support/callbacks.rb:405:in `__run_callback'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.12/lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.12/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_controller/metal/rescue.rb:29:in `process_action'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.12/lib/active_support/notifications.rb:123:in `block in instrument'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.12/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.12/lib/active_support/notifications.rb:123:in `instrument'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_controller/metal/params_wrapper.rb:207:in `process_action'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.12/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/abstract_controller/base.rb:121:in `process'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/abstract_controller/rendering.rb:45:in `process'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_controller/metal.rb:203:in `dispatch'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_controller/metal.rb:246:in `block in action'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_dispatch/routing/route_set.rb:73:in `call'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_dispatch/routing/route_set.rb:36:in `call'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/journey-1.0.4/lib/journey/router.rb:68:in `block in call'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/journey-1.0.4/lib/journey/router.rb:56:in `each'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/journey-1.0.4/lib/journey/router.rb:56:in `call'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_dispatch/routing/route_set.rb:601:in `call'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/rack-1.4.5/lib/rack/etag.rb:23:in `call'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/rack-1.4.5/lib/rack/conditionalget.rb:25:in `call'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_dispatch/middleware/head.rb:14:in `call'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_dispatch/middleware/flash.rb:242:in `call'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/rack-1.4.5/lib/rack/session/abstract/id.rb:210:in `context'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/rack-1.4.5/lib/rack/session/abstract/id.rb:205:in `call'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_dispatch/middleware/cookies.rb:341:in `call'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.12/lib/active_record/query_cache.rb:64:in `call'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.12/lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.12/lib/active_support/callbacks.rb:405:in `_run__702581194945589358__call__140297140057486254__callbacks'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.12/lib/active_support/callbacks.rb:405:in `__run_callback'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.12/lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.12/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_dispatch/middleware/reloader.rb:65:in `call'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/railties-3.2.12/lib/rails/rack/logger.rb:32:in `call_app'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/railties-3.2.12/lib/rails/rack/logger.rb:16:in `block in call'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.12/lib/active_support/tagged_logging.rb:22:in `tagged'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/railties-3.2.12/lib/rails/rack/logger.rb:16:in `call'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_dispatch/middleware/request_id.rb:22:in `call'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/rack-1.4.5/lib/rack/methodoverride.rb:21:in `call'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/rack-1.4.5/lib/rack/runtime.rb:17:in `call'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.12/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/rack-1.4.5/lib/rack/lock.rb:15:in `call'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_dispatch/middleware/static.rb:62:in `call'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/railties-3.2.12/lib/rails/engine.rb:479:in `call'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/railties-3.2.12/lib/rails/application.rb:223:in `call'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/rack-1.4.5/lib/rack/content_length.rb:14:in `call'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/railties-3.2.12/lib/rails/rack/log_tailer.rb:17:in `call'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/rack-1.4.5/lib/rack/handler/webrick.rb:59:in `service'
+/Users/nickpeachey/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+/Users/nickpeachey/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+/Users/nickpeachey/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+  Rendered error/error404.html.erb within layouts/error_layout (0.8ms)
+Completed 500 Internal Server Error in 3ms
+
+ActionView::Template::Error (/Users/nickpeachey/Documents/developer/rails/r-bugzilla/app/views/error/error404.html.erb:4: syntax error, unexpected tSYMBEG, expecting ')'
+            :alt => "True") );@output_buffer.to_s
+             ^
+/Users/nickpeachey/Documents/developer/rails/r-bugzilla/app/views/error/error404.html.erb:4: syntax error, unexpected ')', expecting keyword_end
+            :alt => "True") );@output_buffer.to_s
+                             ^):
+    1: <img src="/assets/images/404.jpeg" alt="" style="position: absolute; left: 50%; top: 50%; margin-left: -285px; margin-top: -190px;">
+    2: 
+    3: <%= image_tag('404.jpeg', :class => '404error'
+    4:             :alt => "True") %>
+  app/controllers/error_controller.rb:3:in `error404'
+
+
+  Rendered /Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+  Rendered /Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (9.7ms)
+
+
+Started GET "/error/error404" for 127.0.0.1 at 2013-03-11 21:03:36 +0000
+Processing by ErrorController#error404 as HTML
+ERROR: compiling _app_views_error_error____html_erb__3650202474306691715_70139583242140 RAISED /Users/nickpeachey/Documents/developer/rails/r-bugzilla/app/views/error/error404.html.erb:4: syntax error, unexpected tSYMBEG, expecting ')'
+            :alt => "True") );@output_buffer.to_s
+             ^
+/Users/nickpeachey/Documents/developer/rails/r-bugzilla/app/views/error/error404.html.erb:4: syntax error, unexpected ')', expecting keyword_end
+            :alt => "True") );@output_buffer.to_s
+                             ^
+Function body:           def _app_views_error_error____html_erb__3650202474306691715_70139583242140(local_assigns, output_buffer)
+            _old_virtual_path, @virtual_path = @virtual_path, "error/error404";_old_output_buffer = @output_buffer;;@output_buffer = output_buffer || ActionView::OutputBuffer.new;@output_buffer.safe_concat('
+
+');@output_buffer.append= ( image_tag('404.jpeg', :class => '404error'
+            :alt => "True") );@output_buffer.to_s
+          ensure
+            @virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+
+Backtrace: /Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_view/template.rb:297:in `module_eval'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_view/template.rb:297:in `compile'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_view/template.rb:244:in `block in compile!'
+<internal:prelude>:10:in `synchronize'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_view/template.rb:232:in `compile!'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_view/template.rb:144:in `block in render'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.12/lib/active_support/notifications.rb:125:in `instrument'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_view/template.rb:143:in `render'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_view/renderer/template_renderer.rb:47:in `block (2 levels) in render_template'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.12/lib/active_support/notifications.rb:123:in `block in instrument'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.12/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.12/lib/active_support/notifications.rb:123:in `instrument'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_view/renderer/template_renderer.rb:46:in `block in render_template'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_view/renderer/template_renderer.rb:54:in `render_with_layout'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_view/renderer/template_renderer.rb:45:in `render_template'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_view/renderer/template_renderer.rb:18:in `render'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_view/renderer/renderer.rb:36:in `render_template'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_view/renderer/renderer.rb:17:in `render'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/abstract_controller/rendering.rb:110:in `_render_template'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_controller/metal/streaming.rb:225:in `_render_template'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/abstract_controller/rendering.rb:103:in `render_to_body'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_controller/metal/renderers.rb:28:in `render_to_body'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_controller/metal/compatibility.rb:50:in `render_to_body'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/abstract_controller/rendering.rb:88:in `render'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_controller/metal/rendering.rb:16:in `render'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.12/lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+/Users/nickpeachey/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/benchmark.rb:295:in `realtime'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.12/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_controller/metal/instrumentation.rb:83:in `cleanup_view_runtime'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.12/lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_controller/metal/instrumentation.rb:39:in `render'
+/Users/nickpeachey/Documents/developer/rails/r-bugzilla/app/controllers/error_controller.rb:3:in `error404'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/abstract_controller/base.rb:167:in `process_action'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_controller/metal/rendering.rb:10:in `process_action'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.12/lib/active_support/callbacks.rb:414:in `_run__3269487371257668951__process_action__466590116400816163__callbacks'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.12/lib/active_support/callbacks.rb:405:in `__run_callback'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.12/lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.12/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_controller/metal/rescue.rb:29:in `process_action'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.12/lib/active_support/notifications.rb:123:in `block in instrument'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.12/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.12/lib/active_support/notifications.rb:123:in `instrument'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_controller/metal/params_wrapper.rb:207:in `process_action'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.12/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/abstract_controller/base.rb:121:in `process'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/abstract_controller/rendering.rb:45:in `process'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_controller/metal.rb:203:in `dispatch'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_controller/metal.rb:246:in `block in action'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_dispatch/routing/route_set.rb:73:in `call'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_dispatch/routing/route_set.rb:36:in `call'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/journey-1.0.4/lib/journey/router.rb:68:in `block in call'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/journey-1.0.4/lib/journey/router.rb:56:in `each'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/journey-1.0.4/lib/journey/router.rb:56:in `call'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_dispatch/routing/route_set.rb:601:in `call'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/rack-1.4.5/lib/rack/etag.rb:23:in `call'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/rack-1.4.5/lib/rack/conditionalget.rb:25:in `call'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_dispatch/middleware/head.rb:14:in `call'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_dispatch/middleware/flash.rb:242:in `call'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/rack-1.4.5/lib/rack/session/abstract/id.rb:210:in `context'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/rack-1.4.5/lib/rack/session/abstract/id.rb:205:in `call'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_dispatch/middleware/cookies.rb:341:in `call'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.12/lib/active_record/query_cache.rb:64:in `call'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/activerecord-3.2.12/lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.12/lib/active_support/callbacks.rb:405:in `_run__702581194945589358__call__140297140057486254__callbacks'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.12/lib/active_support/callbacks.rb:405:in `__run_callback'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.12/lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.12/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_dispatch/middleware/reloader.rb:65:in `call'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/railties-3.2.12/lib/rails/rack/logger.rb:32:in `call_app'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/railties-3.2.12/lib/rails/rack/logger.rb:16:in `block in call'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.12/lib/active_support/tagged_logging.rb:22:in `tagged'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/railties-3.2.12/lib/rails/rack/logger.rb:16:in `call'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_dispatch/middleware/request_id.rb:22:in `call'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/rack-1.4.5/lib/rack/methodoverride.rb:21:in `call'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/rack-1.4.5/lib/rack/runtime.rb:17:in `call'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/activesupport-3.2.12/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/rack-1.4.5/lib/rack/lock.rb:15:in `call'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_dispatch/middleware/static.rb:62:in `call'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/railties-3.2.12/lib/rails/engine.rb:479:in `call'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/railties-3.2.12/lib/rails/application.rb:223:in `call'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/rack-1.4.5/lib/rack/content_length.rb:14:in `call'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/railties-3.2.12/lib/rails/rack/log_tailer.rb:17:in `call'
+/Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/rack-1.4.5/lib/rack/handler/webrick.rb:59:in `service'
+/Users/nickpeachey/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+/Users/nickpeachey/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+/Users/nickpeachey/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+  Rendered error/error404.html.erb within layouts/error_layout (2.9ms)
+Completed 500 Internal Server Error in 5ms
+
+ActionView::Template::Error (/Users/nickpeachey/Documents/developer/rails/r-bugzilla/app/views/error/error404.html.erb:4: syntax error, unexpected tSYMBEG, expecting ')'
+            :alt => "True") );@output_buffer.to_s
+             ^
+/Users/nickpeachey/Documents/developer/rails/r-bugzilla/app/views/error/error404.html.erb:4: syntax error, unexpected ')', expecting keyword_end
+            :alt => "True") );@output_buffer.to_s
+                             ^):
+    1: 
+    2: 
+    3: <%= image_tag('404.jpeg', :class => '404error'
+    4:             :alt => "True") %>
+  app/controllers/error_controller.rb:3:in `error404'
+
+
+  Rendered /Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered /Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /Users/nickpeachey/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (55.5ms)
+
+
+Started GET "/error/error404" for 127.0.0.1 at 2013-03-11 21:03:49 +0000
+Processing by ErrorController#error404 as HTML
+  Rendered error/error404.html.erb within layouts/error_layout (1.0ms)
+Completed 200 OK in 6ms (Views: 5.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/404.jpeg" for 127.0.0.1 at 2013-03-11 21:03:49 +0000
+Served asset /404.jpeg - 304 Not Modified (0ms)
+
+
+Started GET "/error/error404" for 127.0.0.1 at 2013-03-11 21:04:19 +0000
+Processing by ErrorController#error404 as HTML
+  Rendered error/error404.html.erb within layouts/error_layout (0.4ms)
+Completed 200 OK in 2ms (Views: 2.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/404.jpeg" for 127.0.0.1 at 2013-03-11 21:04:19 +0000
+Served asset /404.jpeg - 304 Not Modified (0ms)
+
+
+Started GET "/error/error404" for 127.0.0.1 at 2013-03-11 21:04:27 +0000
+Processing by ErrorController#error404 as HTML
+  Rendered error/error404.html.erb within layouts/error_layout (0.2ms)
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/404.jpeg" for 127.0.0.1 at 2013-03-11 21:04:27 +0000
+Served asset /404.jpeg - 200 OK (0ms)
+
+
+Started GET "/error/error404" for 127.0.0.1 at 2013-03-11 21:05:04 +0000
+Processing by ErrorController#error404 as HTML
+  Rendered error/error404.html.erb within layouts/error_layout (0.3ms)
+Compiled application.css  (8ms)  (pid 988)
+Completed 200 OK in 124ms (Views: 123.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-11 21:05:04 +0000
+Served asset /application.css - 200 OK (69ms)
+
+
+Started GET "/assets/jquery.ui.core.css?body=1" for 127.0.0.1 at 2013-03-11 21:05:04 +0000
+Served asset /jquery.ui.core.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.css?body=1" for 127.0.0.1 at 2013-03-11 21:05:04 +0000
+Served asset /twitter-bootstrap-static/bootstrap.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.css?body=1" for 127.0.0.1 at 2013-03-11 21:05:04 +0000
+Served asset /twitter-bootstrap-static/fontawesome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.theme.css?body=1" for 127.0.0.1 at 2013-03-11 21:05:04 +0000
+Served asset /jquery.ui.theme.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.datepicker.css?body=1" for 127.0.0.1 at 2013-03-11 21:05:05 +0000
+Served asset /jquery.ui.datepicker.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-03-11 21:05:05 +0000
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bugareas.css?body=1" for 127.0.0.1 at 2013-03-11 21:05:05 +0000
+Served asset /bugareas.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/error.css?body=1" for 127.0.0.1 at 2013-03-11 21:05:05 +0000
+Served asset /error.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sprints.css?body=1" for 127.0.0.1 at 2013-03-11 21:05:05 +0000
+Served asset /sprints.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/stories.css?body=1" for 127.0.0.1 at 2013-03-11 21:05:05 +0000
+Served asset /stories.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-11 21:05:05 +0000
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bugs.css?body=1" for 127.0.0.1 at 2013-03-11 21:05:05 +0000
+Served asset /bugs.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/teams.css?body=1" for 127.0.0.1 at 2013-03-11 21:05:05 +0000
+Served asset /teams.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/404.jpeg" for 127.0.0.1 at 2013-03-11 21:05:05 +0000
+Served asset /404.jpeg - 304 Not Modified (0ms)
+
+
+Started GET "/error/error404" for 127.0.0.1 at 2013-03-11 21:05:13 +0000
+Processing by ErrorController#error404 as HTML
+  Rendered error/error404.html.erb within layouts/error_layout (0.2ms)
+Completed 200 OK in 13ms (Views: 13.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-11 21:05:13 +0000
+Served asset /application.css - 200 OK (3ms)
+
+
+Started GET "/assets/jquery.ui.core.css?body=1" for 127.0.0.1 at 2013-03-11 21:05:13 +0000
+Served asset /jquery.ui.core.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.theme.css?body=1" for 127.0.0.1 at 2013-03-11 21:05:13 +0000
+Served asset /jquery.ui.theme.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.ui.datepicker.css?body=1" for 127.0.0.1 at 2013-03-11 21:05:13 +0000
+Served asset /jquery.ui.datepicker.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-03-11 21:05:13 +0000
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.css?body=1" for 127.0.0.1 at 2013-03-11 21:05:13 +0000
+Served asset /twitter-bootstrap-static/fontawesome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.css?body=1" for 127.0.0.1 at 2013-03-11 21:05:13 +0000
+Served asset /twitter-bootstrap-static/bootstrap.css - 304 Not Modified (14ms)
+
+
+Started GET "/assets/bugareas.css?body=1" for 127.0.0.1 at 2013-03-11 21:05:13 +0000
+Served asset /bugareas.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bugs.css?body=1" for 127.0.0.1 at 2013-03-11 21:05:13 +0000
+Served asset /bugs.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/error.css?body=1" for 127.0.0.1 at 2013-03-11 21:05:13 +0000
+Served asset /error.css - 200 OK (0ms)
+
+
+Started GET "/assets/teams.css?body=1" for 127.0.0.1 at 2013-03-11 21:05:13 +0000
+Served asset /teams.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/404.jpeg" for 127.0.0.1 at 2013-03-11 21:05:13 +0000
+Served asset /404.jpeg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/stories.css?body=1" for 127.0.0.1 at 2013-03-11 21:05:13 +0000
+Served asset /stories.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-11 21:05:13 +0000
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sprints.css?body=1" for 127.0.0.1 at 2013-03-11 21:05:13 +0000
+Served asset /sprints.css - 304 Not Modified (0ms)
+
+
+Started GET "/error/error404" for 127.0.0.1 at 2013-03-11 21:05:37 +0000
+Processing by ErrorController#error404 as HTML
+  Rendered error/error404.html.erb within layouts/error_layout (0.2ms)
+Compiled application.css  (6ms)  (pid 988)
+Completed 200 OK in 99ms (Views: 98.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-11 21:05:38 +0000
+Served asset /application.css - 200 OK (29ms)
+
+
+Started GET "/assets/jquery.ui.datepicker.css?body=1" for 127.0.0.1 at 2013-03-11 21:05:38 +0000
+Served asset /jquery.ui.datepicker.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.core.css?body=1" for 127.0.0.1 at 2013-03-11 21:05:38 +0000
+Served asset /jquery.ui.core.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.css?body=1" for 127.0.0.1 at 2013-03-11 21:05:38 +0000
+Served asset /twitter-bootstrap-static/bootstrap.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.ui.theme.css?body=1" for 127.0.0.1 at 2013-03-11 21:05:38 +0000
+Served asset /jquery.ui.theme.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-03-11 21:05:38 +0000
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.css?body=1" for 127.0.0.1 at 2013-03-11 21:05:38 +0000
+Served asset /twitter-bootstrap-static/fontawesome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bugareas.css?body=1" for 127.0.0.1 at 2013-03-11 21:05:38 +0000
+Served asset /bugareas.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bugs.css?body=1" for 127.0.0.1 at 2013-03-11 21:05:38 +0000
+Served asset /bugs.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/error.css?body=1" for 127.0.0.1 at 2013-03-11 21:05:38 +0000
+Served asset /error.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-11 21:05:38 +0000
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/stories.css?body=1" for 127.0.0.1 at 2013-03-11 21:05:38 +0000
+Served asset /stories.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/404.jpeg" for 127.0.0.1 at 2013-03-11 21:05:38 +0000
+Served asset /404.jpeg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sprints.css?body=1" for 127.0.0.1 at 2013-03-11 21:05:38 +0000
+Served asset /sprints.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/teams.css?body=1" for 127.0.0.1 at 2013-03-11 21:05:38 +0000
+Served asset /teams.css - 304 Not Modified (0ms)
+
+
+Started GET "/error/error404" for 127.0.0.1 at 2013-03-11 21:05:40 +0000
+Processing by ErrorController#error404 as HTML
+  Rendered error/error404.html.erb within layouts/error_layout (0.2ms)
+Completed 200 OK in 49ms (Views: 48.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-11 21:05:41 +0000
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.ui.core.css?body=1" for 127.0.0.1 at 2013-03-11 21:05:41 +0000
+Served asset /jquery.ui.core.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.theme.css?body=1" for 127.0.0.1 at 2013-03-11 21:05:41 +0000
+Served asset /jquery.ui.theme.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.css?body=1" for 127.0.0.1 at 2013-03-11 21:05:41 +0000
+Served asset /twitter-bootstrap-static/fontawesome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.css?body=1" for 127.0.0.1 at 2013-03-11 21:05:41 +0000
+Served asset /twitter-bootstrap-static/bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.datepicker.css?body=1" for 127.0.0.1 at 2013-03-11 21:05:41 +0000
+Served asset /jquery.ui.datepicker.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-03-11 21:05:41 +0000
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (11ms)
+
+
+Started GET "/assets/bugs.css?body=1" for 127.0.0.1 at 2013-03-11 21:05:41 +0000
+Served asset /bugs.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bugareas.css?body=1" for 127.0.0.1 at 2013-03-11 21:05:41 +0000
+Served asset /bugareas.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/error.css?body=1" for 127.0.0.1 at 2013-03-11 21:05:41 +0000
+Served asset /error.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-11 21:05:41 +0000
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sprints.css?body=1" for 127.0.0.1 at 2013-03-11 21:05:41 +0000
+Served asset /sprints.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/stories.css?body=1" for 127.0.0.1 at 2013-03-11 21:05:41 +0000
+Served asset /stories.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/teams.css?body=1" for 127.0.0.1 at 2013-03-11 21:05:41 +0000
+Served asset /teams.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/404.jpeg" for 127.0.0.1 at 2013-03-11 21:05:41 +0000
+Served asset /404.jpeg - 304 Not Modified (0ms)
+
+
+Started GET "/error/error404" for 127.0.0.1 at 2013-03-11 21:05:57 +0000
+Processing by ErrorController#error404 as HTML
+  Rendered error/error404.html.erb within layouts/error_layout (0.2ms)
+Compiled bootstrap_and_overrides.css  (8ms)  (pid 988)
+Compiled application.css  (6ms)  (pid 988)
+Completed 200 OK in 115ms (Views: 114.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-11 21:05:57 +0000
+Served asset /application.css - 200 OK (38ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.css?body=1" for 127.0.0.1 at 2013-03-11 21:05:57 +0000
+Served asset /twitter-bootstrap-static/fontawesome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.core.css?body=1" for 127.0.0.1 at 2013-03-11 21:05:57 +0000
+Served asset /jquery.ui.core.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.css?body=1" for 127.0.0.1 at 2013-03-11 21:05:57 +0000
+Served asset /twitter-bootstrap-static/bootstrap.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.ui.theme.css?body=1" for 127.0.0.1 at 2013-03-11 21:05:57 +0000
+Served asset /jquery.ui.theme.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.datepicker.css?body=1" for 127.0.0.1 at 2013-03-11 21:05:57 +0000
+Served asset /jquery.ui.datepicker.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-03-11 21:05:57 +0000
+Served asset /bootstrap_and_overrides.css - 200 OK (14ms)
+
+
+Started GET "/assets/error.css?body=1" for 127.0.0.1 at 2013-03-11 21:05:57 +0000
+Served asset /error.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-11 21:05:57 +0000
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bugareas.css?body=1" for 127.0.0.1 at 2013-03-11 21:05:57 +0000
+Served asset /bugareas.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sprints.css?body=1" for 127.0.0.1 at 2013-03-11 21:05:57 +0000
+Served asset /sprints.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bugs.css?body=1" for 127.0.0.1 at 2013-03-11 21:05:57 +0000
+Served asset /bugs.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/stories.css?body=1" for 127.0.0.1 at 2013-03-11 21:05:57 +0000
+Served asset /stories.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/teams.css?body=1" for 127.0.0.1 at 2013-03-11 21:05:57 +0000
+Served asset /teams.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/404.jpeg" for 127.0.0.1 at 2013-03-11 21:05:57 +0000
+Served asset /404.jpeg - 304 Not Modified (0ms)
+
+
+Started GET "/error/error404" for 127.0.0.1 at 2013-03-11 21:06:00 +0000
+Processing by ErrorController#error404 as HTML
+  Rendered error/error404.html.erb within layouts/error_layout (0.2ms)
+Completed 200 OK in 16ms (Views: 16.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-11 21:06:01 +0000
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.ui.core.css?body=1" for 127.0.0.1 at 2013-03-11 21:06:01 +0000
+Served asset /jquery.ui.core.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.theme.css?body=1" for 127.0.0.1 at 2013-03-11 21:06:01 +0000
+Served asset /jquery.ui.theme.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.datepicker.css?body=1" for 127.0.0.1 at 2013-03-11 21:06:01 +0000
+Served asset /jquery.ui.datepicker.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.css?body=1" for 127.0.0.1 at 2013-03-11 21:06:01 +0000
+Served asset /twitter-bootstrap-static/bootstrap.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.css?body=1" for 127.0.0.1 at 2013-03-11 21:06:01 +0000
+Served asset /twitter-bootstrap-static/fontawesome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bugareas.css?body=1" for 127.0.0.1 at 2013-03-11 21:06:01 +0000
+Served asset /bugareas.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bugs.css?body=1" for 127.0.0.1 at 2013-03-11 21:06:01 +0000
+Served asset /bugs.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/error.css?body=1" for 127.0.0.1 at 2013-03-11 21:06:01 +0000
+Served asset /error.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-11 21:06:01 +0000
+Served asset /scaffolds.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/sprints.css?body=1" for 127.0.0.1 at 2013-03-11 21:06:01 +0000
+Served asset /sprints.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/stories.css?body=1" for 127.0.0.1 at 2013-03-11 21:06:01 +0000
+Served asset /stories.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/teams.css?body=1" for 127.0.0.1 at 2013-03-11 21:06:01 +0000
+Served asset /teams.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/404.jpeg" for 127.0.0.1 at 2013-03-11 21:06:01 +0000
+Served asset /404.jpeg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-03-11 21:06:01 +0000
+Served asset /bootstrap_and_overrides.css - 200 OK (1ms)
+
+
+Started GET "/error/error404" for 127.0.0.1 at 2013-03-11 21:07:28 +0000
+Processing by ErrorController#error404 as HTML
+  Rendered error/error404.html.erb within layouts/error_layout (0.2ms)
+Completed 200 OK in 20ms (Views: 20.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-11 21:07:28 +0000
+Served asset /application.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/jquery.ui.theme.css?body=1" for 127.0.0.1 at 2013-03-11 21:07:28 +0000
+Served asset /jquery.ui.theme.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.css?body=1" for 127.0.0.1 at 2013-03-11 21:07:28 +0000
+Served asset /twitter-bootstrap-static/bootstrap.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.ui.core.css?body=1" for 127.0.0.1 at 2013-03-11 21:07:28 +0000
+Served asset /jquery.ui.core.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-03-11 21:07:28 +0000
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.css?body=1" for 127.0.0.1 at 2013-03-11 21:07:28 +0000
+Served asset /twitter-bootstrap-static/fontawesome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.datepicker.css?body=1" for 127.0.0.1 at 2013-03-11 21:07:28 +0000
+Served asset /jquery.ui.datepicker.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bugareas.css?body=1" for 127.0.0.1 at 2013-03-11 21:07:28 +0000
+Served asset /bugareas.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/teams.css?body=1" for 127.0.0.1 at 2013-03-11 21:07:28 +0000
+Served asset /teams.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/error.css?body=1" for 127.0.0.1 at 2013-03-11 21:07:28 +0000
+Served asset /error.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bugs.css?body=1" for 127.0.0.1 at 2013-03-11 21:07:28 +0000
+Served asset /bugs.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/sprints.css?body=1" for 127.0.0.1 at 2013-03-11 21:07:28 +0000
+Served asset /sprints.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/stories.css?body=1" for 127.0.0.1 at 2013-03-11 21:07:28 +0000
+Served asset /stories.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-11 21:07:28 +0000
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/404.jpeg" for 127.0.0.1 at 2013-03-11 21:07:28 +0000
+Served asset /404.jpeg - 304 Not Modified (0ms)
+
+
+Started GET "/error/error404" for 127.0.0.1 at 2013-03-11 21:07:37 +0000
+Processing by ErrorController#error404 as HTML
+  Rendered error/error404.html.erb within layouts/error_layout (0.2ms)
+Compiled application.css  (36ms)  (pid 988)
+Completed 200 OK in 151ms (Views: 151.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.ui.core.css?body=1" for 127.0.0.1 at 2013-03-11 21:07:37 +0000
+Served asset /jquery.ui.core.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-11 21:07:37 +0000
+Served asset /application.css - 200 OK (21ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.css?body=1" for 127.0.0.1 at 2013-03-11 21:07:37 +0000
+Served asset /twitter-bootstrap-static/bootstrap.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.ui.theme.css?body=1" for 127.0.0.1 at 2013-03-11 21:07:37 +0000
+Served asset /jquery.ui.theme.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.datepicker.css?body=1" for 127.0.0.1 at 2013-03-11 21:07:37 +0000
+Served asset /jquery.ui.datepicker.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.css?body=1" for 127.0.0.1 at 2013-03-11 21:07:37 +0000
+Served asset /twitter-bootstrap-static/fontawesome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-03-11 21:07:37 +0000
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bugareas.css?body=1" for 127.0.0.1 at 2013-03-11 21:07:37 +0000
+Served asset /bugareas.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bugs.css?body=1" for 127.0.0.1 at 2013-03-11 21:07:37 +0000
+Served asset /bugs.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/error.css?body=1" for 127.0.0.1 at 2013-03-11 21:07:37 +0000
+Served asset /error.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-11 21:07:37 +0000
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/stories.css?body=1" for 127.0.0.1 at 2013-03-11 21:07:37 +0000
+Served asset /stories.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sprints.css?body=1" for 127.0.0.1 at 2013-03-11 21:07:38 +0000
+Served asset /sprints.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/teams.css?body=1" for 127.0.0.1 at 2013-03-11 21:07:38 +0000
+Served asset /teams.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/404.jpeg" for 127.0.0.1 at 2013-03-11 21:07:38 +0000
+Served asset /404.jpeg - 304 Not Modified (0ms)
+
+
+Started GET "/error/error404" for 127.0.0.1 at 2013-03-11 21:07:56 +0000
+Processing by ErrorController#error404 as HTML
+  Rendered error/error404.html.erb within layouts/error_layout (0.2ms)
+Compiled bootstrap_and_overrides.css  (22ms)  (pid 988)
+Compiled application.css  (6ms)  (pid 988)
+Completed 200 OK in 114ms (Views: 114.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-11 21:07:56 +0000
+Served asset /application.css - 304 Not Modified (28ms)
+
+
+Started GET "/assets/jquery.ui.core.css?body=1" for 127.0.0.1 at 2013-03-11 21:07:56 +0000
+Served asset /jquery.ui.core.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.ui.datepicker.css?body=1" for 127.0.0.1 at 2013-03-11 21:07:56 +0000
+Served asset /jquery.ui.datepicker.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.css?body=1" for 127.0.0.1 at 2013-03-11 21:07:56 +0000
+Served asset /twitter-bootstrap-static/bootstrap.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.css?body=1" for 127.0.0.1 at 2013-03-11 21:07:56 +0000
+Served asset /twitter-bootstrap-static/fontawesome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.theme.css?body=1" for 127.0.0.1 at 2013-03-11 21:07:56 +0000
+Served asset /jquery.ui.theme.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-03-11 21:07:56 +0000
+Served asset /bootstrap_and_overrides.css - 200 OK (56ms)
+
+
+Started GET "/assets/bugareas.css?body=1" for 127.0.0.1 at 2013-03-11 21:07:57 +0000
+Served asset /bugareas.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bugs.css?body=1" for 127.0.0.1 at 2013-03-11 21:07:57 +0000
+Served asset /bugs.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/error.css?body=1" for 127.0.0.1 at 2013-03-11 21:07:57 +0000
+Served asset /error.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/teams.css?body=1" for 127.0.0.1 at 2013-03-11 21:07:57 +0000
+Served asset /teams.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-11 21:07:57 +0000
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sprints.css?body=1" for 127.0.0.1 at 2013-03-11 21:07:57 +0000
+Served asset /sprints.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/404.jpeg" for 127.0.0.1 at 2013-03-11 21:07:57 +0000
+Served asset /404.jpeg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/stories.css?body=1" for 127.0.0.1 at 2013-03-11 21:07:57 +0000
+Served asset /stories.css - 304 Not Modified (0ms)
+
+
+Started GET "/error/error404" for 127.0.0.1 at 2013-03-11 21:08:39 +0000
+Processing by ErrorController#error404 as HTML
+  Rendered error/error404.html.erb within layouts/error_layout (0.2ms)
+Compiled errors.css  (0ms)  (pid 988)
+Completed 200 OK in 16ms (Views: 15.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/errors.css?body=1" for 127.0.0.1 at 2013-03-11 21:08:40 +0000
+Served asset /errors.css - 200 OK (2ms)
+
+
+Started GET "/assets/404.jpeg" for 127.0.0.1 at 2013-03-11 21:08:40 +0000
+Served asset /404.jpeg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/404.jpeg" for 127.0.0.1 at 2013-03-11 21:08:43 +0000
+Served asset /404.jpeg - 304 Not Modified (0ms)
+
+
+Started GET "/error/error404" for 127.0.0.1 at 2013-03-11 21:09:23 +0000
+Processing by ErrorController#error404 as HTML
+  Rendered error/error404.html.erb within layouts/error_layout (0.2ms)
+Compiled errors.css  (0ms)  (pid 988)
+Completed 200 OK in 26ms (Views: 26.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/errors.css?body=1" for 127.0.0.1 at 2013-03-11 21:09:23 +0000
+Served asset /errors.css - 200 OK (5ms)
+
+
+Started GET "/assets/404.jpeg" for 127.0.0.1 at 2013-03-11 21:09:23 +0000
+Served asset /404.jpeg - 304 Not Modified (0ms)
+
+
+Started GET "/error/error404" for 127.0.0.1 at 2013-03-11 21:09:27 +0000
+Processing by ErrorController#error404 as HTML
+  Rendered error/error404.html.erb within layouts/error_layout (0.2ms)
+Completed 200 OK in 2ms (Views: 2.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/errors.css?body=1" for 127.0.0.1 at 2013-03-11 21:09:27 +0000
+Served asset /errors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/404.jpeg" for 127.0.0.1 at 2013-03-11 21:09:27 +0000
+Served asset /404.jpeg - 304 Not Modified (0ms)
+
+
+Started GET "/error/error404" for 127.0.0.1 at 2013-03-11 21:10:11 +0000
+Processing by ErrorController#error404 as HTML
+  Rendered error/error404.html.erb within layouts/error_layout (0.2ms)
+Completed 200 OK in 11ms (Views: 10.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/errors.css?body=1" for 127.0.0.1 at 2013-03-11 21:10:11 +0000
+Served asset /errors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/404.jpeg" for 127.0.0.1 at 2013-03-11 21:10:11 +0000
+Served asset /404.jpeg - 304 Not Modified (0ms)
+
+
+Started GET "/error/error404" for 127.0.0.1 at 2013-03-11 21:11:04 +0000
+Processing by ErrorController#error404 as HTML
+  Rendered error/error404.html.erb within layouts/error_layout (0.2ms)
+Compiled errors.css  (0ms)  (pid 988)
+Completed 200 OK in 35ms (Views: 34.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/errors.css?body=1" for 127.0.0.1 at 2013-03-11 21:11:04 +0000
+Served asset /errors.css - 200 OK (2ms)
+
+
+Started GET "/assets/404.jpeg" for 127.0.0.1 at 2013-03-11 21:11:04 +0000
+Served asset /404.jpeg - 304 Not Modified (0ms)
