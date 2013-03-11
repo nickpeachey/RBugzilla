@@ -20,6 +20,13 @@ class BugsController < ApplicationController
       format.json { render json: @bug }
     end
   end
+  
+  def forstory
+    @story = Story.find(params[:id])
+    @bugs = @story.bugs
+    
+    render :action => "index"
+  end
 
   # GET /bugs/new
   # GET /bugs/new.json
@@ -30,6 +37,12 @@ class BugsController < ApplicationController
       format.html # new.html.erb
       format.json { render json: @bug }
     end
+  end
+  
+  def raiseforstory
+    @bug = Bug.new
+    @bug.story_id = params[:id]
+    render :action => "new"
   end
 
   # GET /bugs/1/edit

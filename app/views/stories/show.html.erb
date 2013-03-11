@@ -10,6 +10,8 @@
   <dd><%= @story.description %></dd>
   <dt><strong><%= model_class.human_attribute_name(:total_effort) %>:</strong></dt>
   <dd><%= @story.total_effort %></dd>
+<dt><strong><%= model_class.human_attribute_name(:bugs) %>:</strong></dt>
+<dd><%= @story.bugs.count %></dd>
   <dt><strong><%= model_class.human_attribute_name(:sprint_id) %>:</strong></dt>
   <dd><%= @story.sprint_id %></dd>
 </dl>
@@ -17,6 +19,8 @@
 <div class="form-actions">
   <%= link_to t('.back', :default => t("helpers.links.back")),
               stories_path, :class => 'btn'  %>
+  <%= link_to t('.back', :default => t("helpers.links.bugs")),
+			              forstory_bug_path(@story), :class => 'btn'  %>
   <%= link_to t('.edit', :default => t("helpers.links.edit")),
               edit_story_path(@story), :class => 'btn' %>
   <%= link_to t('.destroy', :default => t("helpers.links.destroy")),
