@@ -7,7 +7,6 @@
     <tr>
       <th><%= model_class.human_attribute_name(:id) %></th>
       <th><%= model_class.human_attribute_name(:title) %></th>
-      <th><%= model_class.human_attribute_name(:description) %></th>
       <th><%= model_class.human_attribute_name(:story_id) %></th>
       <th><%= model_class.human_attribute_name(:created_at) %></th>
       <th><%=t '.actions', :default => t("helpers.actions") %></th>
@@ -18,9 +17,8 @@
       <tr>
         <td><%= link_to bug.id, bug_path(bug) %></td>
         <td><%= bug.title %></td>
-        <td><%= bug.description %></td>
-        <td><%= bug.story_id %></td>
-        <td><%=l bug.created_at %></td>
+        <td><%= bug.story.name %></td>
+        <td><%= bug.created_at.to_formatted_s(:long) %></td>
         <td>
           <%= link_to t('.edit', :default => t("helpers.links.edit")),
                       edit_bug_path(bug), :class => 'btn btn-mini' %>
