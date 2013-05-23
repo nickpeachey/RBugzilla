@@ -22,11 +22,14 @@
         <td><%= story.name %></td>
         <td><span class="badge badge-inverse"><%= story.total_effort %></span></td>
         <td><%= story.sprint.title %></td>
-		<td><a href="<%= forstory_bug_path(story) %>"<span class="badge badge-info"><%= story.bugs.count %></span></a></td>
+		<td><a href="<%= forstory_bug_path(story) %>" data-placement="right" rel="popover" data-content="<%=pluralize(story.bugs.count, 'bug', 'bugs') %> remaining" data-original-title="Bug Overview"><span class="badge badge-info"><%= story.bugs.count %></span></a></td>
+		
 		<td><%= image_tag(story.completed? ? 'icon_true.png' : 'icon_false.png', :size => "17x17",
 		            :alt => "True") %></td>
         <td><%= story.created_at.to_formatted_s(:long) %></td>
         <td>
+	      <%= link_to t('.edit', :default => t("helpers.links.view")),
+                      story_path(story), :class => 'btn btn-mini' %>
 	      <%= link_to t('.edit', :default => t("helpers.links.bugs")),
                       forstory_bug_path(story), :class => 'btn btn-mini' %>
           <%= link_to t('.edit', :default => t("helpers.links.edit")),

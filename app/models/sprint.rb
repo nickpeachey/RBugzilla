@@ -20,5 +20,12 @@ class Sprint < ActiveRecord::Base
     end
   end
   
+  def stories_for_sprint_total_effort_remaining
+    if self.stories.count > 0
+      self.stories.where(:completed => 'f').sum(&:total_effort)
+    else
+      0
+    end
+  end
 
 end

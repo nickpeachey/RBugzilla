@@ -22,7 +22,7 @@
         <td><%= sprint.title %></td>
         <td></td>
         <td><%= sprint.team.name %></td>
-		<td><a href="<%= forsprint_story_path(sprint) %>" data-placement="right" rel="popover" data-content="<%=sprint.stories_for_sprint_total_effort%>  total effort for this sprint" data-original-title="<%= sprint.title %> story highlight"><span class="badge badge-info"><%= sprint.stories.count%></span></a></td>
+		<td><a href="<%= forsprint_story_path(sprint) %>" data-placement="right" rel="popover" data-content="<%=sprint.stories_for_sprint_total_effort_remaining%>  total effort for this sprint" data-original-title="<%= sprint.title %> story highlight"><span class="badge badge-info"><%= sprint.stories.count%></span></a></td>
 		<td><div class="progress">
 		  <div class="bar bar-success" style="width: <%= sprint.stories_completed_percentage %>%"></div>
 		</div></td>

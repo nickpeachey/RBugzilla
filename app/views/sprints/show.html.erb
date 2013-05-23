@@ -11,6 +11,39 @@
   <dt><strong><%= model_class.human_attribute_name(:team_id) %>:</strong></dt>
   <dd><%= @sprint.team_id %></dd>
 </dl>
+<hr/>
+<h4>Stories</h4>
+
+<div class='story-list'>
+	<table class="table table-striped">
+		<thead>
+		<tr>
+	      <th>ID</th>
+	      <th>Name</th>
+	      <th>Total Effort</th>
+	      <th>Sprint ID</th>
+		  <th>Bugs</th>
+		  <th>Completed</th>
+	      <th>Created</th>
+	    </tr>
+	</thead>
+	<tbody>
+		<% @sprint.stories.each do |story| %>
+		
+		<tr>
+			<td><%= story.id%></td>
+			<td><%= story.name%></td>
+			<td><%= story.total_effort%></td>
+			<td><%= @sprint.id%></td>
+			<td><%= story.bugs.count %></td>
+			<td><%= story.completed%></td>
+			<td><%= story.created_at%></td>
+		</tr>
+		
+		<% end%>
+	</tbody>
+	</table>
+</div>
 
 <div class="form-actions">
   <%= link_to t('.back', :default => t("helpers.links.back")),
