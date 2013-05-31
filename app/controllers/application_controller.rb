@@ -18,7 +18,7 @@ class ApplicationController < ActionController::Base
 
   def force_www!
     if Rails.env.production? and request.host[0..3] != "www."
-      redirect_to "#{request.protocol}www.#{request.host_with_port}#{request.fullpath}", :status => 301
+      redirect_to "www.rbugzilla.com", :status => 301
     end
   end
 end
