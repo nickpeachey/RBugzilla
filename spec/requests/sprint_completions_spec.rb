@@ -19,7 +19,7 @@ describe "SprintCompletions" do
      @sprint.stories_completed_percentage.should eq 100
    end
    
-   if "should calculate the correct total for the sprint by the total of each story" do
+   it "should calculate the correct total for the sprint by the total of each story" do
      @story = FactoryGirl.create(:story)
      @sprint = @story.sprint
    end

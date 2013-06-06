@@ -2418,3 +2418,262 @@ Connecting to database specified by database.yml
   [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 1 AND "stories"."completed" = 't'[0m
   [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 1
   [1m[36m (0.3ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (3.2ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36m (0.9ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+Migrating to CreateSprints (20130307094556)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.3ms)[0m  CREATE TABLE "sprints" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255), "description" varchar(255), "team_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "completed" boolean) 
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20130307094556')[0m
+  [1m[35m (0.8ms)[0m  commit transaction
+Migrating to CreateStories (20130307101734)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  CREATE TABLE "stories" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "description" varchar(255), "total_effort" decimal, "sprint_id" integer, "completed" boolean, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20130307101734')[0m
+  [1m[35m (0.7ms)[0m  commit transaction
+Migrating to CreateTeams (20130307102412)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.3ms)[0m  CREATE TABLE "teams" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "logo_url" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20130307102412')[0m
+  [1m[35m (0.8ms)[0m  commit transaction
+Migrating to CreateBugs (20130307130630)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  CREATE TABLE "bugs" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255), "description" varchar(255), "story_id" integer, "bugarea_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20130307130630')[0m
+  [1m[35m (0.7ms)[0m  commit transaction
+Migrating to CreateBugareas (20130307130745)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  CREATE TABLE "bugareas" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20130307130745')[0m
+  [1m[35m (0.8ms)[0m  commit transaction
+Migrating to AddStartDateToSprints (20130308192733)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  ALTER TABLE "sprints" ADD "start_date" datetime
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20130308192733')[0m
+  [1m[35m (0.7ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (5.0ms)[0m  [1mINSERT INTO "sprints" ("completed", "created_at", "description", "start_date", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["completed", true], ["created_at", Thu, 06 Jun 2013 08:46:48 UTC +00:00], ["description", "description"], ["start_date", nil], ["team_id", nil], ["title", "title"], ["updated_at", Thu, 06 Jun 2013 08:46:48 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.4ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "sprints" ("completed", "created_at", "description", "start_date", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)  [["completed", true], ["created_at", Thu, 06 Jun 2013 08:46:48 UTC +00:00], ["description", "description"], ["start_date", nil], ["team_id", nil], ["title", "title"], ["updated_at", Thu, 06 Jun 2013 08:46:48 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "stories" ("completed", "created_at", "description", "name", "sprint_id", "total_effort", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["completed", true], ["created_at", Thu, 06 Jun 2013 08:46:48 UTC +00:00], ["description", "description"], ["name", "name"], ["sprint_id", 1], ["total_effort", #<BigDecimal:7fdb69e56e50,'0.44E2',9(36)>], ["updated_at", Thu, 06 Jun 2013 08:46:48 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 1
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 1 AND "stories"."completed" = 't'[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 1
+  [1m[36m (0.3ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "sprints" ("completed", "created_at", "description", "start_date", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)  [["completed", true], ["created_at", Thu, 06 Jun 2013 08:46:48 UTC +00:00], ["description", "description"], ["start_date", nil], ["team_id", nil], ["title", "title"], ["updated_at", Thu, 06 Jun 2013 08:46:48 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "stories" ("completed", "created_at", "description", "name", "sprint_id", "total_effort", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["completed", true], ["created_at", Thu, 06 Jun 2013 08:46:48 UTC +00:00], ["description", "description"], ["name", "name"], ["sprint_id", 1], ["total_effort", #<BigDecimal:7fdb69f74ff8,'0.44E2',9(36)>], ["updated_at", Thu, 06 Jun 2013 08:46:48 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (2.9ms)[0m  [1mINSERT INTO "sprints" ("completed", "created_at", "description", "start_date", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["completed", true], ["created_at", Thu, 06 Jun 2013 09:55:39 UTC +00:00], ["description", "description"], ["start_date", nil], ["team_id", nil], ["title", "title"], ["updated_at", Thu, 06 Jun 2013 09:55:39 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (1.7ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "sprints" ("completed", "created_at", "description", "start_date", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)  [["completed", true], ["created_at", Thu, 06 Jun 2013 09:55:39 UTC +00:00], ["description", "description"], ["start_date", nil], ["team_id", nil], ["title", "title"], ["updated_at", Thu, 06 Jun 2013 09:55:39 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "stories" ("completed", "created_at", "description", "name", "sprint_id", "total_effort", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["completed", true], ["created_at", Thu, 06 Jun 2013 09:55:39 UTC +00:00], ["description", "description"], ["name", "name"], ["sprint_id", 1], ["total_effort", #<BigDecimal:7fe8aa1c6cf0,'0.44E2',9(36)>], ["updated_at", Thu, 06 Jun 2013 09:55:39 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.4ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "sprints" ("completed", "created_at", "description", "start_date", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)  [["completed", true], ["created_at", Thu, 06 Jun 2013 09:55:39 UTC +00:00], ["description", "description"], ["start_date", nil], ["team_id", nil], ["title", "title"], ["updated_at", Thu, 06 Jun 2013 09:55:39 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "stories" ("completed", "created_at", "description", "name", "sprint_id", "total_effort", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["completed", true], ["created_at", Thu, 06 Jun 2013 09:55:39 UTC +00:00], ["description", "description"], ["name", "name"], ["sprint_id", 1], ["total_effort", #<BigDecimal:7fe8aa1ec7e8,'0.44E2',9(36)>], ["updated_at", Thu, 06 Jun 2013 09:55:39 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 1
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 1 AND "stories"."completed" = 't'[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 1
+  [1m[36m (0.3ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (4.2ms)[0m  [1mINSERT INTO "bugs" ("bugarea_id", "created_at", "description", "story_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["bugarea_id", nil], ["created_at", Thu, 06 Jun 2013 10:00:06 UTC +00:00], ["description", "description"], ["story_id", 1], ["title", "title"], ["updated_at", Thu, 06 Jun 2013 10:00:06 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (1.7ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (2.9ms)[0m  [1mINSERT INTO "bugs" ("bugarea_id", "created_at", "description", "story_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["bugarea_id", nil], ["created_at", Thu, 06 Jun 2013 10:00:20 UTC +00:00], ["description", "description"], ["story_id", 1], ["title", "title"], ["updated_at", Thu, 06 Jun 2013 10:00:20 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (2.2ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (2.9ms)[0m  [1mINSERT INTO "bugs" ("bugarea_id", "created_at", "description", "story_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["bugarea_id", nil], ["created_at", Thu, 06 Jun 2013 10:00:47 UTC +00:00], ["description", "description"], ["story_id", 1], ["title", "title"], ["updated_at", Thu, 06 Jun 2013 10:00:47 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (1.7ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (2.9ms)[0m  [1mINSERT INTO "bugs" ("bugarea_id", "created_at", "description", "story_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["bugarea_id", nil], ["created_at", Thu, 06 Jun 2013 10:01:01 UTC +00:00], ["description", "description"], ["story_id", 1], ["title", "title"], ["updated_at", Thu, 06 Jun 2013 10:01:01 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (2.1ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.5ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (2.9ms)[0m  [1mINSERT INTO "bugs" ("bugarea_id", "created_at", "description", "story_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["bugarea_id", nil], ["created_at", Thu, 06 Jun 2013 10:02:04 UTC +00:00], ["description", "description"], ["story_id", 1], ["title", "title"], ["updated_at", Thu, 06 Jun 2013 10:02:04 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (2.2ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (2.9ms)[0m  [1mINSERT INTO "bugs" ("bugarea_id", "created_at", "description", "story_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["bugarea_id", nil], ["created_at", Thu, 06 Jun 2013 10:02:49 UTC +00:00], ["description", "description"], ["story_id", 1], ["title", "title"], ["updated_at", Thu, 06 Jun 2013 10:02:49 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (2.3ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (2.9ms)[0m  [1mINSERT INTO "bugs" ("bugarea_id", "created_at", "description", "story_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["bugarea_id", nil], ["created_at", Thu, 06 Jun 2013 10:02:58 UTC +00:00], ["description", "description"], ["story_id", 1], ["title", "title"], ["updated_at", Thu, 06 Jun 2013 10:02:58 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (2.1ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (2.9ms)[0m  [1mINSERT INTO "bugs" ("bugarea_id", "created_at", "description", "story_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["bugarea_id", nil], ["created_at", Thu, 06 Jun 2013 10:03:04 UTC +00:00], ["description", "description"], ["story_id", 1], ["title", "title"], ["updated_at", Thu, 06 Jun 2013 10:03:04 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (2.2ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (2.8ms)[0m  [1mINSERT INTO "bugs" ("bugarea_id", "created_at", "description", "story_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["bugarea_id", nil], ["created_at", Thu, 06 Jun 2013 11:32:38 UTC +00:00], ["description", "description"], ["story_id", 1], ["title", "title"], ["updated_at", Thu, 06 Jun 2013 11:32:38 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (1.8ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (2.9ms)[0m  [1mINSERT INTO "bugs" ("bugarea_id", "created_at", "description", "story_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["bugarea_id", nil], ["created_at", Thu, 06 Jun 2013 11:33:07 UTC +00:00], ["description", "description"], ["story_id", 1], ["title", "title"], ["updated_at", Thu, 06 Jun 2013 11:33:07 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (1.8ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.6ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (3.0ms)[0m  [1mINSERT INTO "bugs" ("bugarea_id", "created_at", "description", "story_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["bugarea_id", nil], ["created_at", Thu, 06 Jun 2013 11:33:18 UTC +00:00], ["description", "description"], ["story_id", 1], ["title", "title"], ["updated_at", Thu, 06 Jun 2013 11:33:18 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (2.2ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (2.9ms)[0m  [1mINSERT INTO "bugs" ("bugarea_id", "created_at", "description", "story_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["bugarea_id", nil], ["created_at", Thu, 06 Jun 2013 11:33:46 UTC +00:00], ["description", "description"], ["story_id", 1], ["title", "title"], ["updated_at", Thu, 06 Jun 2013 11:33:46 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (2.1ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (2.9ms)[0m  [1mINSERT INTO "bugs" ("bugarea_id", "created_at", "description", "story_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["bugarea_id", nil], ["created_at", Thu, 06 Jun 2013 11:35:04 UTC +00:00], ["description", "description"], ["story_id", 1], ["title", "title"], ["updated_at", Thu, 06 Jun 2013 11:35:04 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (2.3ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.5ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (3.3ms)[0m  [1mINSERT INTO "sprints" ("completed", "created_at", "description", "start_date", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["completed", true], ["created_at", Thu, 06 Jun 2013 11:35:27 UTC +00:00], ["description", "description"], ["start_date", nil], ["team_id", nil], ["title", "title"], ["updated_at", Thu, 06 Jun 2013 11:35:27 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "stories" ("completed", "created_at", "description", "name", "sprint_id", "total_effort", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)  [["completed", true], ["created_at", Thu, 06 Jun 2013 11:35:27 UTC +00:00], ["description", "description"], ["name", "name"], ["sprint_id", 1], ["total_effort", #<BigDecimal:7f97ee8c3768,'0.44E2',9(36)>], ["updated_at", Thu, 06 Jun 2013 11:35:27 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (1.7ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "sprints" ("completed", "created_at", "description", "start_date", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["completed", true], ["created_at", Thu, 06 Jun 2013 11:35:27 UTC +00:00], ["description", "description"], ["start_date", nil], ["team_id", nil], ["title", "title"], ["updated_at", Thu, 06 Jun 2013 11:35:27 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "stories" ("completed", "created_at", "description", "name", "sprint_id", "total_effort", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)  [["completed", true], ["created_at", Thu, 06 Jun 2013 11:35:27 UTC +00:00], ["description", "description"], ["name", "name"], ["sprint_id", 1], ["total_effort", #<BigDecimal:7f97ee8f3df0,'0.44E2',9(36)>], ["updated_at", Thu, 06 Jun 2013 11:35:27 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 1
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 1 AND "stories"."completed" = 't'
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 1[0m
+  [1m[35m (0.4ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "sprints" ("completed", "created_at", "description", "start_date", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["completed", true], ["created_at", Thu, 06 Jun 2013 11:35:27 UTC +00:00], ["description", "description"], ["start_date", nil], ["team_id", nil], ["title", "title"], ["updated_at", Thu, 06 Jun 2013 11:35:27 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.4ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "bugs" ("bugarea_id", "created_at", "description", "story_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["bugarea_id", nil], ["created_at", Thu, 06 Jun 2013 11:35:27 UTC +00:00], ["description", "description"], ["story_id", 1], ["title", "title"], ["updated_at", Thu, 06 Jun 2013 11:35:27 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (3.2ms)[0m  [1mINSERT INTO "bugs" ("bugarea_id", "created_at", "description", "story_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["bugarea_id", nil], ["created_at", Thu, 06 Jun 2013 11:35:43 UTC +00:00], ["description", "description"], ["story_id", 1], ["title", "title"], ["updated_at", Thu, 06 Jun 2013 11:35:43 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (2.1ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.5ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (2.9ms)[0m  [1mINSERT INTO "sprints" ("completed", "created_at", "description", "start_date", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["completed", true], ["created_at", Thu, 06 Jun 2013 11:35:59 UTC +00:00], ["description", "description"], ["start_date", nil], ["team_id", nil], ["title", "title"], ["updated_at", Thu, 06 Jun 2013 11:35:59 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (2.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "sprints" ("completed", "created_at", "description", "start_date", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)  [["completed", true], ["created_at", Thu, 06 Jun 2013 11:35:59 UTC +00:00], ["description", "description"], ["start_date", nil], ["team_id", nil], ["title", "title"], ["updated_at", Thu, 06 Jun 2013 11:35:59 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "stories" ("completed", "created_at", "description", "name", "sprint_id", "total_effort", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["completed", true], ["created_at", Thu, 06 Jun 2013 11:35:59 UTC +00:00], ["description", "description"], ["name", "name"], ["sprint_id", 1], ["total_effort", #<BigDecimal:7fe254dc5d78,'0.44E2',9(36)>], ["updated_at", Thu, 06 Jun 2013 11:35:59 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.4ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "sprints" ("completed", "created_at", "description", "start_date", "team_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)  [["completed", true], ["created_at", Thu, 06 Jun 2013 11:35:59 UTC +00:00], ["description", "description"], ["start_date", nil], ["team_id", nil], ["title", "title"], ["updated_at", Thu, 06 Jun 2013 11:35:59 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "stories" ("completed", "created_at", "description", "name", "sprint_id", "total_effort", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["completed", true], ["created_at", Thu, 06 Jun 2013 11:35:59 UTC +00:00], ["description", "description"], ["name", "name"], ["sprint_id", 1], ["total_effort", #<BigDecimal:7fe254e07750,'0.44E2',9(36)>], ["updated_at", Thu, 06 Jun 2013 11:35:59 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 1
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 1 AND "stories"."completed" = 't'[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "stories" WHERE "stories"."sprint_id" = 1
+  [1m[36m (0.3ms)[0m  [1mrollback transaction[0m

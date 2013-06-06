@@ -11,7 +11,14 @@ FactoryGirl.define do
     completed true
     sprint
     total_effort 44
+    end
+
+  factory :bug do
+    description "description"
+    title "title"
+    story_id 1
   end
+
 end
 
 
